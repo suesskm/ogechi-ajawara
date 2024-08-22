@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+canvas{
+    display: block;
+    
+}
+
+@font-face {
+    font-family: 'isenheim';
+    src: url('../media/fonts/Isenheim_Fin.otf') format('otf'),
+         url('../media/fonts/Isenheim_Regulier.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+.parent-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    flex-direction: column;
+    
+}
+
+.flex-container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'dm sans', sans-serif;
+    font-weight: 100;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    }
+    
+a{
+    text-decoration: none;
+}
+
+
+    #home{
+        font-size: 20px;
+        color: black;
+        padding-left: 10px;
+    }
+    
+    #home:hover{
+        color: #D9FCD0;
+        font-size: 22px;
+    
+    }
+    
+    #about{
+        font-size: 18px;
+        color: black;
+        padding-left: 10px;
+        
+    }
+    
+    #about:hover{
+       color: #D9FCD0;
+       font-size: 22px;
+    }
+    
+    #contact{
+        font-size: 18px;
+        color: black;
+        padding-left: 10px;
+    }
+    
+    #contact:hover{
+        color: #D9FCD0;
+        font-size: 22px;
+    }
+
+
+.hello{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+  flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 100px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 300;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+  
+}
+
+h2{
+    font-size: 20px;
+    font-family: 'dm sans', sans-serif;
+    font-weight:100;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h3{
+    font-size: 16px;
+    font-family: 'dm sans', sans-serif;
+    font-weight:200;
+    color: black;
+    justify-content: left;
+    align-items: left;
+    
+}
+
+.parent-container2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    flex-direction: row;
+
+}
+
+    .flex-container1{
+       
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 55vh;
+        align-items: left;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-top:20px;
+     
+    }
+
+    .flex-container2{
+
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 55vh;
+        align-items: left;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top:20px;
+       
+
+    }
+
+    .flex-container3{
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 55vh;
+        align-items: left;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top:20px;
+       
+
+    }
+
+    
+#one{
+    width: 100%;
+    object-fit: cover;
+    height: 55vh;
+    object-position: 50% 20%;
+    border: solid black 1px;
+
+    
+}  
+
+#one:hover{
+    opacity: 0.3;
+}
+
+#two{
+    width: 100%;
+    object-fit: cover;
+    height: 55vh;
+    object-position: 50% 20%;
+    border: solid black 1px;
+
+    
+}  
+
+#two:hover{
+    opacity: 0.3;
+}
+
+
+#three{
+    width: 100%;
+    object-fit: cover;
+    height: 55vh;
+    object-position: 50% 20%;
+    border: solid black 1px;
+
+    
+}  
+
+#three:hover{
+    opacity: 0.3;
+}
