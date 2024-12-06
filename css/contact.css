@@ -37,7 +37,25 @@ canvas{
     padding: 10px;
     font-size: 16px;
     color: black;
+    background-color: #F4D0D0;
+    z-index: 1;
     }
+
+    .flex-container-bottom{
+        position: fixed; /* Anchor to the viewport */
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 2vw;
+      
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 100;
+        font-size: 16px;
+        color: black;
+        }
+    
     
 a{
     text-decoration: none;
@@ -99,36 +117,63 @@ a{
     width: 100%; /* Takes up half the width */
     height: 100%; /* Matches parent's height */
     flex-wrap: nowrap;
-  
+
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color:#D0C743;
 }
 
 
+.flex-container-top{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%; /* Takes up half the width */
+    height: 100%;
+   background-color: #F4D0D0;
+  
+    
+    align-items: center;
+    justify-content: center;
+   
+    margin-bottom: 100px;
+}
+
+.flex-item{
+    display: flex;
+
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
 
   
 
 .flex-item1{
     display: flex;
     width: 50%; /* Takes up half the width */
-    height: 100%; /* Matches parent's height */
+    height: 100vh; /* Matches parent's height */
     flex-wrap: nowrap;
  align-items: center;
     justify-content: center;
     flex-direction: row;
-    background-color:#FFFBE6;
+    /* background-color:#FFFBE6; */
+    background-color: #FFFAE5;
+    padding: 10px;
 }
 
 .flex-item2{
     display: flex;
     width: 50%; /* Takes up half the width */
-    height: 100%; /* Matches parent's height */
+    height: 100vh; /* Matches parent's height */
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     padding: 10px;
+    background-color: #D0C743;
 
 }
 
@@ -150,7 +195,7 @@ h1{
 h2{
     font-size: 160px;
     font-family: 'DM Serif Display', serif;
-    font-weight: 400;
+    font-weight: 100;
     text-align: center;
    padding: 20px;
     letter-spacing: 2px;
@@ -161,12 +206,41 @@ h2{
   
 }
 
+h3{
+    font-size: 320px;
+    font-family: 'Pinyon Script', serif;
+    font-weight: 400;
+    text-align: center;
+   padding: 20px;
+    letter-spacing: 2px;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 430px;
+    color:#D0C743;
+  
+}
+
+
+h4{
+    font-size: 320px;
+    font-family: 'Pinyon Script', serif;
+    font-weight: 400;
+    text-align: center;
+   padding: 20px;
+    letter-spacing: 2px;
+    position: absolute;
+    margin-top: 380px;
+    color:#D0C743;
+    
+  
+}
+
 
 p{
     font-size: 16px;
     font-family: 'dm sans', sans-serif;
     font-weight:200;
-    
+
     padding: 40px;
  
     
@@ -174,7 +248,14 @@ p{
 
 #selfie{
     width: 50%;
-    height: 70%;
+    height: 60%;
+    padding: 10px;
+   
+}
+
+#selfie1{
+    width: 90%;
+    height: 60%;
     padding: 10px;
    
 }
