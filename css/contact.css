@@ -99,7 +99,7 @@ a{
     width: 100%; /* Takes up half the width */
     height: 100%; /* Matches parent's height */
     flex-wrap: nowrap;
-    background-color: #C79503;
+  
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -129,7 +129,7 @@ a{
     justify-content: center;
     flex-direction: row;
     padding: 10px;
-    background-color:#C79503;
+
 }
 
 h1{
@@ -166,7 +166,7 @@ p{
     font-size: 16px;
     font-family: 'dm sans', sans-serif;
     font-weight:200;
-    color: #FFFBE6;
+    
     padding: 40px;
  
     
