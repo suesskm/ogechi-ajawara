@@ -169,8 +169,6 @@ a{
     width: 50%; /* Takes up half the width */
     height: 100vh; /* Matches parent's height */
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     flex-direction: row;
     padding: 10px;
     background-color: #D0C743;
@@ -235,13 +233,26 @@ h4{
   
 }
 
+h5{
+    font-size: 24px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 100;
+    text-align: center;
+ 
+    letter-spacing: 2px;
+   
+  
+    
+    
+  
+}
+
 
 p{
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'dm sans', sans-serif;
     font-weight:200;
-
-    padding: 40px;
+padding: 10px;
  
     
 }
@@ -258,4 +269,17 @@ p{
     height: 60%;
     padding: 10px;
    
+}
+
+#text1{
+    width: 45%;
+    height: 30%;
+    font-size: 14px;
+    font-family: 'dm sans', sans-serif;
+    font-weight:200;
+    padding: 10px;
+    color: black;
+    text-align: center;
+   
+    
 }
