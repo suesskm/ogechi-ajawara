@@ -38,7 +38,9 @@ a:hover{
     padding: 10px;
     font-size: 18px;
     color: black;
-   background-color:#C79503
+    background-color: #D0C743;
+    
+  
     }
 
     .flex-container-bottom{
@@ -49,7 +51,7 @@ a:hover{
         display: flex;
         justify-content: space-between;
         padding: 10px 2vw;
-      background-color:#C79503;
+     
         font-family: 'DM Sans', sans-serif;
         font-weight: 100;
         font-size: 16px;
@@ -61,11 +63,11 @@ a:hover{
     width: 100%; /* Takes up half the width */
     height: 100%; /* Matches parent's height */
     flex-wrap: nowrap;
-   
+   background-color: #D0C743;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    box-shadow: 1px 1px 1px 1px #C79503;
+    
 }
 
 .flex-container {
@@ -73,11 +75,11 @@ a:hover{
     width: 100%; /* Takes up half the width */
     height: 100%; /* Matches parent's height */
     flex-wrap: nowrap;
-   
+    background-color: #D0C743;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    box-shadow: 1px 1px 1px 1px #C79503;
+    box-shadow: 1px 1px 1px 1px #F36840;
 }
 
 
