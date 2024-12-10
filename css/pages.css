@@ -24,19 +24,20 @@ canvas{
   }
 
   a:hover{
-  background-color: #0A5D4C;
-  color: white;
+  background-color: #C69403;
+    font-weight: 400;
   text-decoration: none;
   }
 
 .parent-container{
     display: flex; /* Arrange all child elements in a single line */
-    flex-wrap: nowrap; /* Prevent wrapping */
-    height: 100%; /* Make sure it spans the full height if necessary */
-    flex-direction: row; /* Ensure items are arranged in a row */
-    justify-content: space-between; /* Add space between elements */
+    flex-wrap: nowrap; /* Prevent wrapping to the next line */
+    height: 100%; /* Full height */
+    flex-direction: row; /* Horizontal alignment of children */
+    justify-content: flex-start; /* Align items to the left */
     align-items: flex-start; /* Align items at the top */
     gap: 10px; /* Add spacing between child elements */
+ 
     
 }
 
@@ -67,23 +68,13 @@ canvas{
         color: black;
         }
 
-    .flex-container1{
-        flex: 1; /* Make it take one part of the available space */
-        width: 20%; /* Optional: Specify a fixed width if needed */
-        display: flex;
-        flex-direction: column; /* Ensure content inside stacks vertically */
-        align-items: center; /* Center align items inside */
-        background-color: green;
-    
-    }
-
+  
     p{
-        font-size: 14px;
+        font-size: 12px;
         font-family: 'dm sans', sans-serif;
         font-weight: 300;
-        color: black;
         justify-content: center;
-        padding: 20px;
+        padding: 10px;
         color: #0A5D4C;
     }
     
@@ -100,17 +91,17 @@ h1{
 }
 
 h2{
-    font-size: 20px;
-    font-family: 'dm sans', sans-serif;
-    font-weight:100;
-    color: black;
-    justify-content: center;
-    align-items: center;
+    font-size: 14px;
+        font-family: 'dm sans', sans-serif;
+        font-weight: 400;
+        justify-content: center;
+        padding: 10px;
+        color: #0A5D4C;
     
 }
 
 h3{
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'dm sans', sans-serif;
     font-weight:200;
     color: black;
@@ -140,21 +131,22 @@ h3{
 
 
 .row {
-
-    display: flex; /* Ensure the items inside align in a row */
-    flex-wrap: nowrap; /* Prevent wrapping */
-    background-color: blue;
+    flex: 1; /* Occupy more space relative to .flex-container1 */
+    display: flex; /* Flexbox for aligning .column items */
+    flex-wrap: nowrap; /* Keep items on one line */
+ 
+    gap: 20px; /* Space between .column items */
    
 
 
 }
 
 .column {
-    flex: 1; /* Each column takes equal space */
-    max-width: 100%; /* Restrict the maximum width */
-    padding: 0px; /* Inner spacing */
-    box-sizing: border-box; /* Include padding in total size */
-    background-color: purple;
+    flex: 1; /* All columns take equal space */
+    width: 100%; /* Ensure each column doesn't exceed its container */
+    padding: 0px; /* Remove extra padding */
+    box-sizing: border-box; /* Include padding in width calculations */
+
 }
 
 .column img {
@@ -162,6 +154,12 @@ h3{
     margin: 5px; /* Space around each image */
     vertical-align: middle;
    
+}
+
+#item-text{
+    width: 100%; /* Responsive image width */
+    margin: 5px; /* Space around each image */
+    vertical-align: middle;  
 }
 
 /* Responsive layout - two columns for smaller screens */
