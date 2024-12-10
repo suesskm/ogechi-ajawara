@@ -58,55 +58,27 @@ html, body {
     
 a{
     text-decoration: none;
+    color: black;
 
 }
 
-a:hover{
-    color: #0A5D4C;
+
+
+#home:hover{
+    background-color: #D0C743;
+    font-weight: 400;
+}
+
+#contact:hover{
+    background-color: #D0C743;
     font-weight: 400;
 }
 
 
-
-
-    #home{
-        font-size: 20px;
-        color: black;
-        padding-left: 10px;
-
-    }
-    
-    #home:hover{
-       color: #0A5D4C;
-        font-size: 22px;
-        
-    
-    }
-    
-    #about{
-        font-size: 18px;
-        color: black;
-        padding-left: 10px;
-        
-    }
-    
-    #about:hover{
-        color: #0A5D4C;
-       font-size: 22px;
-    }
-    
-    #contact{
-        font-size: 18px;
-        color: black;
-        padding-left: 10px;
-    }
-    
-    #contact:hover{
-        color: #0A5D4C;
-        font-size: 22px;
-    }
-
-
+h3:hover{
+    color: #D0C743;
+    font-weight: 400;
+}
 .flex-item1{
     display: flex;
     width: 100%;
@@ -131,15 +103,11 @@ a:hover{
 
 
 h1{
-    font-size: 150px;
-    font-family: 'DM Serif Display', serif;
+    font-size: 130px;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 400;
-  
-    
     align-items: center;
     letter-spacing: 2px;
-    
-
     justify-content: center;
    align-items: center;
 }
@@ -151,9 +119,9 @@ h2{
    
     align-items: center;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     margin: 0;
-  
+
     
 }
 
@@ -162,6 +130,11 @@ h3{
     font-family: 'dm sans', sans-serif;
     font-weight:200;
 padding-top: 20px;
+/* border: 1px solid black;
+border-radius: 50%; */
+padding: 20px;
+border: .5px solid black;
+border-radius: 50%;
   
  
     

@@ -20,17 +20,23 @@ canvas{
 
   a{
     text-decoration: none;
+    color:#0A5D4C;
   }
 
   a:hover{
-    color: #B80000;
-    opacity: 0.5;
+  background-color: #0A5D4C;
+  color: white;
+  text-decoration: none;
   }
+
 .parent-container{
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    flex-direction: column;
+    display: flex; /* Arrange all child elements in a single line */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    height: 100%; /* Make sure it spans the full height if necessary */
+    flex-direction: row; /* Ensure items are arranged in a row */
+    justify-content: space-between; /* Add space between elements */
+    align-items: flex-start; /* Align items at the top */
+    gap: 10px; /* Add spacing between child elements */
     
 }
 
@@ -44,51 +50,48 @@ canvas{
     font-size: 16px;
     color: black;
     }
-    
-a{
-    text-decoration: none;
-}
 
 
-    #home{
-        font-size: 20px;
+    .flex-container-bottom{
+        position: fixed; /* Anchor to the viewport */
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 2vw;
+      
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 100;
+        font-size: 16px;
         color: black;
-        padding-left: 10px;
-    }
+        }
+
+    .flex-container1{
+        flex: 1; /* Make it take one part of the available space */
+        width: 20%; /* Optional: Specify a fixed width if needed */
+        display: flex;
+        flex-direction: column; /* Ensure content inside stacks vertically */
+        align-items: center; /* Center align items inside */
+        background-color: green;
     
-    #home:hover{
-        color: #B80000;
-        font-size: 22px;
-    
-    }
-    
-    #about{
-        font-size: 18px;
-        color: black;
-        padding-left: 10px;
-        
-    }
-    
-    #about:hover{
-       color: #B80000;
-       font-size: 22px;
-    }
-    
-    #contact{
-        font-size: 18px;
-        color: black;
-        padding-left: 10px;
-    }
-    
-    #contact:hover{
-        color: #B80000;
-        font-size: 22px;
     }
 
-a{
-    text-decoration: none;
-}
+    p{
+        font-size: 14px;
+        font-family: 'dm sans', sans-serif;
+        font-weight: 300;
+        color: black;
+        justify-content: center;
+        padding: 20px;
+        color: #0A5D4C;
+    }
+    
 
+
+
+    
+ 
 
 h1{
     font-family:'isenheim';
@@ -117,26 +120,8 @@ h3{
     
 }
 
-.parent-container2{
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    flex-direction: row;
 
-}
 
-    .flex-container1{
-     
-        flex-wrap: nowrap;
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: auto;
-       
-        justify-content: center;
-      border: solid black 1px;
-       
-    }
 
     
 #one{
@@ -155,56 +140,49 @@ h3{
 
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
-  
-  }
-  
-  /* Create four equal columns that sits next to each other */
-  .column {
-    flex: 0%;
-    max-width: 33%;
- 
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 70%;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
 
-  * {
+    display: flex; /* Ensure the items inside align in a row */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    background-color: blue;
+   
+
+
+}
+
+.column {
+    flex: 1; /* Each column takes equal space */
+    max-width: 100%; /* Restrict the maximum width */
+    padding: 0px; /* Inner spacing */
+    box-sizing: border-box; /* Include padding in total size */
+    background-color: purple;
+}
+
+.column img {
+    width: 100%; /* Responsive image width */
+    margin: 5px; /* Space around each image */
+    vertical-align: middle;
+   
+}
+
+/* Responsive layout - two columns for smaller screens */
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - single column for smallest screens */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.column {
-    flex: 1;
-    max-width: 33%;
-}
-
-.column img {
-    margin-top: 0; /* or a smaller value if some margin is desired */
-    width: 100%;
-    vertical-align: middle;
-    padding: 5px;
-}
-
-  
