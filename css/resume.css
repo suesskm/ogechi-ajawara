@@ -26,8 +26,18 @@ a{
 
 }
 
-a:hover{
+#home:hover{
     background-color: #F36840;
+    font-weight: 400;
+}
+
+#contact:hover{
+    background-color: #F36840;
+    font-weight: 400;
+}
+
+#header2:hover{
+    color:#F36840;
     font-weight: 400;
 }
 
@@ -53,6 +63,18 @@ a:hover{
     
   
     }
+
+    .flex-container-header2{
+        display: flex;
+        flex-direction: column;
+        font-family: 'dm sans', sans-serif;
+        font-weight: 100;
+        padding: 10px;
+        font-size: 14px;
+        color: black;
+        z-index: 1;
+        background-color: #D0C743;
+        }
 
     .flex-container-bottom{
         position: fixed; /* Anchor to the viewport */

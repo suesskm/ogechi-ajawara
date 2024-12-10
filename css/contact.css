@@ -20,13 +20,24 @@ canvas{
 
   a{
     text-decoration: none;
+    color: black;
+
   }
 
-  a:hover{
-    color: #B80000;
-    opacity: 0.5;
+  #home:hover{
+    background-color: #F4D0D0;
+   font-weight: 400;
   }
 
+    #contact:hover{
+        background-color: #F4D0D0;
+        font-weight: 400;
+    }
+
+    #header2:hover{
+        color:#F4D0D0;
+        font-weight: 400;
+    }
 
 .flex-container-header{
     display: flex;
@@ -37,9 +48,20 @@ canvas{
     padding: 10px;
     font-size: 16px;
     color: black;
-    background-color: #F4D0D0;
     z-index: 1;
     }
+
+    .flex-container-header2{
+        display: flex;
+        flex-direction: column;
+       
+        font-family: 'dm sans', sans-serif;
+        font-weight: 100;
+        padding: 10px;
+        font-size: 14px;
+        color: black;
+        z-index: 1;
+        }
 
     .flex-container-bottom{
         position: fixed; /* Anchor to the viewport */
@@ -62,45 +84,6 @@ a{
 }
 
 
-    #home{
-        font-size: 20px;
-        color: black;
-        padding-left: 10px;
-    }
-    
-    #home:hover{
-        color: #B80000;
-        font-size: 22px;
-    
-    }
-    
-    #about{
-        font-size: 18px;
-        color: black;
-        padding-left: 10px;
-        
-    }
-    
-    #about:hover{
-       color: #B80000;
-       font-size: 22px;
-    }
-    
-    #contact{
-        font-size: 18px;
-        color: black;
-        padding-left: 10px;
-    }
-    
-    #contact:hover{
-        color: #B80000;
-        font-size: 22px;
-    }
-
-a{
-    text-decoration: none;
-}
-
 
 
 .parent-container {
@@ -121,7 +104,7 @@ a{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color:#D0C743;
+  
 }
 
 
