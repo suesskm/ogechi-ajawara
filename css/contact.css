@@ -8,6 +8,14 @@ canvas{
     
 }
 
+body{
+   
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* background-attachment: fixed;
+    background-size: contain; */
+}
+
 @font-face {
     font-family: 'isenheim';
     src: url('../media/fonts/Isenheim_Fin.otf') format('otf'),
@@ -37,6 +45,14 @@ canvas{
     #header2:hover{
         color:#F4D0D0;
         font-weight: 400;
+    }
+
+    #home{ 
+        background-color: #D0C743;
+    }
+
+    #contact{
+        background-color: #D0C743;
     }
 
 .flex-container-header{
@@ -91,85 +107,63 @@ a{
     flex-wrap: nowrap; /* Ensures no wrapping */
     width: 100%; /* Full width for the parent */
     height: 100vh; /* Full viewport height */
-    flex-direction: column; 
+    flex-direction: row; 
+   
    
 }
 
-.flex-container {
-    display: flex;
-    width: 100%; /* Takes up half the width */
-    height: 100%; /* Matches parent's height */
-    flex-wrap: nowrap;
-
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  
+.flex-container1 {
+width: 70%;
+height: 100%;
+text-align: right; /* Align text to the right */
+display: flex; /* Optional if you need additional flexbox layout inside */
+flex-direction: row; /* Optional for stacking elements */
+background-color: orange;
 }
 
-
-.flex-container-top{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100%; /* Takes up half the width */
+.flex-container2 {
+ width: 30%;
+  background-color: yellow;
     height: 100%;
-   background-color: #F4D0D0;
+    text-align: right; /* Align text to the right */
+    display: flex; /* Optional if you need additional flexbox layout inside */
+    flex-direction: row; /* Optional for stacking elements */ /* Align children to the bottom if necessary */
   
-    
-    align-items: center;
-    justify-content: center;
-   
-    margin-bottom: 100px;
 }
 
-.flex-item{
-    display: flex;
 
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
 
-  
 
 .flex-item1{
     display: flex;
-    width: 50%; /* Takes up half the width */
+    width: 100%; /* Takes up half the width */
     height: 100vh; /* Matches parent's height */
     flex-wrap: nowrap;
  align-items: center;
     justify-content: center;
     flex-direction: row;
     /* background-color:#FFFBE6; */
-    background-color: #FFFAE5;
-    padding: 10px;
+
 }
 
 .flex-item2{
     display: flex;
-    width: 50%; /* Takes up half the width */
+    width: 100%; /* Takes up half the width */
     height: 100vh; /* Matches parent's height */
     flex-wrap: wrap;
     flex-direction: row;
     padding: 10px;
-    background-color: #D0C743;
+    b\
 
 }
 
 h1{
-    font-size: 160px;
-    font-family: 'DM Serif Display', serif;
-    font-weight: 400;
-   color: #F46840;
-   padding: 80px;
-    letter-spacing: 2px;
-    position: absolute;
-    margin-bottom: 500px;
- 
+    font-size: 80px;
+    font-family: 'louise', san-serif;
+    font-weight:200;
+    padding-right: 60px;
+    line-height: 0.8;
     
-  
 }
 
 
@@ -240,11 +234,25 @@ padding: 10px;
     
 }
 
-#selfie{
-    width: 50%;
-    height: 60%;
-    padding: 10px;
-   
+#polaroid{
+    width: 80%;
+    height: 90%;
+   position: absolute;
+    margin-left: 300px;
+    margin-bottom: 200px;
+z-index:-1;
+
+}
+
+#polaroid1{
+    width: 80%;
+    height: 90%;
+   position: absolute;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-right:300px;
+    z-index:-1;
+
 }
 
 #selfie1{

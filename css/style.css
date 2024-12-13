@@ -131,8 +131,9 @@ a{
    flex-direction: row;
    justify-content: right;
    align-items: right;
-  
- 
+  margin-left: 100px;
+  margin-top: 50px;
+
    
    
     
@@ -160,7 +161,7 @@ h1{
     align-items: right;
     padding-right: 60px;
     line-height: 1;
-  /* text-shadow: 1px 1px 2px #F36840; */
+
   
 }
 
@@ -193,7 +194,7 @@ h4{
     font-weight:400;
     align-items: right;
     text-align: right;
-    padding: 20px;
+  
     margin: 0;
     line-height: 1;
     
