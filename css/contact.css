@@ -47,13 +47,6 @@ body{
         font-weight: 400;
     }
 
-    #home{ 
-        background-color: #D0C743;
-    }
-
-    #contact{
-        background-color: #D0C743;
-    }
 
 .flex-container-header{
     display: flex;
@@ -113,17 +106,17 @@ a{
 }
 
 .flex-container1 {
-width: 70%;
+width: 100%;
 height: 100%;
 text-align: right; /* Align text to the right */
 display: flex; /* Optional if you need additional flexbox layout inside */
 flex-direction: row; /* Optional for stacking elements */
-background-color: orange;
+
 }
 
 .flex-container2 {
- width: 30%;
-  background-color: yellow;
+ width: 100%;
+
     height: 100%;
     text-align: right; /* Align text to the right */
     display: flex; /* Optional if you need additional flexbox layout inside */
@@ -152,8 +145,9 @@ background-color: orange;
     height: 100vh; /* Matches parent's height */
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 10px;
-    b\
+  
+    background-color: orange;
+    
 
 }
 
@@ -161,75 +155,22 @@ h1{
     font-size: 80px;
     font-family: 'louise', san-serif;
     font-weight:200;
-    padding-right: 60px;
+  display: flex;
     line-height: 0.8;
+    padding: 0;
     
 }
 
 
-h2{
-    font-size: 160px;
-    font-family: 'DM Serif Display', serif;
-    font-weight: 100;
-    text-align: center;
-   padding: 20px;
-    letter-spacing: 2px;
-    position: absolute;
-    margin-top: 400px;
-    color: #F46840;
-    
-  
-}
-
-h3{
-    font-size: 320px;
-    font-family: 'Pinyon Script', serif;
-    font-weight: 400;
-    text-align: center;
-   padding: 20px;
-    letter-spacing: 2px;
-    position: absolute;
-    margin-top: 0px;
-    margin-bottom: 430px;
-    color:#D0C743;
-  
-}
-
-
-h4{
-    font-size: 320px;
-    font-family: 'Pinyon Script', serif;
-    font-weight: 400;
-    text-align: center;
-   padding: 20px;
-    letter-spacing: 2px;
-    position: absolute;
-    margin-top: 380px;
-    color:#D0C743;
-    
-  
-}
-
-h5{
-    font-size: 24px;
-    font-family: 'DM Serif Display', serif;
-    font-weight: 100;
-    text-align: center;
- 
-    letter-spacing: 2px;
-   
-  
-    
-    
-  
-}
 
 
 p{
+    display: flex;
     font-size: 12px;
     font-family: 'dm sans', sans-serif;
     font-weight:200;
-padding: 10px;
+    line-height: 0;
+
  
     
 }

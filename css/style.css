@@ -12,14 +12,13 @@ html, body {
     height: 100%;
     width: 100%;
 }
-
+/* 
 body{
    
     overflow-x: hidden;
     overflow-y: hidden;
-    /* background-attachment: fixed;
-    background-size: contain; */
-}
+ 
+} */
 
 @font-face {
     font-family: 'isenheim';
@@ -41,7 +40,7 @@ body{
 
   .parent-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap; /* Ensure no overflow */
     width: 100%;
     height: 100vh;
@@ -56,21 +55,11 @@ body{
     font-family: 'dm sans', sans-serif;
     font-weight: 100;
     padding: 10px;
-    font-size: 16px;
+    font-size: 14px;
     color: black;
     }
 
-    .flex-container-header2{
-        display: flex;
-        flex-direction: column;
-        font-family: 'dm sans', sans-serif;
-        font-weight: 100;
-        padding: 10px;
-        font-size: 14px;
-        color: black;
-        z-index: 1;
-       
-        }
+ 
     .flex-container-bottom{
         position: fixed; /* Anchor to the viewport */
         bottom: 0;
@@ -82,7 +71,7 @@ body{
       
         font-family: 'DM Sans', sans-serif;
         font-weight: 100;
-        font-size: 16px;
+        font-size: 14px;
         color: black;
         }
     
@@ -105,124 +94,329 @@ a{
 }
 
 #header2:hover{
-    color: #D0C743;
+    background-color: #D0C743;
     font-weight: 400;
 }
 
 
 #h3:hover{
-    color: #D0C743;
+    background-color: #D0C743;
     font-weight: 500;
 }
 
-#home{
-    background-color: #F4D0D0;
-}
 
-#contact{
-    background-color: #F4D0D0;
-}
-
-.flex-item2{
-    display: flex;
-    width: 70%;
-    height: auto;
-  flex-wrap: nowrap;
-   flex-direction: row;
-   justify-content: right;
-   align-items: right;
-  margin-left: 100px;
-  margin-top: 50px;
-
-   
-   
-    
-}
 
 
 .flex-item{
     display: flex;
-    width: 70%;
+    width: 80%;
     height: auto;
   flex-wrap: nowrap;
    flex-direction: row;
-   justify-content: right;
-   align-items: right;
-   background-color: yellow;
+   justify-content: left;
+   align-items: left;
+  padding: 50px;
+  margin-top: 200px;
+}
+
+.flex-item2{
+    display: flex;
+    width: 40%;
+    height: auto;
+    flex-wrap: nowrap;
   
+
+
+}
+
+.flex-item3{
+    display: flex;
+    width: 60%;
+    height: 100vh;
+    background-color: #C59303;
+    flex-wrap: nowrap;
+
 }
 
 h1{
-    font-size: 200px;
-    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-family: 'dm sans', sans-serif;
+    font-weight: 200;
+   color: #0A5D4C;
+   padding-top: 100px;
+    padding-left: 50px;
+    border: 5px 5px solid #0A5D4C;
+    border-radius: 10px;
+    
+    
+
+  
+}
+
+p{
+    font-size: 48px;
+    font-family: 'dm sans', sans-serif;
     font-weight: 400;
-    align-items: center;
-    justify-content: right;
-    align-items: right;
-    padding-right: 60px;
-    line-height: 1;
-
-  
-}
-
-h2{
-    font-size: 16px;
-    font-family: 'dm sans', sans-serif;
-    font-weight:100;
+   color: #0A5D4C;
    
-    align-items: right;
-    text-align: right;
-    padding: 20px;
-    margin: 0;
-
-    
 }
-
-h3{
-    font-size: 100px;
-    font-family: 'louise', san-serif;
-    font-weight:200;
-    padding-right: 60px;
-    line-height: 0.6;
-    
-}
-
-
-h4{
-    font-size: 18px;
-    font-family: 'dm sans', sans-serif;
-    font-weight:400;
-    align-items: right;
-    text-align: right;
-  
-    margin: 0;
-    line-height: 1;
-    
-}
-
  
+#down-arrow{
+    position: absolute;
+       bottom: 0;
+      
+   }
+
+
+#polaroid{
+    width: 80%;
+    height: 70%;
+  padding-top: 200px;
+  padding-left: 50px;
+z-index:-1;
+
+
+
+}
+
+#polaroid1{
+    width: 80%;
+    height: 60%;
+
+z-index:-1;
+ 
+
+}
+
+
+.polaroid-container {
+    position: relative;  /* Sets the stacking context */
+    width: 80%;          /* Adjust width as needed */
+    height: 70vh;        /* Adjust height to fit images */
+    margin: auto;
+}
+
+#polaroid, #polaroid1 {
+    position: absolute;  /* Stack on top of each other */
+    top: 0;
+    left: 0;
+    width: 100%;         /* Ensure same width */
+    height: auto;        /* Maintain aspect ratio */
+}
+
+#polaroid1 {
+    opacity: 0.9;        /* Slight transparency to differentiate */
+}
+
+
+#subheader{
+    font-size: 36px;
+    font-family: "Rock Salt";
+    font-weight: 200;
+    color:  #C59303;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
 
     .flex-container1 {
         flex: 1;
-    max-width: 60%;
+    max-width: 100%;
     padding: 10px;
-    height: 100%;
-    text-align: right; /* Align text to the right */
+    height: 80%;
+
     display: flex; /* Optional if you need additional flexbox layout inside */
     flex-direction: column; /* Optional for stacking elements */
      /* Align children to the bottom if necessary */
-    align-items: flex-end;
+
     }
 
     .flex-container2 {
-        flex: 1;
-        max-width: 40%;
-        padding: 10px;
-        height: 100%;
-        text-align: right; /* Align text to the right */
+     display: flex;
+    flex: 1;
+    max-width: 100%;
+    height: auto;
         display: flex; /* Optional if you need additional flexbox layout inside */
-        flex-direction: column; /* Optional for stacking elements */ /* Align children to the bottom if necessary */
-        align-items: flex-end;
+        flex-direction: row; /* Optional for stacking elements */ /* Align children to the bottom if necessary */
+      flex-wrap: nowrap;
     }
  
 
+
+
+
+    .mobile-container {
+        max-width: 480px;
+        margin: auto;
+        
+        height: 500px;;
+        border-radius: 10px;
+        display: none;
+        padding-bottom: 20px;
+      }
+      
+    
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'courier new', sans-serif;
+        font-size: 17px;
+        display: none;
+       
+      }
+      
+      .topnav a.icon {
+      
+        display: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: #da407b;
+       
+      }
+      
+      .active {
+    
+        color: #F2F0EB;
+      }
+    
+    
+    
+    
+    
+
+
+    /* Media Queries */
+
+
+@media screen and (max-width: 768px) {
+    .flex-container-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .flex-container1, .flex-container2, .flex-container3, .flex-container4,
+    .flex-container5, .flex-container6, .flex-container7, .flex-container8 {
+        width: 48%; /* Two columns */
+        height: 45vh;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+
+    .flex-container-header {
+      display: none;
+    }
+
+    .flex-container-header2 {
+        display: none;
+      }
+
+      .flex-container-bottom {
+        display: none;
+      }
+
+   .flex-container1{
+    display: block;
+    width: 100%;
+    background-color: #D0C743;
+   }
+
+   .flex-container2{
+    display: block;
+    width: 100%;
+    background-color: plum;
+   }
+
+.parent-container{
+    display: block;
+    flex-direction: column;
+}
+
+
+
+
+
+    .mobile-container {
+        max-width: 480px;
+        margin: auto;
+        padding: 10;
+        height: 500px;;
+        border-radius: 10px;
+        display: block;
+        padding-bottom: 20px;
+      }
+      
+    
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        font-family: 'dm sans', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+        display: block;
+        text-align: left;
+       
+      }
+      
+      .topnav a.icon {
+      
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 10px;
+      }
+      
+      .topnav a:hover {
+        background-color: plum;
+       
+      }
+      
+      .active {
+    
+       color: white;
+      }
+
+
+     
+        h1 {
+            font-size: 60px;
+        }
+        h2 {
+            font-size: 20px;
+          
+        }
+        h3 {
+            font-size: 80px;
+        }
+     
+   
+
+}

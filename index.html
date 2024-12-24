@@ -17,13 +17,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rock+Salt&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 
 </head>
 <style>
     body {
-      background-color: #FFFAE5;
+      background-color: #F3CFCF;
     }
   </style>
 <body>
@@ -31,31 +34,89 @@
 
     <div class="flex-container-header">
         <a href="html/resume.html" id="home">RESUME</a>
-     <a href="index.html" id="home">HOME</a>
-        <a href="html/contact.html" id="contact">ABOUT/CONTACT</a>
+     <!-- <a href="index.html" id="home">HOME</a> -->
+     <a href="../html/work.html" id="header2">WORK</a>
+     <a href="../media/images/OGECHI-AJAWARA.pdf" id="header2">RESUME DOWNLOAD→</a>
+     <a href="https://www.linkedin.com/in/ogechiajawara/" id="header2">LINKEDIN→</a>
+   
     </div>
 
+           <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+           <!-- Top Navigation Menu -->
+           <div class="topnav">
+             <a href="index.html" class="active">
+            OGECHI AJAWARA
+               <!-- <h2>*</h2> -->
+           </a>
+             <!-- Navigation links (hidden by default) -->
+             <div id="myLinks">
+                 <a href="../html/contact.html"id="contact">CONTACT</a>
+                 <a href="../html/about.html"id="contact">ABOUT</a>
+                 <a href="../media/images/OGECHI-AJAWARA.pdf" id="header2">RESUME DOWNLOAD→</a>
+                 <a href="https://www.linkedin.com/in/ogechiajawara/" id="header2">LINKEDIN→</a>
+                 <a href="../html/work.html" id="header2">WORK</a>
+               </div>
+             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+               <i class="fa fa-bars"></i>
+             </a>
+           </div> 
+
     
-    <div class="flex-container-header2">
-        <div class="flex-container-header2">
-            <a href="../media/images/OGECHI-AJAWARA.pdf" id="header2">RESUME DOWNLOAD→</a>
-            <a href="https://www.linkedin.com/in/ogechiajawara/" id="header2">LINKEDIN→</a>
-            <a href="../html/socialmedia.html" id="header2">SOCIAL MEDIA WORK</a>
-            <a href="../html/work.html" id="header2">COMMUNITY MANAGEMENT</a>
-        </div>
+  
     
     </div>
     <div class="parent-container">
 
 
-    <!-- <div class="flex-container1">
-        <a href="html/socialmedia.html" id="h3"><h3>SOCIAL MEDIA WORK</h3></a>
-        <a href="html/work.html" id="h3"><h3>COMMUNITY MANAGEMENT</h3></a>
-       
-         
-     </div> -->
+  
    
-<div class="flex-container2">
+  
+     <div class="flex-container1">
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="top-center">
+    
+    <div class="flex-item">
+        <p>✴︎ Welcome to the portfolio site of ❀ <i>Ogechi Ajawara</i> ☾ who specializes in social media management ✦ content creation ☘ marketing strategy ⁎̩ analaytics ❦ and community management.✴︎</p>
+        </p>
+        </div>
+         
+           
+    </div>
+    </div>
+
+    <div class="flex-container2">
+ 
+    
+    <div class="flex-item2">
+        <!-- <div id="subheader">About/Contact</div> -->
+      
+        <div class="polaroid-container">
+            <!-- <img id="polaroid" src="../media/images/ogechi-polaroid.png" alt="Polaroid 1"> -->
+            <img id="polaroid1" src="../media/images/ogechi-polaroid2.png" alt="Polaroid 2">
+        </div>
+        </div>
+
+   
+
+    
+
+   
+        <div class="flex-item3">
+            <div id="item-text">
+              
+            <h1>About/Contact:</h1>
+          
+            </div>
+         
+           
+ 
+    </div>
+
+
+<!-- <div class="flex-container2">
    
     <div data-aos="fade-in" data-aos-delay="5000" data-aos-duration="1000">
 
@@ -67,19 +128,9 @@
             </h2></div></div>
         
     
-        </div>
+        </div> -->
 
-      
-        <div class="flex-container1">
-            <div data-aos="fade-up"
-            data-aos-anchor-placement="top-center">
-        
-        
-                <h3>I Am </h3>
-                <h1>OGECHI AJAWARA</h1>
-             
-               
-        </div>
+    
 
 
 
@@ -88,7 +139,7 @@
 
 
 
-</div>
+
 
 
 
@@ -105,16 +156,32 @@
 
 </div>
 
+<img id="down-arrow" src="../media/images/down-arrow.png" alt="down-arrow" width="100">
+
  <div class="flex-container-bottom">
-           <a href="html/resume.html" id="home">RESUME</a>
-     <a href="index.html" id="home">HOME</a>
-        <a href="html/contact.html" id="contact">ABOUT/CONTACT</a>
-        </div>
+   
+        <a href="html/resume.html" id="home">RESUME</a>
+     <!-- <a href="index.html" id="home">HOME</a> -->
+     <a href="../html/work.html" id="header2">WORK</a>
+     <a href="../media/images/OGECHI-AJAWARA.pdf" id="header2">RESUME DOWNLOAD→</a>
+     <a href="https://www.linkedin.com/in/ogechiajawara/" id="header2">LINKEDIN→</a>
+   
+    </div>
 
 </div>
 
 
 
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
 
 
 
