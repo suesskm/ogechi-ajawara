@@ -218,12 +218,21 @@ p{
 }
 
 h3{
-    font-size: 16px;
+    font-size: 20px;
     font-family: "dm sans", sans-serif;
     font-weight: 300;
    color: #0A5D4C;
    
 }
+h4{
+    font-size: 18px;
+    font-family: "dm sans", sans-serif;
+    font-weight: 200;
+   color: #0A5D4C;
+   
+}
+
+
 
 h2{
     font-size: 24px;
@@ -245,7 +254,7 @@ h2{
 #polaroid{
     width: 80%;
     height: 70%;
-  padding-top: 200px;
+  margin-top: 100px;
   padding-left: 50px;
 z-index:-1;
 
@@ -265,7 +274,7 @@ z-index:-1;
 
 #item-text{
  width: 100%;
-    height: 15%;
+    height: 12%;
     
   
 }
@@ -274,10 +283,23 @@ z-index:-1;
     width: 100%;
        height: 5%;
        background-color: plum;
-      
+       animation: scroll 2s infinite;
+      margin-bottom: 30px;
        
    }
 
+
+   @keyframes scroll {
+    0% {
+        background-color: plum;
+    }
+    50% {
+        background-color: #D0C743;
+    }
+    100% {
+        background-color: plum;
+    }
+}
    #item-text3{
     width: 100%;
        height: 65%;
@@ -342,6 +364,7 @@ z-index:-1;
         flex-direction: column; /* Optional for stacking elements */ /* Align children to the bottom if necessary */
     justify-content: center;
     align-items: center;
+    margin-top: 90px;
     
      
     }

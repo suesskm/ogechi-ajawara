@@ -24,38 +24,29 @@ canvas{
   }
 
   #home:hover{
-  background-color: #C69403;
-    font-weight: 400;
-  text-decoration: none;
-  color: white;
+  background-color: #F36840;
+  font-weight: 400;
+
+ 
   }
 
   #contact:hover{
-    background-color: #C69403;
+    background-color: #F36840;
     font-weight: 400;
-    text-decoration: none;
-    color: white;
+ 
   }
 
   #header2:hover{
-    color:#C69403;
+    background-color: #F36840;
     font-weight: 400;
-    text-decoration: none;
+ 
   }
 
-  #header3:hover{
-    color:#C69403;
-    font-weight: 400;
-    text-decoration: none;
-    position: absolute;
-    margin-right: 900px;
-  }
+
+
 
  
-  a:hover{
-    color: #C69403;
-    opacity: 0.5;
-  }
+
 .parent-container{
     display: flex; /* Arrange all child elements in a single line */
     flex-wrap: nowrap; /* Prevent wrapping to the next line */
@@ -70,6 +61,7 @@ canvas{
 
 
 
+
 .flex-container-header{
     display: flex;
     flex-direction: row;
@@ -77,30 +69,11 @@ canvas{
     font-family: 'dm sans', sans-serif;
     font-weight: 100;
     padding: 10px;
-    font-size: 16px;
+    font-size: 14px;
     color: black;
     }
 
-    .flex-container-header2{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        font-family: 'dm sans', sans-serif;
-        font-weight: 100;
-        padding: 10px;
-        font-size: 14px;
-        color: black;
-        z-index: 1;
-   
-        justify-content: left;
-       flex-wrap: nowrap;
-        }
-
-
-    #header3{
-    text-align: right;
-        }
-
+ 
     .flex-container-bottom{
         position: fixed; /* Anchor to the viewport */
         bottom: 0;
@@ -112,10 +85,17 @@ canvas{
       
         font-family: 'DM Sans', sans-serif;
         font-weight: 100;
-        font-size: 16px;
+        font-size: 14px;
+        color: black;
+        }
     
 
+
+    #header3{
+    text-align: right;
         }
+
+    
 
 
 
@@ -124,7 +104,7 @@ canvas{
         display: flex;
         width: 100%; /* Takes up half the width */
         height: 100%; /* Matches parent's height */
-     background-color: plum;
+     background-color: #D0C743;
         
     }
 
@@ -133,7 +113,7 @@ canvas{
         flex-direction: column;
         width: 30%; /* Takes up half the width */
         height: 100%; /* Matches parent's height */
-     background-color: yellow;
+     
     }
 
     .flex-item2{
@@ -141,7 +121,7 @@ canvas{
         flex-direction: column;
         width: 70%; /* Takes up half the width */
         height: 100%; /* Matches parent's height */
-     background-color: orange;
+     background-color: #D0C743;
     }
 
 
@@ -149,7 +129,7 @@ canvas{
         display: flex;
         width: 100%; /* Takes up half the width */
         height: 100%; /* Matches parent's height */
-     background-color: plum;
+     background-color: #F36840;
         
     }
 
@@ -266,6 +246,7 @@ h3{
     margin: 5px; /* Space around each image */
     vertical-align: middle;  
     padding: 10px;
+    font-family: 'dm sans', sans-serif;
 }
 
 /* Slideshow container */
@@ -275,7 +256,7 @@ h3{
   height: 100%;
   margin: auto;
  padding: 20px;
-  background-color: teal;
+  
 }
 
 /* Hide the images by default */
