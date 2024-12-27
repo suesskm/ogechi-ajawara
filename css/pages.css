@@ -60,7 +60,7 @@ canvas{
     display: flex; /* Arrange all child elements in a single line */
     flex-wrap: nowrap; /* Prevent wrapping to the next line */
     height: 100%; /* Full height */
-    flex-direction: row; /* Horizontal alignment of children */
+    flex-direction: column; /* Horizontal alignment of children */
     justify-content: flex-start; /* Align items to the left */
     align-items: flex-start; /* Align items at the top */
     gap: 10px; /* Add spacing between child elements */
@@ -117,6 +117,57 @@ canvas{
 
         }
 
+
+
+
+    .flex-container-top {
+        display: flex;
+        width: 100%; /* Takes up half the width */
+        height: 100%; /* Matches parent's height */
+     background-color: plum;
+        
+    }
+
+    .flex-item1{
+        display: flex;
+        flex-direction: column;
+        width: 30%; /* Takes up half the width */
+        height: 100%; /* Matches parent's height */
+     background-color: yellow;
+    }
+
+    .flex-item2{
+        display: flex;
+        flex-direction: column;
+        width: 70%; /* Takes up half the width */
+        height: 100%; /* Matches parent's height */
+     background-color: orange;
+    }
+
+
+    .flex-container-middle {
+        display: flex;
+        width: 100%; /* Takes up half the width */
+        height: 100%; /* Matches parent's height */
+     background-color: plum;
+        
+    }
+
+    .flex-item3{
+        display: flex;
+        flex-direction: column;
+        width: 50%; /* Takes up half the width */
+        height: 100%; /* Matches parent's height */
+     background-color: yellow;
+    }
+
+    .flex-item4{
+        display: flex;
+        flex-direction: column;
+        width: 50%; /* Takes up half the width */
+        height: 100%; /* Matches parent's height */
+     background-color: orange;
+    }
   
     p{
         font-size: 12px;
@@ -217,45 +268,14 @@ h3{
     padding: 10px;
 }
 
-/* Responsive layout - two columns for smaller screens */
-@media screen and (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-/* Responsive layout - single column for smallest screens */
-@media screen and (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-
-
-
-
-
-
-
-
-* {box-sizing:border-box}
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
+  height: 100%;
   margin: auto;
-  border: 3px solid #C69403;
+ padding: 20px;
+  background-color: teal;
 }
 
 /* Hide the images by default */

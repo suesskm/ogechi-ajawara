@@ -37,7 +37,7 @@ a{
 }
 
 #header2:hover{
-    color:#F36840;
+    background-color:#F36840;
     font-weight: 400;
 }
 
@@ -57,25 +57,12 @@ a{
     font-family: 'dm sans', sans-serif;
     font-weight: 100;
     padding: 10px;
-    font-size: 18px;
+    font-size: 14px;
     color: black;
-    background-color: #D0C743;
-    
-  
+    background-color: #F3CFCF;
     }
 
-    .flex-container-header2{
-        display: flex;
-        flex-direction: column;
-        font-family: 'dm sans', sans-serif;
-        font-weight: 100;
-        padding: 10px;
-        font-size: 14px;
-        color: black;
-        z-index: 1;
-        background-color: #D0C743;
-        }
-
+ 
     .flex-container-bottom{
         position: fixed; /* Anchor to the viewport */
         bottom: 0;
@@ -84,10 +71,10 @@ a{
         display: flex;
         justify-content: space-between;
         padding: 10px 2vw;
-     background-color: #F36840;
+      
         font-family: 'DM Sans', sans-serif;
         font-weight: 100;
-        font-size: 16px;
+        font-size: 14px;
         color: black;
         }
 
