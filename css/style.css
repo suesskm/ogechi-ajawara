@@ -16,9 +16,11 @@ html, body {
 body{
    
     overflow-x: hidden;
+    /* overflow-y: hidden; */
   
  
 }
+
 
 @font-face {
     font-family: 'isenheim';
@@ -38,18 +40,6 @@ body{
   
   }
 
-  .parent-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap; /* Ensure no overflow */
-    width: 100%;
-    height: 100vh;
-  
-    align-items: center;
-
- 
-  
-}
 
 .flex-container-header{
     display: flex;
@@ -107,7 +97,61 @@ a{
     font-weight: 500;
 }
 
+/* Container styles */
+.scrolling-text-container {
+  
+    border-radius: 4px;
+    overflow: hidden;
+}
 
+/* Inner container styles */
+.scrolling-text-inner {
+    display: flex;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+/* Text styles */
+.scrolling-text {
+    display: flex;
+}
+
+.scrolling-text-item {
+    padding: 0 30px;
+}
+
+/* Apply the animation to the text items */
+.scrolling-text-inner>div {
+    animation: var(--direction) var(--marquee-speed) linear infinite;
+}
+
+/* Pause the animation when a user hovers over it */
+.scrolling-text-container:hover .scrolling-text-inner>div {
+    animation-play-state: paused;
+}
+
+/* Setting the Animation using Keyframes */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-right {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
 
 
 .flex-item{
@@ -119,7 +163,7 @@ a{
    justify-content: left;
    align-items: left;
   padding: 50px;
-  margin-top: 200px;
+  margin-top: 130px;
 }
 
 .flex-item2{
@@ -130,6 +174,18 @@ a{
   
 
 
+}
+
+.marquee {
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 5s linear infinite;
 }
 
 .flex-item3{
@@ -211,8 +267,8 @@ hr{
 
 p{
     font-size: 42px;
-    font-family: "dm sans", sans-serif;
-    font-weight: 100;
+    font-family: "noto serif display", serif;
+    font-weight: 200;
    color: #0A5D4C;
    
 }
@@ -282,24 +338,13 @@ z-index:-1;
 #item-text2{
     width: 100%;
        height: 5%;
-       background-color: plum;
-       animation: scroll 2s infinite;
+    
       margin-bottom: 30px;
        
    }
 
+ 
 
-   @keyframes scroll {
-    0% {
-        background-color: plum;
-    }
-    50% {
-        background-color: #D0C743;
-    }
-    100% {
-        background-color: plum;
-    }
-}
    #item-text3{
     width: 100%;
        height: 65%;
@@ -339,42 +384,64 @@ z-index:-1;
 
 
     .flex-container1 {
-        flex: 1;
-    max-width: 100%;
-    padding: 10px;
-    height: 80%;
+       
+    width: 100%;
+    height: 100vh;
 
     display: flex; /* Optional if you need additional flexbox layout inside */
     flex-direction: column; /* Optional for stacking elements */
      /* Align children to the bottom if necessary */
-     justify-content: center;
-     align-items: center;
+     justify-content: left;
+     align-items: left;
+     background-color: gray;
     }
 
+
+    
+  .parent-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Ensure no overflow */
+    width: 100%;
+    height: 100vh;
+    align-items: flex-start;
+  
+}
       
-        
+     
     
 
     .flex-container2 {
      display: flex;
-    flex: 1;
-    width: 80%;
+     flex-direction: column;
+   
+    width: 100%;
     height: 100vh;
         display: flex; /* Optional if you need additional flexbox layout inside */
-        flex-direction: column; /* Optional for stacking elements */ /* Align children to the bottom if necessary */
-    justify-content: center;
-    align-items: center;
-    margin-top: 90px;
+background-color: plum;
     
      
     }
+    
+    .flex-container3 {
+        flex-direction: column;
+        display: flex;
+ 
+       width: 100%;
+       height: 100vh;
+           display: flex; /* Optional if you need additional flexbox layout inside */
+   background-color: yellow;
+       
+        
+       }
  
 
    .flexbox{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
    width: 100%;
     height: 100%;
+    background-color: orange;
   
    }
    
