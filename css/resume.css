@@ -92,7 +92,7 @@ a{
     width: 100%; /* Takes up half the width */
     height: 100%; /* Matches parent's height */
     flex-wrap: nowrap;
-   background-color: #D0C743;
+   background-color: #b8eea2;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -104,7 +104,7 @@ a{
     width: 100%; /* Takes up half the width */
     height: 100%; /* Matches parent's height */
     flex-wrap: nowrap;
-    background-color: #D0C743;
+    background-color: #b8eea2;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -220,6 +220,7 @@ a{
             justify-content: center;
            align-items: center;
            padding-top: 60px;
+           color: #ff7bc8;
         }
 
 
