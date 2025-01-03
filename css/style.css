@@ -937,7 +937,7 @@ margin-top: 0;
 .mobile-containers { 
 display: block;
 padding: 10;
-height: 500px;
+height: 50vh;
 border-radius: 10px;
 justify-content: column;
 align-items: center;
@@ -1029,7 +1029,7 @@ text-align: center;
 display: block;
 width: 100%;
 align-items: center;
-height: 80vh;
+height: 50vh;
 text-align: center;
 
 
