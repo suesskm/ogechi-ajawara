@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eth" format="2">
+	<advance width="599"/>
+	<unicode hex="00D0"/>
+	<unicode hex="00F0"/>
+	<outline>
+		<contour>
+			<point x="452" y="350" type="curve"/>
+			<point x="562" y="350" type="line"/>
+			<point x="562" y="526"/>
+			<point x="445" y="700"/>
+			<point x="232" y="700" type="curve"/>
+			<point x="175.5" y="700" type="line"/>
+			<point x="175.5" y="670" type="line"/>
+			<point x="232" y="670" type="line"/>
+			<point x="364" y="670"/>
+			<point x="452" y="558"/>
+		</contour>
+		<contour>
+			<point x="175.5" y="0" type="line"/>
+			<point x="232" y="0" type="line"/>
+			<point x="445" y="0"/>
+			<point x="562" y="184"/>
+			<point x="562" y="350" type="curve"/>
+			<point x="452" y="350" type="line"/>
+			<point x="452" y="152"/>
+			<point x="364" y="30"/>
+			<point x="232" y="30" type="curve"/>
+			<point x="175.5" y="30" type="line"/>
+		</contour>
+		<component base="_part.stem" xOffset="-9"/>
+		<component base="_part.shortserif" xOffset="-9"/>
+		<component base="_part.shortserif" xOffset="-9" yOffset="-670"/>
+		<component base="_part.wavestrokehorizontal" xOffset="126"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>_part.stem</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>_part.shortserif</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>_part.shortserif</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>3</integer>
+					<key>name</key>
+					<string>_part.wavestrokehorizontal</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>O</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

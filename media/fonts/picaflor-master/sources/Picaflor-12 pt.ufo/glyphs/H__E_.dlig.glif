@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="H_E.dlig" format="2">
+	<advance width="757"/>
+	<anchor x="292" y="350" name="center"/>
+	<outline>
+		<contour>
+			<point x="97" y="0" type="line"/>
+			<point x="197" y="0" type="line"/>
+			<point x="197" y="700" type="line"/>
+			<point x="97" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="187" y="408" type="line"/>
+			<point x="397" y="408" type="line"/>
+			<point x="397" y="438" type="line"/>
+			<point x="187" y="438" type="line"/>
+		</contour>
+		<contour>
+			<point x="387" y="0" type="line"/>
+			<point x="487" y="0" type="line"/>
+			<point x="487" y="700" type="line"/>
+			<point x="387" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="647" y="30" type="line"/>
+			<point x="327" y="30" type="line"/>
+			<point x="327" y="0" type="line"/>
+			<point x="647" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="257" y="30" type="line"/>
+			<point x="37" y="30" type="line"/>
+			<point x="37" y="0" type="line"/>
+			<point x="257" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="619" y="0" type="line"/>
+			<point x="670" y="0" type="line"/>
+			<point x="725" y="168" type="line"/>
+			<point x="706" y="168" type="line"/>
+		</contour>
+		<contour>
+			<point x="583.5" y="309" type="line"/>
+			<point x="602.5" y="309" type="line"/>
+			<point x="602.5" y="427" type="line"/>
+			<point x="560" y="427" type="line"/>
+		</contour>
+		<contour>
+			<point x="477" y="408" type="line"/>
+			<point x="602.5" y="408" type="line"/>
+			<point x="602.5" y="438" type="line"/>
+			<point x="477" y="438" type="line"/>
+		</contour>
+		<contour>
+			<point x="560" y="419" type="line"/>
+			<point x="602.5" y="419" type="line"/>
+			<point x="602.5" y="537" type="line"/>
+			<point x="583.5" y="537" type="line"/>
+		</contour>
+		<contour>
+			<point x="676" y="532" type="line"/>
+			<point x="695" y="532" type="line"/>
+			<point x="670" y="700" type="line"/>
+			<point x="619" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="537" y="670" type="line"/>
+			<point x="663" y="670" type="line"/>
+			<point x="663" y="700" type="line"/>
+			<point x="537" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="387" y="0" type="line"/>
+			<point x="487" y="0" type="line"/>
+			<point x="487" y="700" type="line"/>
+			<point x="387" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="327" y="670" type="line"/>
+			<point x="547" y="670" type="line"/>
+			<point x="547" y="700" type="line"/>
+			<point x="327" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="257" y="700" type="line"/>
+			<point x="37" y="700" type="line"/>
+			<point x="37" y="670" type="line"/>
+			<point x="257" y="670" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>E</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one" format="2">
+	<advance width="357"/>
+	<unicode hex="0031"/>
+	<outline>
+		<contour>
+			<point x="160" y="0" type="line"/>
+			<point x="260" y="0" type="line"/>
+			<point x="260" y="737" type="line"/>
+			<point x="234.5" y="688" type="line"/>
+			<point x="160" y="579.5" type="line"/>
+		</contour>
+		<contour>
+			<point x="21.5" y="500" type="curve"/>
+			<point x="56.5" y="314.5" type="line"/>
+			<point x="75.5" y="314.5" type="line"/>
+			<point x="62" y="421.5"/>
+			<point x="77" y="465.5"/>
+			<point x="161" y="560" type="curve"/>
+			<point x="207.5" y="606"/>
+			<point x="235" y="640"/>
+			<point x="260" y="737" type="curve"/>
+			<point x="252" y="737" type="line"/>
+			<point x="208" y="632"/>
+			<point x="106" y="537"/>
+		</contour>
+		<component base="_part.longserif" xScale="-1" yScale="-1" xOffset="366" yOffset="700"/>
+		<component base="_part.longserif" xScale="-1" yScale="-1" xOffset="341" yOffset="700"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>_part.longserif</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>_part.longserif</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>H</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

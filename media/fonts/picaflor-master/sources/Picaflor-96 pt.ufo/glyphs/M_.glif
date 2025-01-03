@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="M" format="2">
+	<advance width="544"/>
+	<unicode hex="004D"/>
+	<unicode hex="006D"/>
+	<anchor x="272" y="700" name="top"/>
+	<anchor x="272" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="226" y="-58" type="line"/>
+			<point x="272" y="178.5" type="line"/>
+			<point x="170" y="700" type="line"/>
+			<point x="78" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="234.5" y="-0.5" type="line"/>
+			<point x="238" y="3" type="line"/>
+			<point x="374" y="700" type="line"/>
+			<point x="370" y="700" type="line"/>
+		</contour>
+		<component base="_part.shortserif" xOffset="338.500"/>
+		<component base="_part.stemthin" xOffset="-2"/>
+		<component base="_part.halfstemright" xOffset="280"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>_part.shortserif</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>_part.stemthin</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>_part.halfstemright</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>H</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

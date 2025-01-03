@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="A.ss02" format="2">
+	<advance width="461"/>
+	<anchor x="394" y="0" name="ogonek"/>
+	<anchor x="223" y="0" name="bottom"/>
+	<anchor x="227" y="703" name="top"/>
+	<outline>
+		<contour>
+			<point x="176.5" y="39" type="curve"/>
+			<point x="189" y="39" type="line"/>
+			<point x="189.5" y="122" type="line"/>
+			<point x="189.5" y="160.5"/>
+			<point x="129.5" y="203"/>
+			<point x="96.5" y="217.5" type="curve"/>
+			<point x="96.5" y="198.5" type="line"/>
+			<point x="134" y="175"/>
+			<point x="163.5" y="134.5"/>
+		</contour>
+		<contour>
+			<point x="182.5" y="122" type="curve"/>
+			<point x="183" y="39" type="line"/>
+			<point x="195.5" y="39" type="line"/>
+			<point x="208.5" y="134.5"/>
+			<point x="238" y="175"/>
+			<point x="275.5" y="198.5" type="curve"/>
+			<point x="275.5" y="217.5" type="line"/>
+			<point x="244.5" y="204"/>
+			<point x="182.5" y="160.5"/>
+		</contour>
+		<component base="V" xScale="-1" yScale="-1" xOffset="461" yOffset="700"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>V</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>A</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>A</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

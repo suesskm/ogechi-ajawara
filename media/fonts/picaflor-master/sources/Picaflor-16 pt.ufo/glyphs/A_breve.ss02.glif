@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Abreve.ss02" format="2">
+	<advance width="460"/>
+	<outline>
+		<component base="A.ss02"/>
+		<component base="uni0306" xOffset="353" yOffset="2.500"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

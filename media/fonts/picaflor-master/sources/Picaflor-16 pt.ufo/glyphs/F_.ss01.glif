@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="F.ss01" format="2">
+	<advance width="432.5"/>
+	<guideline x="442" y="699" angle="90"/>
+	<outline>
+		<contour>
+			<point x="95" y="0" type="line"/>
+			<point x="315" y="0" type="line"/>
+			<point x="315" y="28" type="line"/>
+			<point x="95" y="28" type="line"/>
+		</contour>
+		<contour>
+			<point x="393" y="417" type="line"/>
+			<point x="411" y="417" type="line"/>
+			<point x="399" y="700" type="line"/>
+			<point x="329" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="245" y="672" type="line"/>
+			<point x="391" y="672" type="line"/>
+			<point x="391" y="700" type="line"/>
+			<point x="245" y="700" type="line"/>
+		</contour>
+		<component base="_part.stemserifs" xOffset="-10"/>
+		<component base="_part.wavestrokehorizontal" xOffset="115" yOffset="-70"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>F</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

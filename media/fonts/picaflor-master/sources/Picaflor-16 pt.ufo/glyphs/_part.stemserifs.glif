@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_part.stemserifs" format="2">
+	<advance width="310"/>
+	<outline>
+		<component base="_part.stem"/>
+		<component base="_part.longserif"/>
+		<component base="_part.longserif" xScale="-1" yScale="-1" xOffset="310" yOffset="700"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.Export</key>
+			<false/>
+		</dict>
+	</lib>
+</glyph>

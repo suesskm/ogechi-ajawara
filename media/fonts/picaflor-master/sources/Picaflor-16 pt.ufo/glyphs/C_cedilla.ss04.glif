@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ccedilla.ss04" format="2">
+	<advance width="445"/>
+	<outline>
+		<component base="C.ss04"/>
+		<component base="uni0327" xOffset="440"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

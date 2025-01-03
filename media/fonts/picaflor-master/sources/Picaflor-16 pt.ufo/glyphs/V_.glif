@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="V" format="2">
+	<advance width="460"/>
+	<unicode hex="0056"/>
+	<unicode hex="0076"/>
+	<anchor x="230" y="700" name="top"/>
+	<anchor x="230" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="233" y="-37" type="line"/>
+			<point x="285" y="156" type="line"/>
+			<point x="139" y="700" type="line"/>
+			<point x="35" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="233" y="-37" type="line"/>
+			<point x="431" y="700" type="line"/>
+			<point x="402" y="700" type="line"/>
+			<point x="220" y="23" type="line"/>
+		</contour>
+		<component base="_part.longserif" xOffset="-60"/>
+		<component base="_part.shortserif" xOffset="302"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>A</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>A</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

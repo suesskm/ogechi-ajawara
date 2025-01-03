@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="X.ss04" format="2">
+	<advance width="446"/>
+	<anchor x="238" y="700" name="top"/>
+	<anchor x="9" y="700" name="topleft"/>
+	<outline>
+		<contour>
+			<point x="277.5" y="0" type="line"/>
+			<point x="380" y="0" type="line"/>
+			<point x="266.5" y="540" type="line"/>
+			<point x="185" y="500" type="line"/>
+		</contour>
+		<contour>
+			<point x="82" y="0" type="line"/>
+			<point x="112.5" y="0" type="line"/>
+			<point x="212" y="540" type="line"/>
+			<point x="181.5" y="540" type="line"/>
+		</contour>
+		<contour>
+			<point x="185" y="500" type="line"/>
+			<point x="266.5" y="540" type="line"/>
+			<point x="155" y="700" type="line"/>
+			<point x="55" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="245" y="523.5" type="line"/>
+			<point x="263" y="497.5" type="line"/>
+			<point x="408" y="700" type="line"/>
+			<point x="373" y="700" type="line"/>
+		</contour>
+		<component base="_part.longserif" xScale="-1" yScale="-1" xOffset="484" yOffset="700"/>
+		<component base="_part.longserif" xOffset="-38"/>
+		<component base="_part.shortserif" xOffset="264"/>
+		<component base="_part.shortserif" xOffset="-12" yOffset="-670"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>_part.longserif</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>_part.longserif</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>_part.shortserif</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>3</integer>
+					<key>name</key>
+					<string>_part.shortserif</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

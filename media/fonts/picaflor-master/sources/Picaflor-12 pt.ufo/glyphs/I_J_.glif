@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="IJ" format="2">
+	<advance width="651"/>
+	<unicode hex="0132"/>
+	<unicode hex="0133"/>
+	<outline>
+		<contour>
+			<point x="285.5" y="500" type="line"/>
+			<point x="270" y="500" type="line"/>
+			<point x="5" y="315" type="line"/>
+			<point x="57" y="315" type="line"/>
+			<point x="285.5" y="474.5" type="line"/>
+		</contour>
+		<component base="I" xOffset="1"/>
+		<component base="J" xOffset="236"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>I</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>J</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

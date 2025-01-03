@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="M.ss04" format="2">
+	<advance width="552.5"/>
+	<outline>
+		<contour>
+			<point x="357.5" y="0" type="line"/>
+			<point x="457.5" y="0" type="line"/>
+			<point x="457.5" y="700" type="line"/>
+			<point x="372" y="700" type="line"/>
+			<point x="357.5" y="680" type="line"/>
+		</contour>
+		<contour>
+			<point x="223" y="484" type="line"/>
+			<point x="279.5" y="561.5" type="line"/>
+			<point x="182.5" y="700" type="line"/>
+			<point x="72.5" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="224" y="482.5" type="line"/>
+			<point x="377" y="700" type="line"/>
+			<point x="342" y="700" type="line"/>
+			<point x="207" y="507" type="line"/>
+		</contour>
+		<component base="_part.stemthin" xOffset="10"/>
+		<component base="_part.longserif" xScale="-1" yScale="-1" xOffset="562.500" yOffset="700"/>
+		<component base="_part.shortserif" xOffset="344.500"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>H</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="M.ss03" format="2">
+	<advance width="581"/>
+	<guideline x="405" y="-106.5" angle="0"/>
+	<outline>
+		<contour>
+			<point x="436" y="0" type="line"/>
+			<point x="538" y="0" type="line"/>
+			<point x="368.5" y="737" type="line"/>
+			<point x="319" y="504" type="line"/>
+		</contour>
+		<contour>
+			<point x="36" y="0" type="line"/>
+			<point x="64.5" y="0" type="line"/>
+			<point x="212.5" y="640.5" type="line"/>
+			<point x="205.5" y="737" type="line"/>
+		</contour>
+		<contour>
+			<point x="219.5" y="-56.5" type="line"/>
+			<point x="270.5" y="212" type="line"/>
+			<point x="205.5" y="737" type="line"/>
+			<point x="138" y="443" type="line"/>
+		</contour>
+		<contour>
+			<point x="219.5" y="-56.5" type="line"/>
+			<point x="377" y="640.5" type="line"/>
+			<point x="368.5" y="737" type="line"/>
+			<point x="221.5" y="46" type="line"/>
+		</contour>
+		<component base="_part.longserif" xOffset="331" yOffset="-692"/>
+		<component base="_part.shortserif" xOffset="-60" yOffset="-692"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>A</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>A</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

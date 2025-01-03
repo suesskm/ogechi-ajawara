@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_part.longserifbdc" format="2">
+	<advance width="286"/>
+	<outline>
+		<contour>
+			<point x="33" y="696" type="line"/>
+			<point x="253" y="696" type="line"/>
+			<point x="253" y="700" type="line"/>
+			<point x="33" y="700" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.Export</key>
+			<false/>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E9E" format="2">
+	<advance width="574"/>
+	<unicode hex="1E9E"/>
+	<unicode hex="00DF"/>
+	<outline>
+		<contour>
+			<point x="392.5" y="-5" type="curve" smooth="yes"/>
+			<point x="476.5" y="-5"/>
+			<point x="538" y="51"/>
+			<point x="538" y="134.5" type="curve" smooth="yes"/>
+			<point x="538" y="180.5"/>
+			<point x="515" y="223"/>
+			<point x="445" y="272.5" type="curve" smooth="yes"/>
+			<point x="413.5" y="294.5"/>
+			<point x="405.5" y="309"/>
+			<point x="405.5" y="344.5" type="curve" smooth="yes"/>
+			<point x="405.5" y="402"/>
+			<point x="462.5" y="500"/>
+			<point x="462.5" y="578" type="curve" smooth="yes"/>
+			<point x="462.5" y="656"/>
+			<point x="401.5" y="708"/>
+			<point x="310" y="708" type="curve" smooth="yes"/>
+			<point x="169.5" y="708"/>
+			<point x="76" y="636"/>
+			<point x="76" y="548.5" type="curve"/>
+			<point x="176" y="551.5" type="line"/>
+			<point x="177" y="630.5"/>
+			<point x="204.5" y="678"/>
+			<point x="310" y="678" type="curve" smooth="yes"/>
+			<point x="371" y="678"/>
+			<point x="411.5" y="650.5"/>
+			<point x="411.5" y="609" type="curve" smooth="yes"/>
+			<point x="411.5" y="569.5"/>
+			<point x="388.5" y="533.5"/>
+			<point x="365" y="498" type="curve" smooth="yes"/>
+			<point x="325.5" y="437.5"/>
+			<point x="316.5" y="401"/>
+			<point x="316.5" y="369.5" type="curve" smooth="yes"/>
+			<point x="316.5" y="337"/>
+			<point x="339.5" y="311"/>
+			<point x="440" y="238.5" type="curve" smooth="yes"/>
+			<point x="491.5" y="201"/>
+			<point x="492" y="156"/>
+			<point x="463.5" y="123.5" type="curve" smooth="yes"/>
+			<point x="443" y="100"/>
+			<point x="406.5" y="83"/>
+			<point x="361" y="83" type="curve" smooth="yes"/>
+			<point x="309.5" y="83"/>
+			<point x="275.5" y="129"/>
+			<point x="275.5" y="198.5" type="curve"/>
+			<point x="256.5" y="198.5" type="line"/>
+			<point x="257" y="76.5"/>
+			<point x="312" y="-5"/>
+		</contour>
+		<contour>
+			<point x="76" y="0" type="line"/>
+			<point x="176" y="0" type="line"/>
+			<point x="176" y="551.5" type="line"/>
+			<point x="76" y="548.5" type="line"/>
+		</contour>
+		<component base="_part.longserif" xScale="-1" yScale="-1" xOffset="342" yOffset="700"/>
+		<component base="_part.longserif" xScale="-1" yScale="-1" xOffset="282" yOffset="700"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>_part.longserif</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>_part.longserif</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

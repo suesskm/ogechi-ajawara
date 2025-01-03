@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_part.stemthin" format="2">
+	<advance width="178"/>
+	<outline>
+		<component base="_part.shortserif" xOffset="-20" yOffset="-672"/>
+		<component base="_part.shortserif" xOffset="-20"/>
+		<component base="_part.verticalstrokethin"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.Export</key>
+			<false/>
+		</dict>
+	</lib>
+</glyph>

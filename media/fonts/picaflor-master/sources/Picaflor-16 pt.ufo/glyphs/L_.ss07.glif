@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="L.ss07" format="2">
+	<advance width="443"/>
+	<outline>
+		<contour>
+			<point x="246" y="0" type="line"/>
+			<point x="316" y="0" type="line"/>
+			<point x="348" y="283" type="line"/>
+			<point x="330" y="283" type="line"/>
+		</contour>
+		<contour>
+			<point x="245" y="0" type="line"/>
+			<point x="346" y="0" type="line"/>
+			<point x="346" y="28" type="line"/>
+			<point x="245" y="28" type="line"/>
+		</contour>
+		<contour>
+			<point x="318" y="0" type="line"/>
+			<point x="368" y="0" type="line"/>
+			<point x="423" y="168" type="line"/>
+			<point x="405" y="168" type="line"/>
+		</contour>
+		<component base="_part.stemserifs" xOffset="-10"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

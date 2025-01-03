@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one" format="2">
+	<advance width="302"/>
+	<unicode hex="0031"/>
+	<guideline x="333.5" y="540" angle="90"/>
+	<guideline x="115.5" y="737" angle="0"/>
+	<outline>
+		<contour>
+			<point x="127" y="0" type="line"/>
+			<point x="227" y="0" type="line"/>
+			<point x="227" y="737" type="line"/>
+			<point x="201.5" y="688" type="line"/>
+			<point x="127" y="579.5" type="line"/>
+		</contour>
+		<contour>
+			<point x="5" y="500" type="curve"/>
+			<point x="34.5" y="314.5" type="line"/>
+			<point x="40.5" y="314.5" type="line"/>
+			<point x="29" y="404"/>
+			<point x="58.5" y="503"/>
+			<point x="115.5" y="567.5" type="curve"/>
+			<point x="162" y="613.5"/>
+			<point x="202" y="673"/>
+			<point x="227" y="737" type="curve"/>
+			<point x="219" y="737" type="line"/>
+			<point x="175" y="632"/>
+			<point x="89.5" y="537"/>
+		</contour>
+		<component base="_part.longserif" xScale="-1" yScale="-1" xOffset="322" yOffset="700"/>
+		<component base="_part.longserif" xScale="-1" yScale="-1" xOffset="297" yOffset="700"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>H</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

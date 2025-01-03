@@ -40,6 +40,24 @@ body{
   
   }
 
+  @font-face {
+    font-family: 'Avara';
+    src: url('../media/fonts/Avara-Black.eot') format('ttf');
+ 
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+
+  @font-face {
+    font-family: 'Picaflor';
+    src: url('../media/fonts/Picaflor-12pt.eot') format('eot');
+    src: url('../media/fonts/Picaflor-12pt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
 
 .flex-container-header{
     display: flex;
@@ -77,23 +95,23 @@ a{
 
 
 #home:hover{
-    background-color: #D0C743;
+    background-color: #ff7bc9;
     font-weight: 400;
 }
 
 #contact:hover{
-    background-color: #D0C743;
+    background-color: #ff7bc9;
     font-weight: 400;
 }
 
 #header2:hover{
-    background-color: #D0C743;
+    background-color: #ff7bc9;
     font-weight: 400;
 }
 
 
 #h3:hover{
-    background-color: #D0C743;
+    background-color: #ff7bc9;
     font-weight: 500;
 }
 
@@ -156,10 +174,10 @@ a{
 
 .flex-item{
     display: flex;
-    width: 80%;
+    width: 90%;
     height: auto;
   flex-wrap: nowrap;
-   flex-direction: row;
+   flex-direction: column;
    justify-content: left;
    align-items: left;
   padding: 50px;
@@ -199,22 +217,8 @@ a{
 
 }
 
-h1{
-    font-size: 18px;
-    font-family: 'playfair display', serif;
-    font-weight: 200;
-   color: #0A5D4C;
- 
 
-  
-}
 
-hr{
-    width: 100%;
-    height: 1px;
-    background-color: #0A5D4C;
-    border: none;
-}
 
 
 @font-face{
@@ -255,21 +259,25 @@ hr{
     
   }
 
-  #name2{
+  h4{
     font-family:'Courier New', Courier, monospace;
     font-size: 16px;
     font-weight: 200;
-    position: absolute; /* Anchor to the viewport */
-    color:#F26840;
-    padding: 20px;
+    position: absolute;
+   margin-top: 20px;
+   margin-right: 20px;
     right: 0;
   }
 
-p{
-    font-size: 42px;
-    font-family: "noto serif display", serif;
+  h4:hover{
+    background-color:#ff7bc9;
+  }
+
+h1{
+    font-size: 200px;
+    font-family: "Picaflor", serif;
     font-weight: 200;
-   color: #0A5D4C;
+   color: #ff7bc9;
    
 }
 
@@ -280,13 +288,7 @@ h3{
    color: #0A5D4C;
    
 }
-h4{
-    font-size: 18px;
-    font-family: "dm sans", sans-serif;
-    font-weight: 200;
-   color: #0A5D4C;
-   
-}
+
 
 
 
@@ -298,6 +300,12 @@ h2{
    
 }
  
+p{
+    font-family: 'dm sans', sans-serif;
+    font-weight: 100;
+    padding: 20px;
+    font-size: 24px;
+}
  
  
 #down-arrow{
@@ -393,7 +401,7 @@ z-index:-1;
      /* Align children to the bottom if necessary */
      justify-content: left;
      align-items: left;
-     background-color: gray;
+    
     }
 
 
@@ -541,13 +549,13 @@ background-color: plum;
    .flex-container1{
     display: block;
     width: 100%;
-    background-color: #D0C743;
+  
    }
 
    .flex-container2{
     display: block;
     width: 100%;
-    background-color: plum;
+   
    }
 
 .parent-container{

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="M.ss03" format="2">
+	<advance width="583"/>
+	<outline>
+		<contour>
+			<point x="437" y="0" type="line"/>
+			<point x="539" y="0" type="line"/>
+			<point x="369.5" y="737" type="line"/>
+			<point x="320" y="504" type="line"/>
+		</contour>
+		<contour>
+			<point x="37" y="0" type="line"/>
+			<point x="67.5" y="0" type="line"/>
+			<point x="214" y="633.5" type="line"/>
+			<point x="206.5" y="737" type="line"/>
+		</contour>
+		<contour>
+			<point x="221.5" y="-57" type="line"/>
+			<point x="272" y="208.5" type="line"/>
+			<point x="206.5" y="737" type="line"/>
+			<point x="139" y="443" type="line"/>
+		</contour>
+		<contour>
+			<point x="221.5" y="-57" type="line"/>
+			<point x="378.5" y="633" type="line"/>
+			<point x="369.5" y="737" type="line"/>
+			<point x="223.5" y="51.5" type="line"/>
+		</contour>
+		<component base="_part.longserif" xOffset="331" yOffset="-692"/>
+		<component base="_part.shortserif" xOffset="-60" yOffset="-692"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>_part.longserif</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>_part.shortserif</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>A</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>A</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

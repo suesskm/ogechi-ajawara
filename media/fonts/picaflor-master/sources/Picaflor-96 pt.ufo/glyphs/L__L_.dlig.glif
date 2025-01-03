@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="L_L.dlig" format="2">
+	<advance width="648.5"/>
+	<outline>
+		<contour>
+			<point x="71" y="0" type="line"/>
+			<point x="171" y="0" type="line"/>
+			<point x="171" y="700" type="line"/>
+			<point x="71" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="11" y="0" type="line"/>
+			<point x="552.5" y="0" type="line"/>
+			<point x="552.5" y="4" type="line"/>
+			<point x="11" y="4" type="line"/>
+		</contour>
+		<contour>
+			<point x="280.5" y="283" type="line"/>
+			<point x="550.5" y="283" type="line"/>
+			<point x="550.5" y="287" type="line"/>
+			<point x="280.5" y="287" type="line"/>
+		</contour>
+		<contour>
+			<point x="513" y="0" type="line"/>
+			<point x="563.5" y="0" type="line"/>
+			<point x="635.5" y="233" type="line"/>
+			<point x="627" y="233" type="line"/>
+		</contour>
+		<contour>
+			<point x="11" y="696" type="line"/>
+			<point x="231" y="696" type="line"/>
+			<point x="231" y="700" type="line"/>
+			<point x="11" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="340.5" y="283" type="line"/>
+			<point x="440.5" y="283" type="line"/>
+			<point x="440.5" y="700" type="line"/>
+			<point x="340.5" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="513" y="283" type="line"/>
+			<point x="563.5" y="283" type="line"/>
+			<point x="635.5" y="516" type="line"/>
+			<point x="627" y="516" type="line"/>
+		</contour>
+		<contour>
+			<point x="280.5" y="696" type="line"/>
+			<point x="500.5" y="696" type="line"/>
+			<point x="500.5" y="700" type="line"/>
+			<point x="280.5" y="700" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>L</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>L</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

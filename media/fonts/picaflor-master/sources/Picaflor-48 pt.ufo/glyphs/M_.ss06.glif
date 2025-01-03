@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="M.ss06" format="2">
+	<advance width="562"/>
+	<anchor x="281" y="700" name="top"/>
+	<anchor x="281" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="235" y="-58" type="line"/>
+			<point x="278" y="199.5" type="line"/>
+			<point x="194" y="700" type="line"/>
+			<point x="102" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="237.5" y="0" type="line"/>
+			<point x="235" y="-58" type="line"/>
+			<point x="368" y="700" type="line"/>
+			<point x="360" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="65" y="0" type="line"/>
+			<point x="73" y="0" type="line"/>
+			<point x="105" y="700" type="line"/>
+			<point x="97" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="397" y="0" type="line"/>
+			<point x="497" y="0" type="line"/>
+			<point x="465" y="700" type="line"/>
+			<point x="365" y="700" type="line"/>
+		</contour>
+		<component base="_part.longserif" xScale="-1" yScale="-1" xOffset="592" yOffset="700"/>
+		<component base="_part.shortserif" xOffset="364"/>
+		<component base="_part.shortserif"/>
+		<component base="_part.shortserif" xOffset="-29.938" yOffset="-692.180"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="K.ss04" format="2">
+	<advance width="540"/>
+	<anchor x="260" y="700" name="top"/>
+	<anchor x="260" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="362" y="0" type="line"/>
+			<point x="463" y="0" type="line"/>
+			<point x="292.5" y="606.5" type="line"/>
+			<point x="214.5" y="552.5" type="line"/>
+		</contour>
+		<contour>
+			<point x="293" y="0" type="line"/>
+			<point x="513" y="0" type="line"/>
+			<point x="513" y="30" type="line"/>
+			<point x="293" y="30" type="line"/>
+		</contour>
+		<contour>
+			<point x="131.5" y="516.5" type="line"/>
+			<point x="184.5" y="516.5" type="line"/>
+			<point x="449.5" y="700" type="line"/>
+			<point x="396.5" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="293" y="670" type="line"/>
+			<point x="464" y="670" type="line"/>
+			<point x="464" y="700" type="line"/>
+			<point x="293" y="700" type="line"/>
+		</contour>
+		<component base="_part.stemserifs" xOffset="-9"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>_part.stemserifs</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

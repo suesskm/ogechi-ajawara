@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four" format="2">
+	<advance width="502"/>
+	<unicode hex="0034"/>
+	<outline>
+		<contour>
+			<point x="3.5" y="140" type="line"/>
+			<point x="36" y="140" type="line"/>
+			<point x="364.5" y="717.5" type="line"/>
+			<point x="364.5" y="779" type="line"/>
+		</contour>
+		<contour>
+			<point x="32.5" y="140" type="line"/>
+			<point x="428" y="140" type="line"/>
+			<point x="428" y="170" type="line"/>
+			<point x="49.5" y="170" type="line"/>
+		</contour>
+		<contour>
+			<point x="33" y="140" type="line"/>
+			<point x="99" y="140" type="line"/>
+			<point x="99" y="215"/>
+			<point x="141.5" y="322.5"/>
+			<point x="189" y="409" type="curve"/>
+			<point x="182" y="413.5" type="line"/>
+		</contour>
+		<contour>
+			<point x="264.5" y="0" type="line"/>
+			<point x="364.5" y="0" type="line"/>
+			<point x="364.5" y="737" type="line"/>
+			<point x="264.5" y="551" type="line"/>
+		</contour>
+		<contour>
+			<point x="393" y="140" type="line"/>
+			<point x="454" y="140" type="line"/>
+			<point x="476" y="373" type="line"/>
+			<point x="457" y="373" type="line"/>
+		</contour>
+		<component base="_part.longserif" xScale="-1" yScale="-1" xOffset="471" yOffset="700"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>_part.longserif</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

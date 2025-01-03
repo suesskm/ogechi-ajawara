@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniA746" format="2">
+	<advance width="533"/>
+	<unicode hex="A746"/>
+	<unicode hex="A747"/>
+	<anchor x="337" y="350" name="center"/>
+	<anchor x="337" y="700" name="top"/>
+	<anchor x="523" y="700" name="topright"/>
+	<anchor x="337" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="225" y="0" type="line"/>
+			<point x="325" y="0" type="line"/>
+			<point x="325" y="450" type="line"/>
+			<point x="175" y="450" type="line"/>
+			<point x="175" y="700" type="line"/>
+			<point x="75" y="700" type="line"/>
+			<point x="75" y="442" type="line"/>
+			<point x="225" y="442" type="line"/>
+		</contour>
+		<contour>
+			<point x="165" y="0" type="line"/>
+			<point x="385" y="0" type="line"/>
+			<point x="385" y="8" type="line"/>
+			<point x="165" y="8" type="line"/>
+		</contour>
+		<contour>
+			<point x="375" y="0" type="line"/>
+			<point x="461" y="0" type="line"/>
+			<point x="461" y="8" type="line"/>
+			<point x="375" y="8" type="line"/>
+		</contour>
+		<contour>
+			<point x="444" y="0" type="line"/>
+			<point x="496" y="0" type="line"/>
+			<point x="518" y="233" type="line"/>
+			<point x="508" y="233" type="line"/>
+		</contour>
+		<contour>
+			<point x="15" y="692" type="line"/>
+			<point x="235" y="692" type="line"/>
+			<point x="235" y="700" type="line"/>
+			<point x="15" y="700" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

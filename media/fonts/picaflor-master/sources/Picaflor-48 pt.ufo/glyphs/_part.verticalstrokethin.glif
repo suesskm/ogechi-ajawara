@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_part.verticalstrokethin" format="2">
+	<advance width="158"/>
+	<outline>
+		<contour>
+			<point x="75" y="0" type="line"/>
+			<point x="83" y="0" type="line"/>
+			<point x="83" y="700" type="line"/>
+			<point x="75" y="700" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.Export</key>
+			<false/>
+		</dict>
+	</lib>
+</glyph>

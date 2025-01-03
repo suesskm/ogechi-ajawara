@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eth" format="2">
+	<advance width="555"/>
+	<unicode hex="00D0"/>
+	<unicode hex="00F0"/>
+	<outline>
+		<contour>
+			<point x="430" y="350" type="curve"/>
+			<point x="540" y="350" type="line"/>
+			<point x="540" y="526"/>
+			<point x="423" y="700"/>
+			<point x="210" y="700" type="curve"/>
+			<point x="153.5" y="700" type="line"/>
+			<point x="153.5" y="692" type="line"/>
+			<point x="210" y="692" type="line"/>
+			<point x="342" y="692"/>
+			<point x="430" y="558"/>
+		</contour>
+		<contour>
+			<point x="153.5" y="0" type="line"/>
+			<point x="210" y="0" type="line"/>
+			<point x="423" y="0"/>
+			<point x="540" y="184"/>
+			<point x="540" y="350" type="curve"/>
+			<point x="430" y="350" type="line"/>
+			<point x="430" y="152"/>
+			<point x="342" y="8"/>
+			<point x="210" y="8" type="curve"/>
+			<point x="153.5" y="8" type="line"/>
+		</contour>
+		<component base="_part.stem" xOffset="-20"/>
+		<component base="_part.shortserif" xOffset="-20"/>
+		<component base="_part.shortserif" xOffset="-20" yOffset="-692"/>
+		<component base="_part.wavestrokehorizontal" xOffset="115"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>O</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

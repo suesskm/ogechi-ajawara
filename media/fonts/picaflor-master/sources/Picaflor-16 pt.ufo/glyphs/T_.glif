@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="T" format="2">
+	<advance width="450"/>
+	<unicode hex="0054"/>
+	<unicode hex="0074"/>
+	<anchor x="225" y="350" name="center"/>
+	<anchor x="225" y="0" name="bottom"/>
+	<anchor x="225" y="700" name="top"/>
+	<outline>
+		<contour>
+			<point x="407" y="467" type="line"/>
+			<point x="425" y="467" type="line"/>
+			<point x="403" y="700" type="line"/>
+			<point x="343" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="25" y="467" type="line"/>
+			<point x="43" y="467" type="line"/>
+			<point x="107" y="700" type="line"/>
+			<point x="47" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="69" y="672" type="line"/>
+			<point x="155" y="672" type="line"/>
+			<point x="155" y="700" type="line"/>
+			<point x="69" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="295" y="672" type="line"/>
+			<point x="381" y="672" type="line"/>
+			<point x="381" y="700" type="line"/>
+			<point x="295" y="700" type="line"/>
+		</contour>
+		<component base="_part.stemserifs" xOffset="70"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

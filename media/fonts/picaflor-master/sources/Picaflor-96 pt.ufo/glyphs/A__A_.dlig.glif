@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="A_A.dlig" format="2">
+	<advance width="808"/>
+	<outline>
+		<contour>
+			<point x="54" y="101" type="line"/>
+			<point x="305" y="101" type="line"/>
+			<point x="305" y="105" type="line"/>
+			<point x="54" y="105" type="line"/>
+		</contour>
+		<contour>
+			<point x="223.5" y="737" type="line"/>
+			<point x="171.5" y="544" type="line"/>
+			<point x="317.5" y="0" type="line"/>
+			<point x="421.5" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="223.5" y="737" type="line"/>
+			<point x="25.5" y="0" type="line"/>
+			<point x="29" y="0" type="line"/>
+			<point x="225.5" y="731" type="line"/>
+		</contour>
+		<contour>
+			<point x="481" y="4" type="line"/>
+			<point x="261" y="4" type="line"/>
+			<point x="261" y="0" type="line"/>
+			<point x="481" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="101" y="4" type="line"/>
+			<point x="-27" y="4" type="line"/>
+			<point x="-27" y="0" type="line"/>
+			<point x="101" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="408" y="101" type="line"/>
+			<point x="659" y="101" type="line"/>
+			<point x="659" y="105" type="line"/>
+			<point x="408" y="105" type="line"/>
+		</contour>
+		<contour>
+			<point x="577.5" y="737" type="line"/>
+			<point x="525.5" y="544" type="line"/>
+			<point x="671.5" y="0" type="line"/>
+			<point x="775.5" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="577.5" y="737" type="line"/>
+			<point x="379.5" y="0" type="line"/>
+			<point x="383" y="0" type="line"/>
+			<point x="579.5" y="731" type="line"/>
+		</contour>
+		<contour>
+			<point x="835" y="4" type="line"/>
+			<point x="615" y="4" type="line"/>
+			<point x="615" y="0" type="line"/>
+			<point x="835" y="0" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>A</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>A</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="F.ss01" format="2">
+	<advance width="393"/>
+	<outline>
+		<contour>
+			<point x="71" y="0" type="line"/>
+			<point x="291" y="0" type="line"/>
+			<point x="291" y="4" type="line"/>
+			<point x="71" y="4" type="line"/>
+		</contour>
+		<contour>
+			<point x="378.5" y="417" type="line"/>
+			<point x="387" y="417" type="line"/>
+			<point x="375" y="700" type="line"/>
+			<point x="314.5" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="221" y="696" type="line"/>
+			<point x="367" y="696" type="line"/>
+			<point x="367" y="700" type="line"/>
+			<point x="221" y="700" type="line"/>
+		</contour>
+		<component base="_part.stemserifs" xOffset="-22"/>
+		<component base="_part.wavestrokehorizontal" xOffset="115" yOffset="-70"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>_part.stemserifs</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>_part.wavestrokehorizontal</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>F</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

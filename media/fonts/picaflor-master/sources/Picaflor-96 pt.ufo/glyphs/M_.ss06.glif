@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="M.ss06" format="2">
+	<advance width="558"/>
+	<anchor x="279" y="700" name="top"/>
+	<anchor x="279" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="233" y="-58" type="line"/>
+			<point x="276" y="199.5" type="line"/>
+			<point x="192" y="700" type="line"/>
+			<point x="100" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="238.5" y="-7" type="line"/>
+			<point x="233" y="-58" type="line"/>
+			<point x="366" y="700" type="line"/>
+			<point x="362" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="65" y="0" type="line"/>
+			<point x="69" y="0" type="line"/>
+			<point x="101" y="700" type="line"/>
+			<point x="97" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="395" y="0" type="line"/>
+			<point x="495" y="0" type="line"/>
+			<point x="463" y="700" type="line"/>
+			<point x="363" y="700" type="line"/>
+		</contour>
+		<component base="_part.longserif" xScale="-1" yScale="-1" xOffset="588" yOffset="700"/>
+		<component base="_part.shortserif" xOffset="364"/>
+		<component base="_part.shortserif"/>
+		<component base="_part.shortserif" xOffset="-30" yOffset="-696"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>_part.longserif</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>_part.shortserif</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>_part.shortserif</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>3</integer>
+					<key>name</key>
+					<string>_part.shortserif</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

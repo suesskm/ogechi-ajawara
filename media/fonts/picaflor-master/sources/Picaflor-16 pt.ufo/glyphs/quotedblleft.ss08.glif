@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblleft.ss08" format="2">
+	<advance width="273"/>
+	<outline>
+		<contour>
+			<point x="140" y="500" type="line"/>
+			<point x="210" y="500" type="line"/>
+			<point x="238.5" y="750" type="line"/>
+			<point x="225.5" y="750" type="line"/>
+		</contour>
+		<contour>
+			<point x="35" y="500" type="line"/>
+			<point x="105" y="500" type="line"/>
+			<point x="133.5" y="750" type="line"/>
+			<point x="120.5" y="750" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

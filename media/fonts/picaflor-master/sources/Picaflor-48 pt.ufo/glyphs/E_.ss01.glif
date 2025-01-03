@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="E.ss01" format="2">
+	<advance width="451"/>
+	<guideline x="261" y="484" angle="0"/>
+	<anchor x="284" y="0" name="ogonek"/>
+	<anchor x="213" y="700" name="top"/>
+	<anchor x="0" y="700" name="topleft"/>
+	<anchor x="213" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="307" y="0" type="line"/>
+			<point x="379" y="1" type="line"/>
+			<point x="441" y="263" type="line"/>
+			<point x="431" y="263" type="line"/>
+		</contour>
+		<contour>
+			<point x="205" y="0" type="line"/>
+			<point x="341" y="0" type="line"/>
+			<point x="341" y="8" type="line"/>
+			<point x="205" y="8" type="line"/>
+		</contour>
+		<contour>
+			<point x="225" y="692" type="line"/>
+			<point x="351" y="692" type="line"/>
+			<point x="351" y="700" type="line"/>
+			<point x="225" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="416" y="557" type="line"/>
+			<point x="423" y="564" type="line"/>
+			<point x="358" y="700" type="line"/>
+			<point x="307" y="700" type="line"/>
+			<point x="343" y="625" type="line"/>
+		</contour>
+		<component base="_part.stemserifs" xOffset="-20"/>
+		<component base="_part.wavestrokehorizontal" xOffset="115" yOffset="80"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>E</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>E</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

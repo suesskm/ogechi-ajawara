@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="X.ss04" format="2">
+	<advance width="389"/>
+	<guideline x="242.5" y="540" angle="0"/>
+	<anchor x="214" y="700" name="top"/>
+	<anchor x="-21" y="700" name="topleft"/>
+	<outline>
+		<contour>
+			<point x="253.5" y="0" type="line"/>
+			<point x="356" y="0" type="line"/>
+			<point x="242.5" y="540" type="line"/>
+			<point x="161" y="500" type="line"/>
+		</contour>
+		<contour>
+			<point x="59" y="0" type="line"/>
+			<point x="67.5" y="0" type="line"/>
+			<point x="174" y="540" type="line"/>
+			<point x="165.5" y="540" type="line"/>
+		</contour>
+		<contour>
+			<point x="161" y="500" type="line"/>
+			<point x="242.5" y="540" type="line"/>
+			<point x="131" y="700" type="line"/>
+			<point x="31" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="231" y="523.5" type="line"/>
+			<point x="240" y="523.5" type="line"/>
+			<point x="357" y="700" type="line"/>
+			<point x="348" y="700" type="line"/>
+		</contour>
+		<component base="_part.longserif" xScale="-1" yScale="-1" xOffset="449" yOffset="700"/>
+		<component base="_part.longserif" xOffset="-60"/>
+		<component base="_part.shortserif" xOffset="250"/>
+		<component base="_part.shortserif" xOffset="-32" yOffset="-692"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

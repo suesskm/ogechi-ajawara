@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bullet.ss06" format="2">
+	<advance width="216"/>
+	<guideline x="91.5" y="380" angle="0"/>
+	<guideline x="6.5" y="295" angle="90"/>
+	<outline>
+		<contour>
+			<point x="23" y="294" type="line"/>
+			<point x="107" y="210" type="line"/>
+			<point x="109" y="210" type="line"/>
+			<point x="193" y="294" type="line"/>
+			<point x="193" y="296" type="line"/>
+			<point x="109" y="380" type="line"/>
+			<point x="107" y="380" type="line"/>
+			<point x="23" y="296" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

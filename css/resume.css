@@ -18,6 +18,15 @@ canvas{
   
   }
 
+  @font-face {
+    font-family: 'Picaflor';
+    src: url('../media/fonts/Picaflor-12pt.eot') format('eot');
+    src: url('../media/fonts/Picaflor-12pt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
 
     
 a{
@@ -204,7 +213,7 @@ a{
 
         h1{
             font-size: 130px;
-            font-family: 'Playfair Display', serif;
+            font-family: 'Picaflor', serif;
             font-weight: 400;
             align-items: center;
             letter-spacing: 2px;

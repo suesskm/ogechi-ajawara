@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="T.ss01" format="2">
+	<advance width="430"/>
+	<anchor x="215" y="350" name="center"/>
+	<anchor x="215" y="0" name="bottom"/>
+	<anchor x="215" y="700" name="top"/>
+	<outline>
+		<contour>
+			<point x="408.5" y="317" type="line"/>
+			<point x="417" y="317" type="line"/>
+			<point x="395" y="700" type="line"/>
+			<point x="344.5" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="13" y="317" type="line"/>
+			<point x="21.5" y="317" type="line"/>
+			<point x="85.5" y="700" type="line"/>
+			<point x="35" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="59" y="696" type="line"/>
+			<point x="145" y="696" type="line"/>
+			<point x="145" y="700" type="line"/>
+			<point x="59" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="285" y="696" type="line"/>
+			<point x="371" y="696" type="line"/>
+			<point x="371" y="700" type="line"/>
+			<point x="285" y="700" type="line"/>
+		</contour>
+		<component base="_part.stemserifs" xOffset="72"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>_part.stemserifs</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

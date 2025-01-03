@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="W" format="2">
+	<advance width="622"/>
+	<unicode hex="0057"/>
+	<unicode hex="0077"/>
+	<anchor x="321" y="700" name="top"/>
+	<anchor x="316" y="0" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="428.5" y="-37" type="line"/>
+			<point x="480" y="187" type="line"/>
+			<point x="361" y="700" type="line"/>
+			<point x="259" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="200.5" y="-37" type="line"/>
+			<point x="252" y="187" type="line"/>
+			<point x="133" y="700" type="line"/>
+			<point x="31" y="700" type="line"/>
+		</contour>
+		<contour>
+			<point x="341" y="595" type="line"/>
+			<point x="198" y="-24" type="line"/>
+			<point x="200.5" y="-37" type="line"/>
+			<point x="346" y="595" type="line"/>
+		</contour>
+		<contour>
+			<point x="428.5" y="-37" type="line"/>
+			<point x="598" y="700" type="line"/>
+			<point x="593.5" y="700" type="line"/>
+			<point x="426" y="-24" type="line"/>
+		</contour>
+		<component base="_part.longserif" xOffset="-60"/>
+		<component base="_part.shortserif" xOffset="488"/>
+		<component base="_part.longserif" xOffset="166"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>_part.longserif</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>_part.shortserif</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>_part.longserif</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>A</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>A</string>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

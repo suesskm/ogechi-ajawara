@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Q.ss03" format="2">
+	<advance width="510"/>
+	<outline>
+		<contour>
+			<point x="373.5" y="-145" type="curve"/>
+			<point x="373.5" y="-137" type="line"/>
+			<point x="332.5" y="-137"/>
+			<point x="322.5" y="-82"/>
+			<point x="322.5" y="0" type="curve"/>
+			<point x="227.5" y="0" type="line"/>
+			<point x="227.5" y="-104.5"/>
+			<point x="268.5" y="-145"/>
+		</contour>
+		<contour>
+			<point x="176.5" y="145" type="curve"/>
+			<point x="176.5" y="137" type="line"/>
+			<point x="217.5" y="137"/>
+			<point x="227.5" y="82"/>
+			<point x="227.5" y="0" type="curve"/>
+			<point x="322.5" y="0" type="line"/>
+			<point x="322.5" y="104.5"/>
+			<point x="281.5" y="145"/>
+		</contour>
+		<component base="O.ss03"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_part.halfstemleft" format="2">
+	<advance width="270"/>
+	<outline>
+		<component base="_part.stem" xOffset="-20"/>
+		<component base="_part.longserif" xScale="-1" yScale="-1" xOffset="290" yOffset="700"/>
+		<component base="_part.shortserif" xOffset="-20"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.Export</key>
+			<false/>
+		</dict>
+	</lib>
+</glyph>

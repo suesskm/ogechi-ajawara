@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemotleft" format="2">
+	<advance width="282.5"/>
+	<unicode hex="00AB"/>
+	<outline>
+		<contour>
+			<point x="177" y="319.5" type="line"/>
+			<point x="201" y="319.5"/>
+			<point x="233" y="356.5"/>
+			<point x="257.5" y="412.5" type="curve"/>
+			<point x="249.5" y="417.5" type="line"/>
+			<point x="222.5" y="374"/>
+			<point x="181.5" y="337.5"/>
+			<point x="125" y="326" type="curve"/>
+			<point x="125" y="320" type="line"/>
+		</contour>
+		<contour>
+			<point x="149.5" y="228.5" type="curve"/>
+			<point x="157.5" y="233.5" type="line"/>
+			<point x="133" y="289.5"/>
+			<point x="101" y="326.5"/>
+			<point x="77" y="326.5" type="curve"/>
+			<point x="25" y="326" type="line"/>
+			<point x="25" y="320" type="line"/>
+			<point x="82" y="308.5"/>
+			<point x="122.5" y="271.5"/>
+		</contour>
+		<contour>
+			<point x="77" y="319.5" type="line"/>
+			<point x="101" y="319.5"/>
+			<point x="133" y="356.5"/>
+			<point x="157.5" y="412.5" type="curve"/>
+			<point x="149.5" y="417.5" type="line"/>
+			<point x="122.5" y="374"/>
+			<point x="81.5" y="337.5"/>
+			<point x="25" y="326" type="curve"/>
+			<point x="25" y="320" type="line"/>
+		</contour>
+		<contour>
+			<point x="249.5" y="228.5" type="curve"/>
+			<point x="257.5" y="233.5" type="line"/>
+			<point x="233" y="289.5"/>
+			<point x="201" y="326.5"/>
+			<point x="177" y="326.5" type="curve"/>
+			<point x="125" y="326" type="line"/>
+			<point x="125" y="320" type="line"/>
+			<point x="182" y="308.5"/>
+			<point x="222.5" y="271.5"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>
