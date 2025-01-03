@@ -8,10 +8,23 @@ canvas{
     
 }
 
+.mobile-container{
+    display: none;
+} 
+
 @font-face {
     font-family: 'isenheim';
     src: url('../media/fonts/Isenheim_Fin.otf') format('otf'),
          url('../media/fonts/Isenheim_Regulier.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+  @font-face {
+    font-family: 'Picaflor';
+    src: url('../media/fonts/Picaflor-12pt.eot') format('eot');
+    src: url('../media/fonts/Picaflor-12pt.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   
@@ -23,27 +36,39 @@ canvas{
     color: black;
   }
 
+  .column img hover {
+    opacity: 0.3;
+  }
+
+
+
   #home:hover{
-  background-color: #F36840;
+  background-color: #007668;
+  color: white;
   font-weight: 400;
 
  
   }
 
   #contact:hover{
-    background-color: #F36840;
+    background-color: #007668;
+    color: white;
     font-weight: 400;
  
   }
 
   #header2:hover{
-    background-color: #F36840;
+    background-color: #007668;
+  color: white;
     font-weight: 400;
  
   }
 
 
-
+img hover{
+  color: purple;
+    opacity: 0.3;
+}
 
  
 
@@ -104,14 +129,21 @@ canvas{
         display: flex;
         width: 100%; /* Takes up half the width */
         height: 100%; /* Matches parent's height */
-     background-color: #D0C743;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+  
         
     }
 
     .flex-item1{
         display: flex;
         flex-direction: column;
-        width: 30%; /* Takes up half the width */
+        text-align: center;
+        padding: 50px;
+        width: 80%; /* Takes up half the width */
         height: 100%; /* Matches parent's height */
      
     }
@@ -119,9 +151,9 @@ canvas{
     .flex-item2{
         display: flex;
         flex-direction: column;
-        width: 70%; /* Takes up half the width */
+        width: 100%; /* Takes up half the width */
         height: 100%; /* Matches parent's height */
-     background-color: #D0C743;
+    
     }
 
 
@@ -129,7 +161,7 @@ canvas{
         display: flex;
         width: 100%; /* Takes up half the width */
         height: 100%; /* Matches parent's height */
-     background-color: #F36840;
+    
         
     }
 
@@ -138,7 +170,7 @@ canvas{
         flex-direction: column;
         width: 50%; /* Takes up half the width */
         height: 100%; /* Matches parent's height */
-     background-color: yellow;
+    
     }
 
     .flex-item4{
@@ -146,20 +178,21 @@ canvas{
         flex-direction: column;
         width: 50%; /* Takes up half the width */
         height: 100%; /* Matches parent's height */
-     background-color: orange;
+   
     }
   
     p{
-        font-size: 12px;
-        font-family: 'dm sans', sans-serif;
-        font-weight: 300;
-        justify-content: center;
-        padding: 10px;
-        color: #0A5D4C;
-    }
-    
+      font-family: 'dm sans', sans-serif;
+      font-weight: 100;
+      padding: 20px;
+      font-size: 24px;
+  }
+   
 
-
+  hr{
+    color: #ff7bc9;
+    border: .5px solid #ff7bc9;
+   }
 
     
  
@@ -171,12 +204,12 @@ h1{
 }
 
 h2{
-    font-size: 25px;
-        font-family: 'playfair display', serif;
+    font-size: 60px;
+        font-family: 'Picaflor', serif;
         font-weight: 400;
         justify-content: center;
         padding: 10px;
-        color: #0A5D4C;
+        color: #ff7bc9;
     
 }
 
@@ -256,6 +289,7 @@ h3{
   height: 100%;
   margin: auto;
  padding: 20px;
+ border: .5px solid #ff7bc9;
   
 }
 
@@ -269,10 +303,11 @@ h3{
   cursor: pointer;
   position: absolute;
   top: 50%;
+  
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: #F36840;
+  color: #ff7bc9;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -288,7 +323,16 @@ h3{
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: #D0C743;
+  background-color: #007668;
+}
+
+.prev {
+  left: 5px; /* Adjust this value for more space */
+}
+
+.next {
+  right: 5px; /* Adjust this value for more space */
+  border-radius: 3px 0 0 3px;
 }
 
 /* Caption text */
@@ -317,14 +361,14 @@ h3{
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #D0C743;
+  background-color: #e6f2fa;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #F36840;
+  background-color: #ff7bc9;
 }
 
 /* Fading animation */
@@ -336,4 +380,166 @@ h3{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  /* General Reset for Mobile */
+
+
+
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    padding: 10;
+    height: 500px;;
+    border-radius: 10px;
+    display: block;
+    padding-bottom: 20px;
+  }
+  
+
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'courier new', sans-serif;
+    font-size: 14px;
+    display: block;
+    font-weight: 300;
+    text-align: left;
+   
+  }
+  
+  .topnav a.icon {
+  
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+  }
+  
+  .topnav a:hover {
+    background-color: #0A5D4C;
+   
+  }
+  
+  .active {
+
+   color: white;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Adjust canvas display */
+  canvas {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Font sizes for mobile */
+  h1 {
+    font-size: 50px;
+    padding: 5px;
+  }
+
+  h2 {
+    font-size: 40px;
+    padding: 5px;
+  }
+
+  h3 {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  p {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  /* Adjust parent container for mobile */
+  .parent-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  /* Flex containers adjustments */
+ 
+  .flex-container-top, 
+  .flex-container-middle {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Adjust flex items */
+  .flex-item1, 
+  .flex-item2, 
+  .flex-item3, 
+  .flex-item4 {
+    width: 100%; /* Full width for mobile */
+    padding: 10px;
+  }
+
+  /* Slideshow container for mobile */
+  .slideshow-container {
+    max-width: 100%; /* Full width */
+    padding: 10px;
+  }
+
+  .prev, .next {
+    top: 45%; /* Adjust for smaller screens */
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  /* Dots/bullets adjustments */
+  .dot {
+    height: 10px;
+    width: 10px;
+  }
+
+  /* Adjust images */
+  .column img {
+    width: 100%; /* Ensure images are responsive */
+  }
+
+  #one {
+    width: 100%;
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+
+  /* Adjust text */
+  #item-text {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  /* Hide or adjust non-essential elements for mobile */
+  #down-arrow {
+    display: none; /* Hide if not needed on mobile */
+  }
+}
+
+.flex-container-bottom{
+    display: none;
+}
+
+.flex-container-header{
+    display: none;
 }

@@ -23,7 +23,7 @@
 </head>
 <style>
     body {
-        background-color: #D0C743;
+        background-color: #dfdbda;
     }
   </style>
 <body>
@@ -37,6 +37,27 @@
      <a href="https://www.linkedin.com/in/ogechiajawara/" id="header2">LINKEDIN→</a>
    
     </div>
+
+         <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+         <!-- Top Navigation Menu -->
+         <div class="topnav">
+           <a href="../index.html" class="active">OGECHI AJAWARA
+             <!-- <h2>*</h2> -->
+         </a>
+           <!-- Navigation links (hidden by default) -->
+           <div id="myLinks">
+          
+            <a href="../html/work.html" id="header2">WORK</a>
+            <a href="../media/images/OGECHI-AJAWARA.pdf" id="header2">RESUME DOWNLOAD→</a>
+            <a href="https://www.linkedin.com/in/ogechiajawara/" id="header2">LINKEDIN→</a>
+             </div>
+           <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+             <i class="fa fa-bars"></i>
+           </a>
+         </div> 
 
  
 <div class="parent-container">
@@ -61,6 +82,7 @@
         
                
             </p>
+            <hr>
         </div>
        </div>
        </div>
@@ -243,71 +265,32 @@
 </div>
 </div>
 
-
-
-
-
-
-        <!-- <div class="row">
-            <div class="column">
+<div class="flex-container-top">
+ 
+  <div class="flex-item1">
+     
+  <div class="row">
+      <div class="column">
+          <div id="item-text"><h2><b>Social Media Content Creation<br> for Burger King</b></h2>
+              <p> As a Social Media Manager at Dentsu Creative, I specialize in crafting innovative, high-impact social media strategies and leading community management efforts for renowned brands like 7-ELEVEN, Sour Patch Kids, and Burger King. With expertise in content ideation, community engagement, and performance reporting, I thrive on creating content that captivates audiences, sparks viral trends, and fosters meaningful connections between brands and their communities.
+          
+                 
+              </p>
+              <hr>
+          </div>
+         </div>
+         </div>
+         </div>
        
-               
-                <img src="../media/images/Slide1.png" >
-                <img src="../media/images/Slide2.png" >
-                <img src="../media/images/Slide3.png" >
-                <img src="../media/images/Slide5.png" >
-                <img src="../media/images/Slide6.png" >
-                <img src="../media/images/Slide7.png" >
-                <img src="../media/images/Slide8.png" >
-        
-           
-               
-           
-            </div>
-            <div class="column">
-        
-                <img src="../media/images/Slide9.png" >
-                <img src="../media/images/Slide10.png" >
-                <img src="../media/images/Slide11.png" >
-                <img src="../media/images/Slide12.png" >
-                <img src="../media/images/Slide13.png" >
-                <img src="../media/images/Slide14.png" >
-                <img src="../media/images/Slide15.png" >
-               
-             
-            </div>
-            <div class="column">
-                
-                <img src="../media/images/Slide16.png" >
-                <img src="../media/images/Slide17.png" >
-                <img src="../media/images/Slide18.png" >
-                <img src="../media/images/Slide19.png" >
-                <img src="../media/images/Slide20.png" >
-                <img src="../media/images/Slide21.png" >
-                <img src="../media/images/Slide22.png" >
-             
-            </div>
-            <div class="column">
-                <img src="../media/images/Slide23.png" >
-                <img src="../media/images/Slide24.png" >
-                <img src="../media/images/Slide25.png" >
-                <img src="../media/images/Slide26.png" >
-                <img src="../media/images/Slide27.png" >
-                <img src="../media/images/Slide28.png" >
-                <img src="../media/images/Slide29.png" >
-             
-             
-            </div>
-          </div> -->
+
+
+
+
+      
 <div class="flex-container-middle">
           <div class="row">
             <div class="column">
-                <div id="item-text"
-                    <p> As a Social Media Manager at Dentsu Creative, I specialize in crafting innovative, high-impact social media strategies and leading community management efforts for renowned brands like 7-ELEVEN, Sour Patch Kids, and Burger King. With expertise in content ideation, community engagement, and performance reporting, I thrive on creating content that captivates audiences, sparks viral trends, and fosters meaningful connections between brands and their communities.
-                        <br><br>
-                        As a Social Media Manager at Dentsu Creative, I specialize in crafting innovative, high-impact social media strategies and leading community management efforts for renowned brands like 7-ELEVEN, Sour Patch Kids, and Burger King. With expertise in content ideation, community engagement, and performance reporting, I thrive on creating content that captivates audiences, sparks viral trends, and fosters meaningful connections between brands and their communities
-                    </p>
-                </div>
+          
                
                <a href="https://www.instagram.com/p/C8-EYaZpW_Y/?hl=en"><img src="../media/images/bk-1.png"></a>
                 <a href="https://www.instagram.com/p/C8uZ-8tp7uL/?hl=en&img_index=1"><img src="../media/images/bk-2.png"></a>
@@ -364,7 +347,16 @@
 </div>
 
 
-
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
 
 
 
