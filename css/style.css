@@ -609,7 +609,9 @@ background-color: plum;
       }
 
 
-
+.flex-item{
+    margin-top: 0;
+}
 
 
 
@@ -735,6 +737,7 @@ background-color: plum;
      
    hr{
     color: #ff7bc9;
+    border: .5px solid #ff7bc9;
    }
 
 }
