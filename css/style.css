@@ -569,6 +569,8 @@ background-color: plum;
         border-radius: 10px;
         display: block;
         padding-bottom: 20px;
+        background-color: #007668;
+        color: #e6f2fa;
       }
       
     
@@ -578,7 +580,7 @@ background-color: plum;
       }
       
       .topnav a {
-        color: black;
+        color: #e6f2fa;
         padding: 10px;
         text-decoration: none;
         font-family: 'courier new', sans-serif;
@@ -586,6 +588,7 @@ background-color: plum;
         display: block;
         font-weight: 300;
         text-align: left;
+        background-color: #007668;
        
       }
       
@@ -596,10 +599,12 @@ background-color: plum;
         right: 0;
         top: 0;
         padding: 10px;
+        color: #e6f2fa;
       }
       
       .topnav a:hover {
-        background-color: #0A5D4C;
+        background-color: #007668;
+        color: #e6f2fa;
        
       }
       
@@ -612,13 +617,6 @@ background-color: plum;
 .flex-item{
     margin-top: 0;
 }
-
-
-
-
-
-
-
 
 
 
@@ -757,7 +755,7 @@ background-color: plum;
 
 
 #mobile-text:hover{
-background-color:#0A5D4C;
+background-color:#007668;
 }
 
 
@@ -772,6 +770,7 @@ background-color:#0A5D4C;
         padding: 0;
         margin: 0;
         font-size: 14px;
+        overflow-x: hidden;
     }
 
     .flex-container-header, .flex-container-bottom {
@@ -874,13 +873,14 @@ hr{
 }
 
 .mobile-container {
-    max-width: 480px;
+    max-width: 768px;
     margin: auto;
     padding: 10;
     height: 500px;;
     border-radius: 10px;
     display: block;
     padding-bottom: 20px;
+    background-color: #007668;
   }
   
 
@@ -911,7 +911,7 @@ hr{
   }
   
   .topnav a:hover {
-    background-color: #0A5D4C;
+    background-color: #007668;
    
   }
   
@@ -1069,7 +1069,7 @@ border: .5px solid #ff7bc9;
 
 
 #mobile-text:hover{
-background-color:#0A5D4C;
+background-color:#007668;
 }
 
 
