@@ -12,6 +12,10 @@ canvas{
     display: none;
 } 
 
+.topnav{
+  display: none;
+}
+
 @font-face {
     font-family: 'isenheim';
     src: url('../media/fonts/Isenheim_Fin.otf') format('otf'),

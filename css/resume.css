@@ -12,6 +12,7 @@ canvas{
     display: none;
 }
 
+
 @font-face {
     font-family: 'isenheim';
     src: url('../media/fonts/Isenheim_Fin.otf') format('otf'),
@@ -120,7 +121,7 @@ a{
     width: 100%; /* Takes up half the width */
     height: 100%; /* Matches parent's height */
     flex-wrap: nowrap;
-  
+  background-color:#ff7bc8;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -260,15 +261,16 @@ a{
     
         
       /* General Mobile Styles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     .mobile-container {
         max-width: 480px;
         margin: auto;
         padding: 10;
-        height: 500px;;
+        height: 500px;
         border-radius: 10px;
         display: block;
         padding-bottom: 20px;
+        
       }
       
     
@@ -278,7 +280,7 @@ a{
       }
       
       .topnav a {
-        color: black;
+        color: #dedad9;
         padding: 10px;
         text-decoration: none;
         font-family: 'courier new', sans-serif;
@@ -286,6 +288,7 @@ a{
         display: block;
         font-weight: 300;
         text-align: left;
+        background-color: #0a3279;
        
       }
       
@@ -299,22 +302,14 @@ a{
       }
       
       .topnav a:hover {
-        background-color: plum;
+        background-color: #e7f3fb;
        
       }
       
       .active {
     
-       color: white;
+       color: #dedad9;
       }
-
-
-
-
-
-
-
-
 
 
     body {
@@ -375,12 +370,14 @@ a{
 
 
 
-
-
   }
   
 
         
           
         
-        
+  @media screen and (min-width: 481px) {
+    .mobile-container {
+        display: none !important;
+    }
+}
