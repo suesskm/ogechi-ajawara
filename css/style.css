@@ -569,7 +569,7 @@ background-color: plum;
         border-radius: 10px;
         display: block;
         padding-bottom: 20px;
-        background-color: #007668;
+        /* background-color: #007668; */
         color: #e6f2fa;
       }
       
@@ -715,7 +715,7 @@ background-color: plum;
     display: block;
     width: 100%;
     align-items: center;
-    height: 50vh;
+    height: 70vh;
     text-align: center;
    
   
