@@ -565,7 +565,7 @@ background-color: plum;
         max-width: 480px;
         margin: auto;
         padding: 10;
-        height: 500px;;
+        height: 500px;
         border-radius: 10px;
         display: block;
         padding-bottom: 20px;
@@ -712,9 +712,10 @@ background-color: plum;
       }
 
    .flex-container1{
-    display: block;
+    display: flex;
     width: 100%;
     align-items: center;
+    justify-content: center;
     height: 70vh;
     text-align: center;
    
