@@ -718,6 +718,7 @@ background-color: plum;
     justify-content: center;
     height: 70vh;
     text-align: center;
+    padding: 0;
    
   
    }
@@ -728,13 +729,15 @@ background-color: plum;
     display: block;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 
 
      
         h1 {
-            font-size: 80px;
+            font-size: 100px;
+            padding: 0;
         }
         h2 {
             font-size: 20px;
@@ -744,6 +747,7 @@ background-color: plum;
 
         p{
             font-size: 20px;
+            padding: 0;
         }
         h4{
             display: none;
