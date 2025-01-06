@@ -20,7 +20,30 @@ body{
   
  
 }
+@font-face{
+    font-family: "Not Courier Sans";
+    src: url("../media/fonts/NotCourierSans-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
 
+  @font-face{
+    font-family: "Muelsinato";
+    src: url("media/fonts/Muelsinato.otf") format("otf");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face{
+    font-family: "elipse";
+    src: url("media/fonts/elipse.otf") format("otf");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+ 
 
 @font-face {
     font-family: 'isenheim';
@@ -171,26 +194,84 @@ a{
     }
 }
 
+.flex-container1 {
+       
+    width: 100%;
+    height: 100vh;
 
-.flex-item{
+    display: flex; /* Optional if you need additional flexbox layout inside */
+    flex-direction: row; /* Optional for stacking elements */
+     /* Align children to the bottom if necessary */
+     justify-content: left;
+     align-items: column;
+    
+    }
+
+
+    
+  .parent-container {
     display: flex;
-    width: 80%;
-    height: auto;
+    flex-direction: column;
+    flex-wrap: nowrap; /* Ensure no overflow */
+    width: 100%;
+    height: 100vh;
+    align-items: flex-start;
+  
+}
+      
+     
+    
+
+    .flex-container2 {
+         
+        width: 100%;
+        height: 100vh;
+    
+        display: flex; /* Optional if you need additional flexbox layout inside */
+        flex-direction: row; /* Optional for stacking elements */
+         /* Align children to the bottom if necessary */
+         justify-content: left;
+         align-items: left;
+     
+     
+    }
+    
+
+ 
+
+
+.flex-item1{
+    display: flex;
+    width: 30%;
+    height: 100vh;
   flex-wrap: nowrap;
-   flex-direction: row;
+   flex-direction: column;
    justify-content: left;
-   align-items: left;
-  padding: 50px;
-  margin-top: 130px;
+   align-items: center;
+   
 }
 
 .flex-item2{
     display: flex;
-    width: 40%;
-    height: auto;
+    width: 20%;
+    height: 100vh;
     flex-wrap: nowrap;
+   flex-direction: row;
+   justify-content: left;
+   align-items: left;
+   
   
 
+
+}
+
+.flex-item3{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    flex-wrap: nowrap;
+    flex-direction: column;
+   
 
 }
 
@@ -206,16 +287,7 @@ a{
     animation: marquee 5s linear infinite;
 }
 
-.flex-item3{
-    display: flex;
-    width: 60%;
-    height: 100vh;
-    padding: 20px;
-    padding-top: 150px;
-    flex-wrap: nowrap;
-    flex-direction: column;
 
-}
 
 h1{
     font-size: 18px;
@@ -235,59 +307,18 @@ hr{
 }
 
 
-@font-face{
-    font-family: "Not Courier Sans";
-    src: url("../media/fonts/NotCourierSans-Bold.woff") format("woff");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-  }
+hr{
+    color: #ff7bc9;
+    border: .5px solid #ff7bc9;
+   }
 
-  @font-face{
-    font-family: "Muelsinato";
-    src: url("media/fonts/Muelsinato.otf") format("otf");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face{
-    font-family: "elipse";
-    src: url("media/fonts/elipse.otf") format("otf");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-  }
  
-  #name{
-    font-family: "Louise";
-    font-size: 140px;
-    font-weight: 200;
-    position: fixed; /* Anchor to the viewport */
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: #D0C743;
-    font-style: italic;
-    
-  }
-
-  #name2{
-    font-family:'Courier New', Courier, monospace;
-    font-size: 16px;
-    font-weight: 200;
-    position: absolute; /* Anchor to the viewport */
-    color:#F26840;
-    padding: 20px;
-    right: 0;
-  }
 
 p{
-    font-size: 42px;
-    font-family: "Picaflor", serif;
+    font-size: 18px;
+    font-family: "courier new", serif;
     font-weight: 200;
-   color: #0A5D4C;
+   color: #ff7bc7;
    
 }
 
@@ -298,86 +329,37 @@ h3{
    color: #0A5D4C;
    
 }
-h4{
-    font-size: 18px;
-    font-family: "dm sans", sans-serif;
-    font-weight: 200;
-   color: #0A5D4C;
-   
-}
 
 
-
-h2{
-    font-size: 24px;
-    font-family: "playfair display", serif;
-    font-weight: 300;
-   color: #0A5D4C;
-   
-}
- 
- 
- 
-#down-arrow{
-    position: absolute;
-       bottom: 0;
-      
-   }
 
 
 #polaroid{
-    width: 80%;
-    height: 70%;
-  margin-top: 100px;
-  padding-left: 50px;
-z-index:-1;
-
+    width: 10%;
+    height: 10%;
+border: .5px solid #da407b;
 
 
 }
 
 #polaroid1{
-    width: 80%;
-    height: 60%;
-border-radius: 50%;
-border: .5px solid black;
-z-index:-1;
+    width: 10%;
+    height: 10%;
+border: .5px solid #da407b;
+
  
 
 }
 
-#item-text{
- width: 100%;
-    height: 12%;
-    
-  
-}
 
-#item-text2{
-    width: 100%;
-       height: 5%;
-    
-      margin-bottom: 30px;
-       
-   }
-
- 
-
-   #item-text3{
-    width: 100%;
-       height: 65%;
-       
-
-   }
-
-
-.polaroid-container {
+#polaroid-container {
     position: relative;  /* Sets the stacking context */
-    width: 80%;          /* Adjust width as needed */
-    height: 70vh;        /* Adjust height to fit images */
+    width: 70%;          /* Adjust width as needed */
+    height: 50vh;        /* Adjust height to fit images */
     margin: auto;
     display: flex;       /* Optional if you need additional flexbox layout inside */
     flex-direction: column; /* Optional for stacking elements */
+    justify-content: left; /* Align children to the center */
+    align-items: left;
 }
 
 #polaroid, #polaroid1 {
@@ -390,79 +372,10 @@ z-index:-1;
 
 
 
-#subheader{
-    font-size: 36px;
-    font-family: "Rock Salt";
-    font-weight: 200;
-    color:  #C59303;
-    position: absolute;
-    padding-top: 100px;
-    padding-left: 50px;
-}
 
 
-    .flex-container1 {
-       
-    width: 100%;
-    height: 100vh;
-
-    display: flex; /* Optional if you need additional flexbox layout inside */
-    flex-direction: column; /* Optional for stacking elements */
-     /* Align children to the bottom if necessary */
-     justify-content: left;
-     align-items: left;
-     background-color: gray;
-    }
-
-
-    
-  .parent-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; /* Ensure no overflow */
-    width: 100%;
-    height: 100vh;
-    align-items: flex-start;
   
-}
-      
-     
-    
 
-    .flex-container2 {
-     display: flex;
-     flex-direction: column;
-   
-    width: 100%;
-    height: 100vh;
-        display: flex; /* Optional if you need additional flexbox layout inside */
-background-color: plum;
-    
-     
-    }
-    
-    .flex-container3 {
-        flex-direction: column;
-        display: flex;
- 
-       width: 100%;
-       height: 100vh;
-           display: flex; /* Optional if you need additional flexbox layout inside */
-   background-color: yellow;
-       
-        
-       }
- 
-
-   .flexbox{
-    display: flex;
-    flex-direction: column;
-   width: 100%;
-    height: 100%;
-    background-color: orange;
-  
-   }
-   
 
 
 

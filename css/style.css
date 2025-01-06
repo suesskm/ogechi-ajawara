@@ -118,24 +118,28 @@ a{
 
 
 #home:hover{
-    background-color: #ff7bc9;
+    background-color: #007668;
     font-weight: 400;
+    color:#e6f2fa;
 }
 
 #contact:hover{
-    background-color: #ff7bc9;
+    background-color: #007668;
     font-weight: 400;
+    color:#e6f2fa;
 }
 
 #header2:hover{
-    background-color: #ff7bc9;
+    background-color: #007668;
     font-weight: 400;
+    color:#e6f2fa;
 }
 
 
 #h3:hover{
-    background-color: #ff7bc9;
+    background-color: #007668;
     font-weight: 500;
+    color:#e6f2fa;
 }
 
 /* Container styles */
@@ -569,7 +573,7 @@ background-color: plum;
         border-radius: 10px;
         display: block;
         padding-bottom: 20px;
-        /* background-color: #007668; */
+        background-color: #007668;
         color: #e6f2fa;
       }
       
@@ -717,7 +721,7 @@ background-color: plum;
     width: 100%;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: 60vh;
     text-align: center;
     padding: 0;
    
@@ -745,7 +749,14 @@ background-color: plum;
     justify-content: center;
 }
 
-
+h4{
+    font-size: 14px;
+    font-weight: 200;
+    position: absolute;
+   margin-top: 0px;
+   margin-right: 20px;
+    right: 0;
+}
 
      
         h1 {
@@ -761,9 +772,6 @@ background-color: plum;
         p{
             font-size: 20px;
             padding: 0;
-        }
-        h4{
-            display: none;
         }
      
    hr{
