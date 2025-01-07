@@ -271,6 +271,16 @@ a{
         
       /* General Mobile Styles */
 @media screen and (max-width: 480px) {
+
+    body{
+   
+        overflow-x: hidden;
+        /* overflow-y: hidden; */
+      
+     
+    }
+
+
     .mobile-container {
         max-width: 480px;
         margin: auto;
@@ -334,7 +344,7 @@ a{
   
    
     .flex-container-top h1 {
-      font-size: 88px;
+      font-size: 120px;
       text-align: center;
     }
   

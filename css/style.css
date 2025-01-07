@@ -597,7 +597,8 @@ background-color: plum;
         display: block;
         font-weight: 300;
         text-align: left;
-        /* background-color: #007668; */
+        background-color: #007668;
+        color: #e6f2fa;
         
        
       }
@@ -609,7 +610,7 @@ background-color: plum;
         right: 0;
         top: 0;
         padding: 10px;
-        color: black;
+        color: #e6f2fa;
       }
       
       .topnav a:hover {
@@ -726,7 +727,7 @@ background-color: plum;
     width: 100%;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+    height: 80vh;
     text-align: center;
     padding: 0;
    
