@@ -82,6 +82,10 @@ body{
   
   }
 
+  .vl {
+   display: none;
+  }
+
 .flex-container-header{
     display: flex;
     flex-direction: row;
@@ -297,7 +301,8 @@ a{
   }
 
   h4:hover{
-    background-color:#ff7bc9;
+    background-color:#007668;
+    color: #e6f2fa;
   }
 
 h1{
@@ -778,6 +783,9 @@ h4{
     color: #ff7bc9;
     border: .5px solid #ff7bc9;
    }
+
+
+
 
 
 #mobile-text:hover{
