@@ -21,6 +21,8 @@ body{
  
 }
 
+
+
 .mobile-container {
     max-width: 480px;
     margin: auto;
@@ -176,34 +178,39 @@ body{
         color: black;
         }
     
-a{
-    text-decoration: none;
-    color: black;
-
-}
-
-
-
-#home:hover{
-    background-color: #D0C743;
-    font-weight: 400;
-}
-
-#contact:hover{
-    background-color: #D0C743;
-    font-weight: 400;
-}
-
-#header2:hover{
-    background-color: #D0C743;
-    font-weight: 400;
-}
-
-
-#h3:hover{
-    background-color: #D0C743;
-    font-weight: 500;
-}
+        a{
+            text-decoration: none;
+            color: #e0e0e0;
+        
+        }
+        
+        
+        
+        #home:hover{
+            background-color: #888d34;
+            font-weight: 400;
+            color:#e6f2fa;
+        }
+        
+        #contact:hover{
+            background-color: #888d34;
+            font-weight: 400;
+            color:#e6f2fa;
+        }
+        
+        #header2:hover{
+            background-color: #888d34;
+            font-weight: 400;
+            color:#e6f2fa;
+        }
+        
+        
+        #h3:hover{
+            background-color: #888d34;
+            font-weight: 500;
+            color:#e6f2fa;
+        }
+        
 
 /* Container styles */
 .scrolling-text-container {
@@ -349,11 +356,11 @@ a{
 
 #name1{
     font-size: 80px;
-    font-family: 'Picaflor', serif;
-    font-weight: 100;
+    font-family: "Rosindale-VF", serif;
+   font-weight: 100;
    color: #ff7bc9;
-   letter-spacing: 4px;
-   padding: 10px;
+   
+   
 }
 
 .marquee {
@@ -374,7 +381,7 @@ h1{
     font-size: 18px;
     font-family: 'playfair display', serif;
     font-weight: 200;
-   color: #0A5D4C;
+   color: #e0e0e0;
  
 
   
@@ -402,13 +409,14 @@ h3{
     font-size: 14px;
     font-family: "dm sans", sans-serif;
     font-weight: 300;
-   color: #0A5D4C;
+   color: #e0e0e0;
    
 }
 
 h4{
     font-size: 20px;
     font-family: 'louise', sans-serif;
+    color: #e0e0e0;
 }
 
 
@@ -424,7 +432,6 @@ h5{
     background-color: #D0C743;
     font-weight: 400;
   }
-
 
 
 #polaroid{
@@ -485,7 +492,7 @@ h5{
     font-size: 12px;
     font-family: 'dm sans', sans-serif;
     font-weight: 300;
-    color: #0A5D4C;
+    color: #e0e0e0;
     margin-top: 250px;
     padding: 50px;}
 
@@ -494,7 +501,7 @@ h5{
     font-size: 12px;
     font-family: 'dm sans', sans-serif;
     font-weight: 300;
-    color: #0A5D4C;
+    color: #e0e0e0;
     padding: 50px;}
 
 
@@ -577,22 +584,22 @@ textarea {
 
 input[type="submit"] {
     background-color: #F2F0EB;
-    color: black;
+    color: #e0e0e0;
     padding: 10px 20px;
-    border: 2px solid #007668;
+    border: 2px solid #f39cb3;
     border-radius: 4px;
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
 }
 
 input[type="submit"]:hover {
-    background-color: #ff7bc7;
+    background-color: #f39cb3;
 }
 
 /* Style message */
 .message {
     font-size: 14px;
-    color: #888;
+    color: #888d34;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -629,6 +636,7 @@ textarea {
 
 
 
+
     
     
 
@@ -636,21 +644,28 @@ textarea {
         body{
        
             overflow-x: hidden;
-            /* overflow-y: hidden; */
+            overflow-y: scroll;
           
          
         }
+    
+
+        h2 {
+            font-size: 10px;
+            font-weight: 100;
+            font-family: 'dm sans', sans-serif;
+            color: #2a0220;
+        }
+    
     
         .mobile-container {
             max-width: 480px;
             margin: auto;
             padding: 10;
-            height: 500px;
+            height: 500px;;
             border-radius: 10px;
             display: block;
             padding-bottom: 20px;
-            background-color: #007668;
-            color: #e6f2fa;
           }
           
         
@@ -663,13 +678,14 @@ textarea {
             color: black;
             padding: 10px;
             text-decoration: none;
-            font-family: 'courier new', sans-serif;
+            font-family: 'dm-sans', sans-serif;
             font-size: 14px;
             display: block;
             font-weight: 300;
             text-align: left;
-            /* background-color: #007668; */
-            
+            color: #888d34;
+            background-color: #2a0220;
+            z-index:1;
            
           }
           
@@ -680,12 +696,10 @@ textarea {
             right: 0;
             top: 0;
             padding: 10px;
-            color: black;
           }
           
           .topnav a:hover {
-            background-color: #007668;
-            color: black;
+            background-color: #e0e0e0;
            
           }
           
@@ -693,7 +707,6 @@ textarea {
         
            color: white;
           }
-    
     
     .flex-item{
         margin-top: 0;
@@ -792,7 +805,11 @@ textarea {
     display: block;
       border-radius: 4px;
       overflow: hidden;
-      background-color:#007668;
+      background-color:#f39cb3;
+      position: fixed;
+      bottom: 0px;
+      margin-right: auto;
+      margin-left: auto;
      
   }
   
@@ -847,8 +864,26 @@ textarea {
           transform: translateX(0%);
       }
   }
+
+
+
+
+
+
+  
+  }    
+
+
+
+
+
+
+
   
   
+
+
+
 
 
 
@@ -856,7 +891,7 @@ textarea {
 
 
     
-    }
+    
     
     
     
