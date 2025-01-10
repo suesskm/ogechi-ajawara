@@ -16,7 +16,7 @@ html, body {
 body{
    
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
   
  
 }
@@ -195,22 +195,6 @@ a{
 }
 
 
-.flex-item {
-    display: flex;
-    flex-direction: column;
-    width: 50%; /* Adjust width as needed */
-    height: auto;
-    background-color: teal;
-}
-
-.flex-item2 {
-    display: flex;
-    flex-direction: column;
-    width: 100%; /* Adjust width as needed */
-    height: auto;
-    background-color: yellow;
-}
-
 
 
 @font-face{
@@ -306,79 +290,66 @@ p{
 }
  
  
-
-    .flex-container1 {
+.flex-container1 {
        
-    width: 100%;
-    height: auto;
-justify-content: center;
-align-items: center;
-    display: flex; /* Optional if you need additional flexbox layout inside */
-    flex-direction: row; /* Optional for stacking elements */
-    margin-top: 100px;
-    
-    }
-
-
-    
-    .parent-container {
-        display: flex; /* Enable Flexbox */
-        flex-direction: row; /* Arrange children in a row */
-        justify-content: space-between; /* Add space between items */
-        align-items: flex-start; /* Align items at the start of the cross axis */
-        width: 100%; /* Ensure full width of the parent container */
-        height: auto; /* Adjust height as needed */
-    }
-    
-    
-
-    .flex-container2 {
-     display: flex;
-     flex-direction: column;
-   
     width: 100%;
     height: 100vh;
-        display: flex; /* Optional if you need additional flexbox layout inside */
 
-    
-     
-    }
-    
-    .flex-container3 {
-        flex-direction: column;
-        display: flex;
- 
-       width: 100%;
-       height: 100vh;
-           display: flex; /* Optional if you need additional flexbox layout inside */
+    display: flex; /* Optional if you need additional flexbox layout inside */
+    flex-direction: row; /* Optional for stacking elements */
+     /* Align children to the bottom if necessary */
+     justify-content: left;
+     align-items: column;
    
-       
-        
-       }
- 
+    }
 
-   .flexbox{
+
+    
+  .parent-container {
     display: flex;
     flex-direction: column;
-   width: 100%;
-    height: 100%;
-
+    flex-wrap: nowrap; /* Ensure no overflow */
+    width: 100%;
+    height: 100vh;
+    align-items: flex-start;
   
-   }
+}
+      
+ 
+.flex-item1{
+    display: flex;
+    width: 25%;
+    height: auto;
+  flex-wrap: nowrap;
+   flex-direction: column;
+   justify-content: left;
+   align-items: center;
    
+   
+}
+
+.flex-item2{
+    display: flex;
+    width: 75%;
+    height: auto;
+    flex-wrap: nowrap;
+   flex-direction: column;
+   justify-content: left;
+   align-items: left;
+
+}   
+
+ 
+
 
 #image{
     width: 70%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
+    height: auto;
+   display: block;
     transform: rotate(10deg);
-    margin-top:0px;
+    margin-top: 50px;
 }
+
 
 #text{
     width: 20%;
@@ -587,10 +558,7 @@ align-items: center;
                 width: 100%;
                 height: 100%;
                 padding: 0;
-               
-                position: absolute;
-                left: 0;
-                top: 150px;
+            
         }
             
       
@@ -613,14 +581,16 @@ align-items: center;
         height: 70vh;
         text-align: center;
         padding: 0;
+        flex-direction: column;
+
        
       
        }
     
-       .flex-item{
+       .flex-item1{
         display: flex;
         width: 100%;
-        height: 100%;
+        height: auto;
         flex-wrap: nowrap;
         flex-direction: column;
         justify-content: center;
@@ -628,6 +598,19 @@ align-items: center;
         padding: 0;
         margin-top: 0;
        }
+
+       .flex-item2{
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-top: 0;
+       }
+    
     
     
     
