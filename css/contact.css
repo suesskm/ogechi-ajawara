@@ -558,8 +558,9 @@ h5{
 label {
     display: block;
     margin-bottom: 5px;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-family: 'dm sans', sans-serif;
+    color:#e0e0e0;
 }
 
 input[type="text"],
@@ -585,7 +586,8 @@ input[type="submit"] {
     border: 2px solid #f39cb3;
     border-radius: 4px;
     cursor: pointer;
-    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-family: 'dm sans', sans-serif;
 }
 
 input[type="submit"]:hover {
@@ -870,7 +872,84 @@ textarea {
 
 
   
-  }    
+    /* Container styles */
+    .scrolling-text-container {
+        display: block;
+          border-radius: 4px;
+          overflow: hidden;
+          background-color:#f39cb3;
+         
+      }
+      
+      /* Inner container styles */
+      .scrolling-text-inner {
+          display: flex;
+          white-space: nowrap;
+          font-size: 16px;
+          font-weight: 600;
+          padding: 8px 0;
+         
+      }
+      
+      /* Text styles */
+      .scrolling-text {
+          display: flex;
+         
+      }
+      
+      .scrolling-text-item {
+          padding: 0 30px;
+      
+      }
+      
+      /* Apply the animation to the text items */
+      .scrolling-text-inner>div {
+          animation: var(--direction) var(--marquee-speed) linear infinite;
+      }
+      
+      /* Pause the animation when a user hovers over it */
+      .scrolling-text-container:hover .scrolling-text-inner>div {
+          animation-play-state: paused;
+      }
+      
+      /* Setting the Animation using Keyframes */
+      @keyframes scroll-left {
+          0% {
+              transform: translateX(0%);
+          }
+      
+          100% {
+              transform: translateX(-100%);
+          }
+      }
+      
+      @keyframes scroll-right {
+          0% {
+              transform: translateX(-100%);
+          }
+      
+          100% {
+              transform: translateX(0%);
+          }
+      }
+      }    
+  
+  
+  
+  
+  
+  
+  
+      
+      
+  
+  
+  
+  
+  
+  
+  
+     
 
 
 

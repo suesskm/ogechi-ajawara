@@ -7,7 +7,7 @@ canvas{
     display: block;
     
 }
-mobile-container {
+.mobile-container {
   max-width: 480px;
   margin: auto;
   
@@ -16,7 +16,9 @@ mobile-container {
   display: none;
   padding-bottom: 20px;
 }
-
+.scrolling-text-container {
+  display: none;
+}
 
 .topnav #myLinks {
   display: none;
@@ -232,12 +234,14 @@ img hover{
    
     }
   
+ 
     p{
       font-family: 'dm sans', sans-serif;
       font-weight: 100;
-      padding: 20px;
-      font-size: 24px;
+     color: #e0e0e0;
+      font-size: 18px;
   }
+   
    
 
   hr{
@@ -442,8 +446,6 @@ h3{
 @media only screen and (max-width: 480px) {
   /* General Reset for Mobile */
 
-
-
   .mobile-container {
     max-width: 480px;
     margin: auto;
@@ -464,11 +466,14 @@ h3{
     color: black;
     padding: 10px;
     text-decoration: none;
-    font-family: 'courier new', sans-serif;
+    font-family: 'dm-sans', sans-serif;
     font-size: 14px;
     display: block;
     font-weight: 300;
     text-align: left;
+    color: #888d34;
+    background-color: #2a0220;
+    z-index:1;
    
   }
   
@@ -482,7 +487,7 @@ h3{
   }
   
   .topnav a:hover {
-    background-color: #0A5D4C;
+    background-color: #e0e0e0;
    
   }
   
@@ -490,6 +495,14 @@ h3{
 
    color: white;
   }
+
+
+
+
+
+
+
+
   * {
     margin: 0;
     padding: 0;
@@ -601,7 +614,7 @@ h3{
       display: flex; /* Make it visible on larger screens */
   }
 
-  .flex-container-bottom {
-    display: flex; /* Make it visible on larger screens */
-}
+    .flex-container-header {
+      display: flex; /* Make it visible on larger screens */
+  }
 }
