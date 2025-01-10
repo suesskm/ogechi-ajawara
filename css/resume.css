@@ -353,15 +353,22 @@ body .mobile-container {
         
       /* General Mobile Styles */
 @media screen and (max-width: 480px) {
-
-    body{
-   
+    html, body {
+        margin: 0;
+        padding: 0;
         overflow-x: hidden;
-       
-      
-     
+        width: 100%;
     }
-
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        max-width: 100%;
+        overflow: hidden;
+    }
+    
 
     .mobile-container {
         max-width: 480px;
