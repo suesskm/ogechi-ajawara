@@ -773,11 +773,16 @@ textarea {
     
     .parent-container{
         display: block;
+        width: 100%;
+        height: auto;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
     
+    #name1, .parent-container {
+        border: 1px solid red;
+    }
  
    #name1{
     font-size: 80px;
