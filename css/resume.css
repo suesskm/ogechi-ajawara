@@ -84,7 +84,15 @@ body .mobile-container {
   
   }
 
-
+  @font-face {
+    font-family: 'Louise';
+    src: url('../media/fonts/Louise-Regular copy.otf') format('otf');
+    src: url('../media/fonts/Louise-Regular.woff') format('woff');
+    src: url('../media/fonts/Louise-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
 
     
   a{
@@ -349,7 +357,7 @@ body .mobile-container {
     body{
    
         overflow-x: hidden;
-        /* overflow-y: hidden; */
+       
       
      
     }
@@ -396,7 +404,7 @@ body .mobile-container {
       }
       
       .topnav a:hover {
-        background-color: #e0e0e0;
+        background-color: #f39cb3;
        
       }
       
@@ -408,8 +416,10 @@ body .mobile-container {
 
 
       h3{
-        font-size: 10px;
-     font-family: 'dm sans', sans-serif;
+        font-size: 20px;
+        font-family: 'dm sans', sans-serif;
+        color: #2a0220;
+        font-weight: 100;
        
     }
 

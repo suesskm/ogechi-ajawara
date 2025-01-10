@@ -122,6 +122,16 @@ body{
   
   }
 
+  @font-face {
+    font-family: 'Louise';
+    src: url('../media/fonts/Louise-Regular copy.otf') format('otf');
+    src: url('../media/fonts/Louise-Regular.woff') format('woff');
+    src: url('../media/fonts/Louise-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
   .vl {
    display: none;
   }
@@ -167,7 +177,10 @@ a{
 
 }
 
-
+a:hover{
+    background-color: #ff7bc9;
+    
+}
 
 #home:hover{
     background-color: #888d34;
@@ -274,13 +287,6 @@ h3{
 
 
 
-h2{
-    font-size: 24px;
-    font-family: "playfair display", serif;
-    font-weight: 300;
-   color: #0A5D4C;
-   
-}
  
 p{
     font-family: 'dm sans', sans-serif;
@@ -444,7 +450,7 @@ p{
           }
           
           .topnav a:hover {
-            background-color: #e0e0e0;
+            background-color: #f39cb3;
            
           }
           
@@ -639,6 +645,7 @@ p{
                 font-size: 20px;
                 font-family: 'dm sans', sans-serif;
                 color: #2a0220;
+                font-weight: 100;
             }
         
     

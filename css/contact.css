@@ -116,7 +116,8 @@ body{
   @font-face {
     font-family: 'Louise';
     src: url('../media/fonts/Louise-Regular copy.otf') format('otf');
- 
+    src: url('../media/fonts/Louise-Regular.woff') format('woff');
+    src: url('../media/fonts/Louise-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
   
