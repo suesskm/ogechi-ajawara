@@ -297,6 +297,7 @@ h4:hover{
         padding: 20px;
         border: .5px solid black;
         border-radius: 50%;
+        color: #e0e0e0;
            
           
         }
@@ -306,7 +307,7 @@ h4:hover{
             font-size: 16px;
             font-family: 'dm sans', sans-serif;
             font-weight:200;
-           
+            color: #e0e0e0;
             padding: 40px;
          
             
@@ -321,6 +322,7 @@ h4:hover{
            margin-top: 20px;
            margin-right: 20px;
             right: 0;
+            color: #e0e0e0;
           }
         
 
