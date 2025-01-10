@@ -288,7 +288,8 @@ a{
         flex-direction: row; /* Optional for stacking elements */
          /* Align children to the bottom if necessary */
          justify-content: left;
-         align-items: left;
+         align-items: column;
+         
      
      
     }
@@ -340,7 +341,7 @@ a{
     font-size: 80px;
     font-family: 'Rosindale', serif;
     font-weight: 100;
-   color: #0A5D4C;
+   color: #ff7bc9;
    letter-spacing: 2px;
    padding: 10px;
 }
@@ -399,6 +400,21 @@ h4{
     font-size: 20px;
     font-family: 'louise', sans-serif;
 }
+
+
+h5{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 200;
+
+    right: 0;
+  }
+
+  h5:hover{
+    background-color: #D0C743;
+    font-weight: 400;
+  }
+
 
 
 #polaroid{
@@ -518,6 +534,91 @@ h4{
     
     
     
+/* Style form elements */
+#form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: #F2F0EB;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="submit"]:hover {
+    background-color: #da407b;
+}
+
+/* Style message */
+.message {
+    font-size: 14px;
+    color: #888;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Style form elements */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Style text area */
+textarea {
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
 
