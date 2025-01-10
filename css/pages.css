@@ -91,38 +91,49 @@ canvas{
   
   }
 
-  a{
-    text-decoration: none;
-    color: black;
-  }
-
+ 
   .column img hover {
     opacity: 0.3;
   }
 
 
 
-  #home:hover{
-  background-color: #007668;
-  color: white;
-  font-weight: 400;
+  a{
+    text-decoration: none;
+    color: #e0e0e0;
 
- 
-  }
+}
 
-  #contact:hover{
-    background-color: #007668;
-    color: white;
+a:hover{
+    background-color: #ff7bc9;
+    
+}
+
+#home:hover{
+    background-color: #888d34;
     font-weight: 400;
- 
-  }
+    color:#e6f2fa;
+}
 
-  #header2:hover{
-    background-color: #007668;
-  color: white;
+#contact:hover{
+    background-color: #888d34;
     font-weight: 400;
- 
-  }
+    color:#e6f2fa;
+}
+
+#header2:hover{
+    background-color: #888d34;
+    font-weight: 400;
+    color:#e6f2fa;
+}
+
+
+#h3:hover{
+    background-color: #888d34;
+    font-weight: 500;
+    color:#e6f2fa;
+}
+
 
 
 img hover{
@@ -243,13 +254,7 @@ img hover{
     }
   
  
-    p{
-      font-family: 'dm sans', sans-serif;
-      font-weight: 100;
-     color: #e0e0e0;
-      font-size: 18px;
-  }
-   
+
    
 
   hr{
@@ -277,16 +282,25 @@ h2{
 }
 
 h3{
-    font-size: 14px;
-    font-family: 'dm sans', sans-serif;
-    font-weight:200;
-    color: black;
-    justify-content: left;
-    align-items: left;
-    padding: 10px;
-    
+  font-size: 14px;
+  font-family: "dm sans", sans-serif;
+  font-weight: 300;
+ color: #e0e0e0;
+ 
 }
 
+h4{
+  font-size: 20px;
+  font-family: 'louise', sans-serif;
+  color: #e0e0e0;
+}
+
+p
+{ font-size: 12px;
+  font-family: 'dm sans', sans-serif;
+  font-weight: 300;
+  color: #e0e0e0;
+  padding: 50px;}
 
 
 #down-arrow{
