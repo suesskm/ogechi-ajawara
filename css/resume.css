@@ -87,31 +87,39 @@ body .mobile-container {
 
 
     
-a{
+  a{
     text-decoration: none;
-    color: black;
+    color: #e0e0e0;
 
 }
 
-h4:hover{
-    background-color: #ffff00;
-    font-weight: 400;
-}
+
 
 #home:hover{
-    background-color: #ff7bc8;
+    background-color: #888d34;
     font-weight: 400;
+    color:#e6f2fa;
 }
 
 #contact:hover{
-    background-color: #ff7bc8;
+    background-color: #888d34;
     font-weight: 400;
+    color:#e6f2fa;
 }
 
 #header2:hover{
-    background-color:#ff7bc8;
+    background-color: #888d34;
     font-weight: 400;
+    color:#e6f2fa;
 }
+
+
+#h3:hover{
+    background-color: #888d34;
+    font-weight: 500;
+    color:#e6f2fa;
+}
+
 
 .parent-container {
     display: flex; /* Aligns child elements in a row */
@@ -167,7 +175,7 @@ h4:hover{
     width: 100%; /* Takes up half the width */
     height: 100%; /* Matches parent's height */
     flex-wrap: nowrap;
-    /* background-color: #b8eea2; */
+   
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -180,7 +188,7 @@ h4:hover{
     width: 100%; /* Takes up half the width */
     height: 100%; /* Matches parent's height */
     flex-wrap: nowrap;
-  background-color:#ff7bc8;
+
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -192,7 +200,7 @@ h4:hover{
     width: 100%; /* Takes up half the width */
     height: 100%; /* Matches parent's height */
     flex-wrap: nowrap;
-    background-color: #e7f3fb;
+    background-color: #2a0220;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -201,8 +209,8 @@ h4:hover{
 
 .flex-container3 {
     display: flex;
-    width: 100%; /* Takes up half the width */
-    height: auto; /* Matches parent's height */
+    width: 100%;
+    height: auto; 
     flex-wrap: nowrap;
    
     flex-direction: row;
@@ -216,7 +224,7 @@ h4:hover{
     width: 100%; /* Takes up half the width */
     height: auto; /* Matches parent's height */
     flex-wrap: nowrap;
-   background-color: #ffff00;
+    background-color:#f39cb3;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -228,7 +236,7 @@ h4:hover{
     width: 100%; /* Takes up half the width */
     height: auto; /* Matches parent's height */
     flex-wrap: nowrap;
-    background-color: #e7f3fb;
+    background-color:#888d34;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -295,8 +303,7 @@ h4:hover{
         /* border: 1px solid black;
         border-radius: 50%; */
         padding: 20px;
-        border: .5px solid black;
-        border-radius: 50%;
+      
         color: #e0e0e0;
            
           
@@ -334,7 +341,6 @@ h4:hover{
 
 
 
-
     
         
       /* General Mobile Styles */
@@ -353,12 +359,10 @@ h4:hover{
         max-width: 480px;
         margin: auto;
         padding: 10;
-        height: 500px;
+        height: 500px;;
         border-radius: 10px;
         display: block;
         padding-bottom: 20px;
-        background-color: #0a3279;
-        
       }
       
     
@@ -368,15 +372,17 @@ h4:hover{
       }
       
       .topnav a {
-        color: #dedad9;
+        color: black;
         padding: 10px;
         text-decoration: none;
-        font-family: 'courier new', sans-serif;
+        font-family: 'dm-sans', sans-serif;
         font-size: 14px;
         display: block;
         font-weight: 300;
         text-align: left;
-        background-color: #0a3279;
+        color: #888d34;
+        background-color: #2a0220;
+        z-index:1;
        
       }
       
@@ -390,14 +396,23 @@ h4:hover{
       }
       
       .topnav a:hover {
-        background-color: #e7f3fb;
+        background-color: #e0e0e0;
        
       }
       
       .active {
     
-       color: #dedad9;
+       color: white;
       }
+
+
+
+      h3{
+        font-size: 10px;
+     font-family: 'dm sans', sans-serif;
+       
+    }
+
 
 
     body {
@@ -412,7 +427,7 @@ h4:hover{
   
    
     .flex-container-top h1 {
-      font-size: 120px;
+      font-size: 70px;
       text-align: center;
     }
   
@@ -456,12 +471,12 @@ h4:hover{
     }
 
 
-/* Container styles */
-.scrolling-text-container {
+ /* Container styles */
+ .scrolling-text-container {
     display: block;
       border-radius: 4px;
       overflow: hidden;
-      background-color:#007668;
+      background-color:#f39cb3;
      
   }
   
@@ -516,23 +531,5 @@ h4:hover{
           transform: translateX(0%);
       }
   }
-  
-  
-h3{
-    font-size: 20px;
-    font-family: 'courier new', sans-serif;
-    color: #e6f2fa;
-}
+  }    
 
-
-
-
-
-
-
-  }
-  
-
-        
-          
-  

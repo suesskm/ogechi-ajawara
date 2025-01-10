@@ -678,15 +678,7 @@ align-items: center;
     
     
     
-    a:hover{
-        background-color: #ffff00;
-    }
-  
-    
-    #mobile-text:hover{
-    color:#007668;
-    }
-    
+ 
     /* Container styles */
     .scrolling-text-container {
       display: block;
