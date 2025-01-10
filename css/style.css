@@ -21,9 +21,49 @@ body{
  
 }
 
-.mobile-container{
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    
+    height: 500px;;
+    border-radius: 10px;
     display: none;
-}
+    padding-bottom: 20px;
+  }
+  
+
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'courier new', sans-serif;
+    font-size: 17px;
+    display: none;
+   
+  }
+  
+  .topnav a.icon {
+  
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #da407b;
+   
+  }
+  
+  .active {
+
+    color: #F2F0EB;
+  }
+
 
 #flexbox1{
     display: none;
@@ -154,61 +194,6 @@ a{
     color:#e6f2fa;
 }
 
-/* Container styles */
-.scrolling-text-container {
-   
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-/* Inner container styles */
-.scrolling-text-inner {
-    display: flex;
-    white-space: nowrap;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 8px 0;
-}
-
-/* Text styles */
-.scrolling-text {
-    display: flex;
-}
-
-.scrolling-text-item {
-    padding: 0 30px;
-}
-
-/* Apply the animation to the text items */
-.scrolling-text-inner>div {
-    animation: var(--direction) var(--marquee-speed) linear infinite;
-}
-
-/* Pause the animation when a user hovers over it */
-.scrolling-text-container:hover .scrolling-text-inner>div {
-    animation-play-state: paused;
-}
-
-/* Setting the Animation using Keyframes */
-@keyframes scroll-left {
-    0% {
-        transform: translateX(0%);
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-@keyframes scroll-right {
-    0% {
-        transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(0%);
-    }
-}
 
 
 .flex-item{
@@ -231,18 +216,6 @@ a{
   
 
 
-}
-
-.marquee {
-    margin: 0 auto;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-.marquee span {
-    display: inline-block;
-    padding-left: 100%;
-    animation: marquee 5s linear infinite;
 }
 
 .flex-item3{
@@ -283,20 +256,7 @@ a{
     font-style: normal;
     font-display: swap;
   }
- 
-  #name{
-    font-family: "Louise";
-    font-size: 140px;
-    font-weight: 200;
-    position: fixed; /* Anchor to the viewport */
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: #D0C743;
-    font-style: italic;
-    
-  }
+
 
   h4{
     font-family:'Courier New', Courier, monospace;
@@ -318,12 +278,13 @@ h1{
     font-family: "Picaflor", serif;
     font-weight: 200;
    color: #ff7bc9;
+   letter-spacing: 2px;
    
 }
 
 h3{
     font-size: 12px;
- font-family: 'Courier New', serif;
+ font-family: 'dm sans', sans-serif;
    
 }
 
@@ -346,88 +307,6 @@ p{
 }
  
  
-#down-arrow{
-    position: absolute;
-       bottom: 0;
-      
-   }
-
-
-#polaroid{
-    width: 80%;
-    height: 70%;
-  margin-top: 100px;
-  padding-left: 50px;
-z-index:-1;
-
-
-
-}
-
-#polaroid1{
-    width: 80%;
-    height: 60%;
-border-radius: 50%;
-border: .5px solid black;
-z-index:-1;
- 
-
-}
-
-#item-text{
- width: 100%;
-    height: 12%;
-    
-  
-}
-
-#item-text2{
-    width: 100%;
-       height: 5%;
-    
-      margin-bottom: 30px;
-       
-   }
-
- 
-
-   #item-text3{
-    width: 100%;
-       height: 65%;
-       
-
-   }
-
-
-.polaroid-container {
-    position: relative;  /* Sets the stacking context */
-    width: 80%;          /* Adjust width as needed */
-    height: 70vh;        /* Adjust height to fit images */
-    margin: auto;
-    display: flex;       /* Optional if you need additional flexbox layout inside */
-    flex-direction: column; /* Optional for stacking elements */
-}
-
-#polaroid, #polaroid1 {
-    position: absolute;  /* Stack on top of each other */
-    top: 0;
-    left: 0;
-    width: 100%;         /* Ensure same width */
-    height: auto;        /* Maintain aspect ratio */
-}
-
-
-
-#subheader{
-    font-size: 36px;
-    font-family: "Rock Salt";
-    font-weight: 200;
-    color:  #C59303;
-    position: absolute;
-    padding-top: 100px;
-    padding-left: 50px;
-}
-
 
     .flex-container1 {
        
@@ -464,7 +343,7 @@ z-index:-1;
     width: 100%;
     height: 100vh;
         display: flex; /* Optional if you need additional flexbox layout inside */
-background-color: plum;
+
     
      
     }
@@ -476,7 +355,7 @@ background-color: plum;
        width: 100%;
        height: 100vh;
            display: flex; /* Optional if you need additional flexbox layout inside */
-   background-color: yellow;
+   
        
         
        }
@@ -487,7 +366,7 @@ background-color: plum;
     flex-direction: column;
    width: 100%;
     height: 100%;
-    background-color: orange;
+
   
    }
    
@@ -496,329 +375,334 @@ background-color: plum;
 
 
     
-
 
     /* Media Queries */
 
 
-@media screen and (max-width: 768px) {
-    .flex-container-header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    @media screen and (max-width: 768px) {
+        .flex-container-header {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .flex-container1, .flex-container2, .flex-container3, .flex-container4,
+        .flex-container5, .flex-container6, .flex-container7, .flex-container8 {
+            width: 48%; /* Two columns */
+            height: 45vh;
+        }
+    
+        h2 {
+            font-size: 16px;
+        }
+    
+        .scrolling-text-container {
+            display: block;
+        }
     }
-
-    .flex-container1, .flex-container2, .flex-container3, .flex-container4,
-    .flex-container5, .flex-container6, .flex-container7, .flex-container8 {
-        width: 48%; /* Two columns */
-        height: 45vh;
+    
+    
+    
+    
+    
+    
+    @media screen and (max-width: 480px) {
+        body{
+       
+            overflow-x: hidden;
+            overflow-y: scroll;
+          
+         
+        }
+    
+        .mobile-container {
+            max-width: 480px;
+            margin: auto;
+            padding: 10;
+            height: 500px;;
+            border-radius: 10px;
+            display: block;
+            padding-bottom: 20px;
+          }
+          
+        
+          
+          .topnav #myLinks {
+            display: none;
+          }
+          
+          .topnav a {
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+            font-family: 'dm-sans', sans-serif;
+            font-size: 14px;
+            display: block;
+            font-weight: 300;
+            text-align: left;
+            color: #007668;
+           
+          }
+          
+          .topnav a.icon {
+          
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 10px;
+          }
+          
+          .topnav a:hover {
+            background-color: #ffff00;
+           
+          }
+          
+          .active {
+        
+           color: white;
+          }
+    
+    
+    
+    
+    
+    
+    
+    .flex-item{
+        margin-top: 0;
     }
-
-    h2 {
-        font-size: 16px;
-    }
-
-    .scrolling-text-container {
+    
+    
+    
+        .mobile-containers { 
         display: block;
-    }
-}
-
-
-
-
-
-
-@media screen and (max-width: 480px) {
-    body{
-   
-        overflow-x: hidden;
-        overflow-y: scroll;
-      
-     
-    }
-
-    .mobile-container {
-        max-width: 480px;
-        margin: auto;
         padding: 10;
         height: 500px;
         border-radius: 10px;
-        display: block;
-        padding-bottom: 20px;
-        background-color: #0a3279;
-        
-      }
-      
-    
-      
-      .topnav #myLinks {
-        display: none;
-      }
-      
-      .topnav a {
-        color: #dedad9;
-        padding: 10px;
-        text-decoration: none;
-        font-family: 'courier new', sans-serif;
-        font-size: 14px;
-        display: block;
-        font-weight: 300;
-        text-align: left;
-        background-color: #0a3279;
-       
-      }
-      
-      .topnav a.icon {
-      
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        padding: 10px;
-      }
-      
-      .topnav a:hover {
-        background-color: #ffff00;
-       
-      }
-      
-      .active {
-    
-       color: #dedad9;
-      }
-
-.flex-item{
-    margin-top: 0;
-}
-
-
-
-    .mobile-containers { 
-    display: block;
-    padding: 10;
-    height: 500px;
-    border-radius: 10px;
-    justify-content: column;
-    align-items: center;
-    text-align: center;
-}
-
-    #flexbox1{
-        display: block;
-        width: 100%;
-        height: 20%;
-        /* background-color: #007668; */
-        flex-direction: column;
-       
-    }
-
-
-    #flexbox2{
-        display: block;
-        width: 100%;
-        height: 20%;
-        /* background-color: #ff7bc8; */
-        flex-direction: column;
-    }
-
-    
-    #flexbox3{
-        display: block;
-        width: 100%;
-        height: 20%;
-        /* background-color: #0a3279; */
-        flex-direction: column;
-    }
-
-    
-    #flexbox4{
-        display: block;
-        width: 100%;
-        height: 20%;
-        /* background-color: #0a3279; */
-        flex-direction: column;
-    }
-
-    
-    #flexbox5{
-        display: block;
-        width: 100%;
-        height: 20%;
-        /* background-color: #0a3279; */
-        flex-direction: column;
-    }
-
-    #mobile-text {
-        font-size: 34px;
-        font-family: "Picaflor", serif;
-        font-weight: 100;
-        color: #ff7bc9;
+        justify-content: column;
+        align-items: center;
         text-align: center;
-        padding-top: 0; /* Remove padding for better centering */
+    }
+    
+        #flexbox1{
+            display: block;
+            width: 100%;
+            height: 20%;
+            /* background-color: #007668; */
+            flex-direction: column;
+           
+        }
+    
+    
+        #flexbox2{
+            display: block;
+            width: 100%;
+            height: 20%;
+            /* background-color: #ff7bc8; */
+            flex-direction: column;
+        }
+    
+        
+        #flexbox3{
+            display: block;
+            width: 100%;
+            height: 20%;
+            /* background-color: #0a3279; */
+            flex-direction: column;
+        }
+    
+        
+        #flexbox4{
+            display: block;
+            width: 100%;
+            height: 20%;
+            /* background-color: #0a3279; */
+            flex-direction: column;
+        }
+    
+        
+        #flexbox5{
+            display: block;
+            width: 100%;
+            height: 20%;
+            /* background-color: #0a3279; */
+            flex-direction: column;
+        }
+    
+        #mobile-text {
+            font-size: 34px;
+            font-family: "Picaflor", serif;
+            font-weight: 100;
+            color: #ff7bc9;
+            text-align: center;
+            padding-top: 0; /* Remove padding for better centering */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%; /* Ensure it spans the height of the parent flexbox */
+        }
+        
+        #flexbox1, #flexbox2, #flexbox3, #flexbox4, #flexbox5 {
+            display: flex; /* Set parent to flex */
+            flex-direction: column;
+            justify-content: center; /* Center content vertically */
+            align-items: center; /* Center content horizontally */
+            width: 100%;
+            height: 20%;
+          
+        }
+        
+    
+      
+    
+        .flex-container-header {
+          display: none;
+        }
+    
+       
+    
+          .flex-container-bottom {
+            display: none;
+          }
+    
+       .flex-container1{
         display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        text-align: center;
+        padding: 0;
+       
+      
+       }
+    
+       .flex-item{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-wrap: nowrap;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100%; /* Ensure it spans the height of the parent flexbox */
-    }
+        padding: 0;
+        margin-top: 0;
+       }
     
-    #flexbox1, #flexbox2, #flexbox3, #flexbox4, #flexbox5 {
-        display: flex; /* Set parent to flex */
+    
+    
+    .parent-container{
+        display: block;
         flex-direction: column;
-        justify-content: center; /* Center content vertically */
-        align-items: center; /* Center content horizontally */
-        width: 100%;
-        height: 20%;
-      
+        align-items: center;
+        justify-content: center;
     }
     
-
-  
-
-    .flex-container-header {
-      display: none;
+    h4{
+        font-size: 14px;
+        font-weight: 200;
+        position: absolute;
+       margin-top: 0px;
+       margin-right: 20px;
+        right: 0;
     }
-
-   
-
-      .flex-container-bottom {
-        display: none;
-      }
-
-   .flex-container1{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    text-align: center;
-    padding: 0;
-   
-  
-   }
-
-   .flex-item{
-    display: flex;
-    width: 100%;
-    height: 100%;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin-top: 0;
-   }
-
-
-
-.parent-container{
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-h4{
-    font-size: 14px;
-    font-weight: 200;
-    position: absolute;
-   margin-top: 0px;
-   margin-right: 20px;
-    right: 0;
-}
-
-     
-        h1 {
-            font-size: 130px;
-            padding: 0;
+    
+         
+            h1 {
+                font-size: 130px;
+                padding: 0;
+            }
+            h2 {
+                font-size: 20px;
+                font-family: 'courier new', sans-serif;
+                color: #e6f2fa;
+            }
+        
+    
+            p{
+                font-size: 20px;
+                padding: 0;
+            }
+         
+       hr{
+        display: flex;
+        color: #ff7bc9;
+        border: .5px solid #ff7bc9;
+       }
+    
+    
+    a:hover{
+        background-color: #ffff00;
+    }
+    
+    
+    #mobile-text:hover{
+    color:#007668;
+    }
+    
+    /* Container styles */
+    .scrolling-text-container {
+      display: block;
+        border-radius: 4px;
+        overflow: hidden;
+        background-color:#007668;
+       
+    }
+    
+    /* Inner container styles */
+    .scrolling-text-inner {
+        display: flex;
+        white-space: nowrap;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 8px 0;
+       
+    }
+    
+    /* Text styles */
+    .scrolling-text {
+        display: flex;
+       
+    }
+    
+    .scrolling-text-item {
+        padding: 0 30px;
+    
+    }
+    
+    /* Apply the animation to the text items */
+    .scrolling-text-inner>div {
+        animation: var(--direction) var(--marquee-speed) linear infinite;
+    }
+    
+    /* Pause the animation when a user hovers over it */
+    .scrolling-text-container:hover .scrolling-text-inner>div {
+        animation-play-state: paused;
+    }
+    
+    /* Setting the Animation using Keyframes */
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(0%);
         }
-        h2 {
-            font-size: 20px;
-            font-family: 'courier new', sans-serif;
-            color: #e6f2fa;
+    
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+    
+    @keyframes scroll-right {
+        0% {
+            transform: translateX(-100%);
         }
     
-
-        p{
-            font-size: 20px;
-            padding: 0;
+        100% {
+            transform: translateX(0%);
         }
-     
-   hr{
-    display: flex;
-    color: #ff7bc9;
-    border: .5px solid #ff7bc9;
-   }
-
-
-a:hover{
-    background-color: #ffff00;
-}
-
-
-#mobile-text:hover{
-color:#007668;
-}
-
-/* Container styles */
-.scrolling-text-container {
-  display: block;
-    border-radius: 4px;
-    overflow: hidden;
-    background-color:#007668;
-   
-}
-
-/* Inner container styles */
-.scrolling-text-inner {
-    display: flex;
-    white-space: nowrap;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 8px 0;
-   
-}
-
-/* Text styles */
-.scrolling-text {
-    display: flex;
-   
-}
-
-.scrolling-text-item {
-    padding: 0 30px;
-
-}
-
-/* Apply the animation to the text items */
-.scrolling-text-inner>div {
-    animation: var(--direction) var(--marquee-speed) linear infinite;
-}
-
-/* Pause the animation when a user hovers over it */
-.scrolling-text-container:hover .scrolling-text-inner>div {
-    animation-play-state: paused;
-}
-
-/* Setting the Animation using Keyframes */
-@keyframes scroll-left {
-    0% {
-        transform: translateX(0%);
     }
+    }    
 
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-@keyframes scroll-right {
-    0% {
-        transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(0%);
-    }
-}
 
 
 
@@ -834,4 +718,3 @@ color:#007668;
 
 
 
-}

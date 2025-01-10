@@ -7,10 +7,48 @@ canvas{
     display: block;
     
 }
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  
+  height: 500px;;
+  border-radius: 10px;
+  display: none;
+  padding-bottom: 20px;
+}
 
-.mobile-container{
-    display: none;
-} 
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'courier new', sans-serif;
+  font-size: 17px;
+  display: none;
+ 
+}
+
+.topnav a.icon {
+
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #da407b;
+ 
+}
+
+.active {
+
+  color: #F2F0EB;
+}
 
 
 
@@ -90,7 +128,7 @@ img hover{
 
 
 .flex-container-header{
-    display: block;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-family: 'dm sans', sans-serif;

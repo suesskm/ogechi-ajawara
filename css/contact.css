@@ -21,6 +21,49 @@ body{
  
 }
 
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    
+    height: 500px;;
+    border-radius: 10px;
+    display: none;
+    padding-bottom: 20px;
+  }
+  
+
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'courier new', sans-serif;
+    font-size: 17px;
+    display: none;
+   
+  }
+  
+  .topnav a.icon {
+  
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #da407b;
+   
+  }
+  
+  .active {
+
+    color: #F2F0EB;
+  }
+
 
 
 .scrolling-text-container {
@@ -29,6 +72,14 @@ body{
 @font-face{
     font-family: "Not Courier Sans";
     src: url("../media/fonts/NotCourierSans-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face{
+    font-family: "Rosindale";
+    src: url("../media/fonts/fonts/Roslindale-DeckNarrowBold-Testing.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -210,7 +261,7 @@ a{
      /* Align children to the bottom if necessary */
      justify-content: left;
      align-items: column;
-    
+   
     }
 
 
@@ -248,25 +299,25 @@ a{
 
 .flex-item1{
     display: flex;
-    width: 30%;
+    width: 33%;
     height: 100vh;
   flex-wrap: nowrap;
    flex-direction: column;
    justify-content: left;
    align-items: center;
-  
+   
    
 }
 
 .flex-item2{
     display: flex;
-    width: 20%;
+    width: 33%;
     height: 100vh;
     flex-wrap: nowrap;
-   flex-direction: row;
+   flex-direction: column;
    justify-content: left;
    align-items: left;
-  
+
    
   
 
@@ -275,13 +326,23 @@ a{
 
 .flex-item3{
     display: flex;
-    width: 50%;
+    width: 33%;
     height: 100vh;
     flex-wrap: nowrap;
     flex-direction: column;
- 
-   
 
+ justify-content: center;
+    align-items: center;
+
+}
+
+#name{
+    font-size: 80px;
+    font-family: 'Rosindale', serif;
+    font-weight: 100;
+   color: #0A5D4C;
+   letter-spacing: 2px;
+   padding: 10px;
 }
 
 .marquee {
@@ -319,28 +380,31 @@ hr{
  
 
 h2{
-    font-size: 18px;
-    font-family: "courier new", serif;
-    font-weight: 200;
+    font-size: 30px;
+    font-family: 'Picaflor', serif;
+   
    color: #ff7bc7;
    
 }
 
 h3{
-    font-size: 20px;
+    font-size: 14px;
     font-family: "dm sans", sans-serif;
     font-weight: 300;
    color: #0A5D4C;
    
 }
 
-
+h4{
+    font-size: 20px;
+    font-family: 'louise', sans-serif;
+}
 
 
 #polaroid{
     width: 10%;
     height: 10%;
-border: .5px solid #da407b;
+
 
 
 }
@@ -348,7 +412,7 @@ border: .5px solid #da407b;
 #polaroid1{
     width: 10%;
     height: 10%;
-border: .5px solid #da407b;
+
 
  
 
@@ -362,8 +426,9 @@ border: .5px solid #da407b;
     margin: auto;
     display: flex;       /* Optional if you need additional flexbox layout inside */
     flex-direction: column; /* Optional for stacking elements */
-    justify-content: left; /* Align children to the center */
-    align-items: left;
+    margin-top: 0px;
+
+   
 }
 
 #polaroid, #polaroid1 {
@@ -376,10 +441,35 @@ border: .5px solid #da407b;
 
 
 
+#discohat{
+    width: 80%;
+    height: 50%;
+   
+}
 
+
+#sushi{
+    width: 100%;
+    height: 50%;
+   
+}
 
   
+#about{
+    font-size: 12px;
+    font-family: 'dm sans', sans-serif;
+    font-weight: 300;
+    color: #0A5D4C;
+    margin-top: 250px;
+    padding: 50px;}
 
+      
+#about2{
+    font-size: 12px;
+    font-family: 'dm sans', sans-serif;
+    font-weight: 300;
+    color: #0A5D4C;
+    padding: 50px;}
 
 
 
@@ -578,31 +668,7 @@ border: .5px solid #da407b;
         justify-content: center;
     }
     
-    h4{
-        font-size: 14px;
-        font-weight: 200;
-        position: absolute;
-       margin-top: 0px;
-       margin-right: 20px;
-        right: 0;
-    }
-    
-         
-            h1 {
-                font-size: 130px;
-                padding: 0;
-            }
-            h2 {
-                font-size: 20px;
-                font-family: 'courier new', sans-serif;
-                color: #e6f2fa;
-            }
-    
-            p{
-                font-size: 20px;
-                padding: 0;
-            }
-         
+ 
     
 
     #mobile-text:hover{
