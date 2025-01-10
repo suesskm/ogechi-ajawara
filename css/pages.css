@@ -7,7 +7,7 @@ canvas{
     display: block;
     
 }
-.mobile-container {
+mobile-container {
   max-width: 480px;
   margin: auto;
   
@@ -69,6 +69,16 @@ canvas{
     font-style: normal;
   
   }
+
+  @font-face {
+    font-family: 'Rosindale-VF';
+   
+    src: url('../media/fonts/fonts/RoslindaleVariable-VF[Display]-Testing.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
 
 
   a{
@@ -246,8 +256,8 @@ h1{
 
 h2{
     font-size: 60px;
-        font-family: 'Picaflor', serif;
-        font-weight: 400;
+        font-family: 'Rosindale-VF', serif;
+        font-weight: 100;
         justify-content: center;
         padding: 10px;
         color: #ff7bc9;
@@ -583,4 +593,15 @@ h3{
 
 .flex-container-header{
     display: none;
+}
+
+
+@media (min-width: 481px) {
+  .flex-container-header {
+      display: flex; /* Make it visible on larger screens */
+  }
+
+  .flex-container-bottom {
+    display: flex; /* Make it visible on larger screens */
+}
 }

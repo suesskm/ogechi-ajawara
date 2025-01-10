@@ -16,7 +16,7 @@ html, body {
 body{
    
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
   
  
 }
@@ -163,73 +163,53 @@ body{
     
 a{
     text-decoration: none;
-    color: black;
+    color: #e0e0e0;
 
 }
 
 
 
 #home:hover{
-    background-color: #007668;
+    background-color: #888d34;
     font-weight: 400;
     color:#e6f2fa;
 }
 
 #contact:hover{
-    background-color: #007668;
+    background-color: #888d34;
     font-weight: 400;
     color:#e6f2fa;
 }
 
 #header2:hover{
-    background-color: #007668;
+    background-color: #888d34;
     font-weight: 400;
     color:#e6f2fa;
 }
 
 
 #h3:hover{
-    background-color: #007668;
+    background-color: #888d34;
     font-weight: 500;
     color:#e6f2fa;
 }
 
 
-
-.flex-item{
+.flex-item {
     display: flex;
-    width: 90%;
-    height: auto;
-  flex-wrap: nowrap;
-   flex-direction: column;
-   justify-content: left;
-   align-items: left;
-  padding: 50px;
-  margin-top: 130px;
-}
-
-.flex-item2{
-    display: flex;
-    width: 40%;
-    height: auto;
-    flex-wrap: nowrap;
-  
-
-
-}
-
-.flex-item3{
-    display: flex;
-    width: 60%;
-    height: 100vh;
-    padding: 20px;
-    padding-top: 150px;
-    flex-wrap: nowrap;
     flex-direction: column;
-
+    width: 50%; /* Adjust width as needed */
+    height: auto;
+    background-color: teal;
 }
 
-
+.flex-item2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Adjust width as needed */
+    height: auto;
+    background-color: yellow;
+}
 
 
 
@@ -258,6 +238,24 @@ a{
   }
 
 
+    @font-face{
+    font-family: "Rosindale";
+    src: url("../media/fonts/fonts/Roslindale-DeckNarrowBold-Testing.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Rosindale-VF';
+   
+    src: url('../media/fonts/fonts/RoslindaleVariable-VF[Display]-Testing.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+
   h4{
     font-family:'Courier New', Courier, monospace;
     font-size: 16px;
@@ -266,19 +264,20 @@ a{
    margin-top: 20px;
    margin-right: 20px;
     right: 0;
+    color: #e0e0e0;
   }
 
   h4:hover{
-    background-color:#007668;
-    color: #e6f2fa;
+    background-color: #888d34;
+   
   }
 
 h1{
-    font-size: 200px;
-    font-family: "Picaflor", serif;
-    font-weight: 200;
+    font-size: 140px;
+    font-family: "Rosindale-VF", serif;
+   font-weight: 100;
    color: #ff7bc9;
-   letter-spacing: 2px;
+   
    
 }
 
@@ -302,8 +301,8 @@ h2{
 p{
     font-family: 'dm sans', sans-serif;
     font-weight: 100;
-    padding: 20px;
-    font-size: 24px;
+   color: #e0e0e0;
+    font-size: 18px;
 }
  
  
@@ -311,29 +310,26 @@ p{
     .flex-container1 {
        
     width: 100%;
-    height: 100vh;
-
+    height: auto;
+justify-content: center;
+align-items: center;
     display: flex; /* Optional if you need additional flexbox layout inside */
-    flex-direction: column; /* Optional for stacking elements */
-     /* Align children to the bottom if necessary */
-     justify-content: left;
-     align-items: left;
+    flex-direction: row; /* Optional for stacking elements */
+    margin-top: 100px;
     
     }
 
 
     
-  .parent-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; /* Ensure no overflow */
-    width: 100%;
-    height: 100vh;
-    align-items: flex-start;
-  
-}
-      
-     
+    .parent-container {
+        display: flex; /* Enable Flexbox */
+        flex-direction: row; /* Arrange children in a row */
+        justify-content: space-between; /* Add space between items */
+        align-items: flex-start; /* Align items at the start of the cross axis */
+        width: 100%; /* Ensure full width of the parent container */
+        height: auto; /* Adjust height as needed */
+    }
+    
     
 
     .flex-container2 {
@@ -371,9 +367,30 @@ p{
    }
    
 
+#image{
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    transform: rotate(10deg);
+    margin-top:0px;
+}
 
-
-
+#text{
+    width: 20%;
+    height: autp;
+    color: #e0e0e0;
+    text-align: left;
+    padding: 15px;
+    margin-top: 0;
+      position: absolute;
+    left: 0;
+    top: 70px;
+}
     
 
     /* Media Queries */
@@ -440,7 +457,7 @@ p{
             display: block;
             font-weight: 300;
             text-align: left;
-            color: #007668;
+            color: #888d34;
            
           }
           
@@ -454,7 +471,7 @@ p{
           }
           
           .topnav a:hover {
-            background-color: #ffff00;
+            background-color: #e0e0e0;
            
           }
           
@@ -532,9 +549,9 @@ p{
     
         #mobile-text {
             font-size: 34px;
-            font-family: "Picaflor", serif;
+            font-family: "Rosindale-VF", serif;
             font-weight: 100;
-            color: #ff7bc9;
+            color: #f39cb3;
             text-align: center;
             padding-top: 0; /* Remove padding for better centering */
             display: flex;
@@ -553,7 +570,27 @@ p{
           
         }
         
-    
+        #image{
+           display: block;
+              margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+                height: 100%;
+        }
+        
+        #text{
+         display: block;
+            margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                margin-top: 0;
+                position: absolute;
+                left: 0;
+                top: 70px;
+        }
+            
       
     
         .flex-container-header {
@@ -615,8 +652,8 @@ p{
             }
             h2 {
                 font-size: 20px;
-                font-family: 'courier new', sans-serif;
-                color: #e6f2fa;
+                font-family: 'dm sans', sans-serif;
+                color: #2a0220;
             }
         
     
@@ -627,15 +664,22 @@ p{
          
        hr{
         display: flex;
-        color: #ff7bc9;
-        border: .5px solid #ff7bc9;
+        color: #f39cb3;
+        border: .5px solid #f39cb3;
        }
+
+       h3{
+        font-size: 10px;
+     font-family: 'dm sans', sans-serif;
+       
+    }
+    
     
     
     a:hover{
         background-color: #ffff00;
     }
-    
+  
     
     #mobile-text:hover{
     color:#007668;
@@ -646,7 +690,7 @@ p{
       display: block;
         border-radius: 4px;
         overflow: hidden;
-        background-color:#007668;
+        background-color:#f39cb3;
        
     }
     

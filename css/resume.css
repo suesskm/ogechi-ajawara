@@ -75,6 +75,16 @@ body .mobile-container {
   
   }
 
+  @font-face {
+    font-family: 'Rosindale-VF';
+   
+    src: url('../media/fonts/fonts/RoslindaleVariable-VF[Display]-Testing.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
+
 
     
 a{
@@ -266,8 +276,8 @@ h4:hover{
 
         h1{
             font-size: 150px;
-            font-family: 'Picaflor', serif;
-            font-weight: 400;
+            font-family: 'Rosindale-VF', serif;
+            font-weight: 100;
             align-items: center;
             letter-spacing: 2px;
             justify-content: center;

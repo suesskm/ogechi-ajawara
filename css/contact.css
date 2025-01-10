@@ -139,6 +139,16 @@ body{
   
   }
 
+
+  @font-face {
+    font-family: 'Rosindale-VF';
+   
+    src: url('../media/fonts/fonts/RoslindaleVariable-VF[Display]-Testing.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+
 .flex-container-header{
     display: flex;
     flex-direction: row;
@@ -337,12 +347,12 @@ a{
 
 }
 
-#name{
+#name1{
     font-size: 80px;
-    font-family: 'Rosindale', serif;
+    font-family: 'Picaflor', serif;
     font-weight: 100;
    color: #ff7bc9;
-   letter-spacing: 2px;
+   letter-spacing: 4px;
    padding: 10px;
 }
 
@@ -569,14 +579,14 @@ input[type="submit"] {
     background-color: #F2F0EB;
     color: black;
     padding: 10px 20px;
-    border: 2px solid black;
+    border: 2px solid #007668;
     border-radius: 4px;
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
 }
 
 input[type="submit"]:hover {
-    background-color: #da407b;
+    background-color: #ff7bc7;
 }
 
 /* Style message */
