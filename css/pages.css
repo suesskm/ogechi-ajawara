@@ -271,15 +271,7 @@ h1{
     padding: 10px;
 }
 
-h2{
-    font-size: 60px;
-        font-family: 'Rosindale-VF', serif;
-        font-weight: 100;
-        justify-content: center;
-        padding: 10px;
-        color: #ff7bc9;
-    
-}
+
 
 h3{
   font-size: 14px;
@@ -300,7 +292,7 @@ p
   font-family: 'dm sans', sans-serif;
   font-weight: 300;
   color: #e0e0e0;
-  padding: 50px;}
+  padding: 100px;}
 
 
 #down-arrow{
@@ -469,6 +461,79 @@ p
   /* General Reset for Mobile */
 
 
+    /* Container styles */
+    .scrolling-text-container {
+      display: block;
+        border-radius: 4px;
+        overflow: hidden;
+        background-color:#f39cb3;
+       
+    }
+    
+    /* Inner container styles */
+    .scrolling-text-inner {
+        display: flex;
+        white-space: nowrap;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 8px 0;
+       
+    }
+    
+    /* Text styles */
+    .scrolling-text {
+        display: flex;
+       
+    }
+    
+    .scrolling-text-item {
+        padding: 0 30px;
+    
+    }
+    
+    /* Apply the animation to the text items */
+    .scrolling-text-inner>div {
+        animation: var(--direction) var(--marquee-speed) linear infinite;
+    }
+    
+    /* Pause the animation when a user hovers over it */
+    .scrolling-text-container:hover .scrolling-text-inner>div {
+        animation-play-state: paused;
+    }
+    
+    /* Setting the Animation using Keyframes */
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(0%);
+        }
+    
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+    
+    @keyframes scroll-right {
+        0% {
+            transform: translateX(-100%);
+        }
+    
+        100% {
+            transform: translateX(0%);
+        }
+    }
+
+
+    h2 {
+      font-size: 20px;
+      font-family: 'dm sans', sans-serif;
+      color: #2a0220;
+      font-weight: 100;
+  }
+
+
+
+
+
   html, body {
     margin: 0;
     padding: 0;
@@ -508,7 +573,7 @@ p
     padding: 10px;
     text-decoration: none;
     font-family: 'dm-sans', sans-serif;
-    font-size: 14px;
+    font-size: 10px;
     display: block;
     font-weight: 300;
     text-align: left;
@@ -561,10 +626,7 @@ p
     padding: 5px;
   }
 
-  h2 {
-    font-size: 40px;
-    padding: 5px;
-  }
+
 
   h3 {
     font-size: 12px;
@@ -658,4 +720,9 @@ p
     .flex-container-header {
       display: flex; /* Make it visible on larger screens */
   }
+
+
+
+
+  
 }
