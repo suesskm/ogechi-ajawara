@@ -754,6 +754,7 @@ textarea {
        
        }
     
+    
        .flex-item1,.flex-item2,.flex-item3{
         display: flex;
         width: 100%;
@@ -767,7 +768,9 @@ textarea {
        
        }
 
-
+.flex-item1{
+    background-color: yellow;
+    height: 30vh;}
     
     
     
@@ -794,6 +797,9 @@ textarea {
     background-color:#007668;
     }
     
+    #about{
+        background-color: teal;
+    }
 
 /* Container styles */
 .scrolling-text-container {
@@ -801,7 +807,7 @@ textarea {
       border-radius: 4px;
       overflow: hidden;
       background-color:#f39cb3;
-      position: fixed;
+      
       bottom: 0px;
       margin-right: auto;
       margin-left: auto;
