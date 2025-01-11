@@ -360,6 +360,7 @@ body{
    
 }
 
+
 .marquee {
     margin: 0 auto;
     white-space: nowrap;
@@ -372,18 +373,19 @@ body{
     animation: marquee 5s linear infinite;
 }
 
-
-
-h1{
-    font-size: 18px;
-    font-family: 'playfair display', serif;
-    font-weight: 200;
-   color: #e0e0e0;
- 
-
-  
+hr{
+    display: none;
 }
 
+h1{
+    font-size: 80px;
+    font-family: "Rosindale-VF", serif;
+   font-weight: 100;
+   color: #f39cb3;
+  
+   
+   
+}
 
 
 
@@ -394,13 +396,12 @@ hr{
 
  
 
-h2{
-    font-size: 30px;
-    font-family: 'Picaflor', serif;
-   
-   color: #ff7bc7;
-   
-}
+   h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 200;
+    color: #e0e0e0;
+  }
 
 h3{
     font-size: 14px;
@@ -417,19 +418,29 @@ h4{
 }
 
 
+
 h5{
     font-family:'Courier New', Courier, monospace;
     font-size: 16px;
     font-weight: 200;
-
+    position: absolute;
+   margin-top: 20px;
+   margin-right: 20px;
     right: 0;
+    color: #e0e0e0;
   }
 
   h5:hover{
-    background-color: #D0C743;
-    font-weight: 400;
+    background-color: #888d34;
+   
   }
 
+  h6 {
+    font-size: 20px;
+    font-family: 'dm sans', sans-serif;
+    color: #2a0220;
+    font-weight: 100;
+}
 
 #polaroid{
     width: 10%;
@@ -657,12 +668,13 @@ textarea {
         }
         
 
-        h2 {
-            font-size: 20px;
-            font-family: 'dm sans', sans-serif;
-            color: #2a0220;
-            font-weight: 100;
-        }
+        h2{
+            font-family:'Courier New', Courier, monospace;
+            font-size: 16px;
+            font-weight: 200;
+            color: #e0e0e0;
+            padding: 10px;
+          }
     
     
         h3{
@@ -754,11 +766,14 @@ textarea {
        
        }
     
-    
+    .flex-item2{
+      
+        height: 50vh;
+    }
        .flex-item1,.flex-item2,.flex-item3{
         display: flex;
         width: 100%;
-        height: auto;
+ 
         flex-wrap: nowrap;
         flex-direction: column;
         justify-content: center;
@@ -769,11 +784,28 @@ textarea {
        }
 
 .flex-item1{
-    background-color: yellow;
-    height: 30vh;}
+   
+    height: 40vh;
+    margin-top: 0px;}
+
+    .flex-item3{
+       
+        height: 40vh;
+        margin-top: 0px;}
     
-    
-    
+    hr{
+        display: flex;
+        color: #f39cb3;
+        border: .5px solid #f39cb3;
+       }
+
+       h6 {
+        font-size: 20px;
+        font-family: 'dm sans', sans-serif;
+        color: #2a0220;
+        font-weight: 100;
+    }
+
     .parent-container{
         display: block;
         width: 100%;
@@ -783,23 +815,6 @@ textarea {
         justify-content: center;
     }
     
-    #name1, .parent-container {
-        border: 1px solid red;
-    }
- 
-   #name1{
-    font-size: 80px;
-    font-family: "Rosindale-VF", serif;
-    padding: 0;
-   } 
-
-    #mobile-text:hover{
-    background-color:#007668;
-    }
-    
-    #about{
-        background-color: teal;
-    }
 
 /* Container styles */
 .scrolling-text-container {
