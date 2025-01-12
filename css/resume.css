@@ -481,6 +481,7 @@ color: #e0e0e0;
       font-size: 14px;
       line-height: 1.5;
       text-align: justify;
+      
     }
   
     .flex-container2,
@@ -489,6 +490,7 @@ color: #e0e0e0;
     .flex-container5 {
       flex-direction: column;
       padding: 10px;
+      
     }
   
     .flex-container-bottom {
