@@ -768,7 +768,7 @@ textarea {
     
     .flex-item2{
       
-        height: 50vh;
+        height: 70vh;
     }
        .flex-item1,.flex-item2,.flex-item3{
         display: flex;
@@ -785,12 +785,12 @@ textarea {
 
 .flex-item1{
    
-    height: 40vh;
+    height: 70vh;
     margin-top: 0px;}
 
     .flex-item3{
        
-        height: 40vh;
+        height: 70vh;
         margin-top: 0px;}
     
     hr{
