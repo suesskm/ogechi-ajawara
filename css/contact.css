@@ -307,8 +307,6 @@ body{
          /* Align children to the bottom if necessary */
          justify-content: left;
          align-items: column;
-         
-     
      
     }
     
@@ -349,6 +347,42 @@ body{
  justify-content: center;
     align-items: center;
 
+}
+
+.flex-item4{
+    display: flex;
+    width: 33%;
+    height: 100vh;
+  flex-wrap: nowrap;
+   flex-direction: column;
+   justify-content: left;
+   align-items: center;
+   
+   
+}
+
+.flex-item5{
+    display: flex;
+    width: 33%;
+    height: 100vh;
+  flex-wrap: nowrap;
+   flex-direction: column;
+   justify-content: left;
+   align-items: center;
+   
+   
+}
+
+.flex-item6{
+    display: flex;
+    width: 33%;
+    height: 100vh;
+  flex-wrap: nowrap;
+   flex-direction: column;
+   justify-content: left;
+   align-items: center;
+   
+   
 }
 
 #name1{
@@ -641,180 +675,217 @@ textarea {
 
 
 
-
-
-
-
-
-
-    
-    
-
-      @media screen and (max-width: 480px) {
-        html, body {
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-            width: 100%;
-        }
-        
-        * {
-            box-sizing: border-box;
-        }
-        
-        .container {
-            max-width: 100%;
-            overflow: hidden;
-        }
-        
-
-        h2{
-            font-family:'Courier New', Courier, monospace;
-            font-size: 16px;
-            font-weight: 200;
-            color: #e0e0e0;
-            padding: 10px;
-          }
-    
-    
-        h3{
-            font-size: 10px;
-         font-family: 'dm sans', sans-serif;
-           color: #888d34;
-        }
-
-        a:hover{
-            background-color: #888d34;
-            font-weight: 400;
-            color:#e6f2fa;
-        }
-        .mobile-container {
-            max-width: 480px;
-            margin: auto;
-            padding: 10;
-            height: 500px;;
-            border-radius: 10px;
-            display: block;
-            padding-bottom: 20px;
-          }
-          
-        
-          
-          .topnav #myLinks {
-            display: none;
-          }
-          
-          .topnav a {
-            color: black;
-            padding: 10px;
-            text-decoration: none;
-            font-family: 'dm-sans', sans-serif;
-            font-size: 10px;
-            display: block;
-            font-weight: 300;
-            text-align: left;
-            color: #888d34;
-            background-color: #2a0220;
-            z-index:1;
-           
-          }
-          
-          .topnav a.icon {
-          
-            display: block;
-            position: absolute;
-            right: 0;
-            top: 0;
-            padding: 10px;
-          }
-          
-          .topnav a:hover {
-            background-color: #f39cb3;
-           
-          }
-          
-          .active {
-        
-           color: white;
-          }
-    
-    
-  
-    
-      
-    
-        .flex-container-header {
-          display: none;
-        }
-    
-       
-    
-          .flex-container-bottom {
-            display: none;
-          }
-    
-       .flex-container1,.flex-container2,.flex-container3{
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: auto;
-        text-align: center;
+@media screen and (max-width: 480px) {
+    html, body {
+        margin: 0;
         padding: 0;
-       
-       
-       }
-    
-    .flex-item2{
-      
-        height: 70vh;
-    }
-       .flex-item1,.flex-item2,.flex-item3{
-        display: flex;
+        overflow-x: hidden;
         width: 100%;
- 
-        flex-wrap: nowrap;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0px;
-        margin-top: 40px;
-       
-       }
-
-.flex-item1{
-   
-    height: 70vh;
-    margin-top: 0px;}
-
-    .flex-item3{
-       
-        height: 70vh;
-        margin-top: 0px;}
+    }
     
-    hr{
-        display: flex;
-        color: #f39cb3;
-        border: .5px solid #f39cb3;
-       }
+    * {
+        box-sizing: border-box;
+    }
+    
+    .container {
+        max-width: 100%;
+        overflow: hidden;
+    }
+    
 
-       h6 {
-        font-size: 20px;
-        font-family: 'dm sans', sans-serif;
-        color: #2a0220;
-        font-weight: 100;
+    h2{
+        font-family:'Courier New', Courier, monospace;
+        font-size: 16px;
+        font-weight: 200;
+        color: #e0e0e0;
+        padding: 10px;
+      }
+
+
+    h3{
+        font-size: 10px;
+     font-family: 'dm sans', sans-serif;
+       color: #888d34;
     }
 
-    .parent-container{
+    a:hover{
+        background-color: #888d34;
+        font-weight: 400;
+        color:#e6f2fa;
+    }
+    .mobile-container {
+        max-width: 480px;
+        margin: auto;
+        padding: 10;
+        height: 500px;;
+        border-radius: 10px;
         display: block;
+        padding-bottom: 20px;
+      }
+      
+    
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        font-family: 'dm-sans', sans-serif;
+        font-size: 10px;
+        display: block;
+        font-weight: 300;
+        text-align: left;
+        color: #888d34;
+        background-color: #2a0220;
+        z-index:1;
+       
+      }
+      
+      .topnav a.icon {
+      
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 10px;
+      }
+      
+      .topnav a:hover {
+        background-color: #f39cb3;
+       
+      }
+      
+      .active {
+    
+       color: white;
+      }
+
+
+
+
+    .flex-container-header {
+      display: none;
+    }
+
+      .flex-container-bottom {
+        display: none;
+      }
+
+
+
+      .flex-container1,.flex-container2,.flex-container3 {
         width: 100%;
         height: auto;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        display: flex; /* Optional if you need additional flexbox layout inside */
+        flex-direction: column; /* Optional for stacking elements */
+         justify-content: center;
+         align-items: column;
+         text-align: center;
+     
     }
-    
+
+    .flex-item1,.flex-item2,.flex-item3 {
+        width: 100%;
+        height: auto;
+        display: flex; /* Optional if you need additional flexbox layout inside */
+        flex-direction: column; /* Optional for stacking elements */
+         justify-content: center;
+         align-items: column;
+     
+    }
+
+#polaroid-container{
+    height: 35vh;
+}
+
+hr{
+    display: flex;
+    color: #f39cb3;
+    border: .5px solid #f39cb3;
+   }
+
+   h6 {
+    font-size: 20px;
+    font-family: 'dm sans', sans-serif;
+    color: #2a0220;
+    font-weight: 100;
+}
+
+
+
+/* Container styles */
+.scrolling-text-container {
+display: block;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color:#f39cb3;
+  
+  bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+ 
+}
+
+/* Inner container styles */
+.scrolling-text-inner {
+  display: flex;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 0;
+ 
+}
+
+/* Text styles */
+.scrolling-text {
+  display: flex;
+ 
+}
+
+.scrolling-text-item {
+  padding: 0 30px;
+
+}
+
+/* Apply the animation to the text items */
+.scrolling-text-inner>div {
+  animation: var(--direction) var(--marquee-speed) linear infinite;
+}
+
+/* Pause the animation when a user hovers over it */
+.scrolling-text-container:hover .scrolling-text-inner>div {
+  animation-play-state: paused;
+}
+
+/* Setting the Animation using Keyframes */
+@keyframes scroll-left {
+  0% {
+      transform: translateX(0%);
+  }
+
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+      transform: translateX(-100%);
+  }
+
+  100% {
+      transform: translateX(0%);
+  }
+}
+
+
+
+
+
+
 
 /* Container styles */
 .scrolling-text-container {
@@ -822,10 +893,6 @@ textarea {
       border-radius: 4px;
       overflow: hidden;
       background-color:#f39cb3;
-      
-      bottom: 0px;
-      margin-right: auto;
-      margin-left: auto;
      
   }
   
@@ -880,91 +947,7 @@ textarea {
           transform: translateX(0%);
       }
   }
-
-
-
-
-
-
-  
-    /* Container styles */
-    .scrolling-text-container {
-        display: block;
-          border-radius: 4px;
-          overflow: hidden;
-          background-color:#f39cb3;
-         
-      }
-      
-      /* Inner container styles */
-      .scrolling-text-inner {
-          display: flex;
-          white-space: nowrap;
-          font-size: 16px;
-          font-weight: 600;
-          padding: 8px 0;
-         
-      }
-      
-      /* Text styles */
-      .scrolling-text {
-          display: flex;
-         
-      }
-      
-      .scrolling-text-item {
-          padding: 0 30px;
-      
-      }
-      
-      /* Apply the animation to the text items */
-      .scrolling-text-inner>div {
-          animation: var(--direction) var(--marquee-speed) linear infinite;
-      }
-      
-      /* Pause the animation when a user hovers over it */
-      .scrolling-text-container:hover .scrolling-text-inner>div {
-          animation-play-state: paused;
-      }
-      
-      /* Setting the Animation using Keyframes */
-      @keyframes scroll-left {
-          0% {
-              transform: translateX(0%);
-          }
-      
-          100% {
-              transform: translateX(-100%);
-          }
-      }
-      
-      @keyframes scroll-right {
-          0% {
-              transform: translateX(-100%);
-          }
-      
-          100% {
-              transform: translateX(0%);
-          }
-      }
-      }    
-  
-  
-  
-  
-  
-  
-  
-      
-      
-  
-  
-  
-  
-  
-  
-  
-     
+  }    
 
 
 
@@ -976,6 +959,37 @@ textarea {
   
 
 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
@@ -985,8 +999,5 @@ textarea {
 
     
     
+
     
-    
-    
-    
-     
