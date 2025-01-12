@@ -676,22 +676,31 @@ textarea {
 
 
 @media screen and (max-width: 480px) {
+  
     html, body {
         margin: 0;
         padding: 0;
         overflow-x: hidden;
         width: 100%;
     }
-    
     * {
+        margin: 0;
+        padding: 0;
         box-sizing: border-box;
     }
     
     .container {
+        width: 100%;
         max-width: 100%;
-        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
     }
     
+
 
     h2{
         font-family:'Courier New', Courier, monospace;
@@ -779,7 +788,7 @@ textarea {
       .flex-container1,.flex-container2,.flex-container3 {
         width: 100%;
         height: auto;
-        display: flex; /* Optional if you need additional flexbox layout inside */
+        display: block; /* Optional if you need additional flexbox layout inside */
         flex-direction: column; /* Optional for stacking elements */
          justify-content: center;
          align-items: column;
@@ -790,7 +799,7 @@ textarea {
     .flex-item1,.flex-item2,.flex-item3 {
         width: 100%;
         height: auto;
-        display: flex; /* Optional if you need additional flexbox layout inside */
+        display: block; /* Optional if you need additional flexbox layout inside */
         flex-direction: column; /* Optional for stacking elements */
          justify-content: center;
          align-items: column;
@@ -801,11 +810,7 @@ textarea {
     height: 40vh;
 }
 
-hr{
-    display: flex;
-    color: #f39cb3;
-    border: .5px solid #f39cb3;
-   }
+
 
    h6 {
     font-size: 20px;
@@ -888,90 +893,7 @@ display: block;
 
 
 
-/* Container styles */
-.scrolling-text-container {
-    display: block;
-      border-radius: 4px;
-      overflow: hidden;
-      background-color:#f39cb3;
-     
-  }
-  
-  /* Inner container styles */
-  .scrolling-text-inner {
-      display: flex;
-      white-space: nowrap;
-      font-size: 16px;
-      font-weight: 600;
-      padding: 8px 0;
-     
-  }
-  
-  /* Text styles */
-  .scrolling-text {
-      display: flex;
-     
-  }
-  
-  .scrolling-text-item {
-      padding: 0 30px;
-  
-  }
-  
-  /* Apply the animation to the text items */
-  .scrolling-text-inner>div {
-      animation: var(--direction) var(--marquee-speed) linear infinite;
-  }
-  
-  /* Pause the animation when a user hovers over it */
-  .scrolling-text-container:hover .scrolling-text-inner>div {
-      animation-play-state: paused;
-  }
-  
-  /* Setting the Animation using Keyframes */
-  @keyframes scroll-left {
-      0% {
-          transform: translateX(0%);
-      }
-  
-      100% {
-          transform: translateX(-100%);
-      }
-  }
-  
-  @keyframes scroll-right {
-      0% {
-          transform: translateX(-100%);
-      }
-  
-      100% {
-          transform: translateX(0%);
-      }
-  }
-  }    
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
+}
 
 
 
