@@ -437,7 +437,15 @@ body .mobile-container {
         font-weight: 100;
     }
 
+h2{
+    font-size: 22px;
+    font-family: 'dm sans', sans-serif;
+    font-weight:200;
+padding-top: 20px;
+padding: 20px;
+color: #e0e0e0;
 
+}
     body {
       margin: 0;
       padding: 0;
