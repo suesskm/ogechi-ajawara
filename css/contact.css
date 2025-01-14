@@ -704,23 +704,7 @@ html,body{
     overflow-x: hidden;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-}
-.mobile-container {
-    margin: 0 auto;
-    padding: 0;
-}
 
-.parent-container, .mobile-container, .flex-container1 {
-    margin: 0;
-    padding: 0;
-}
-.container {
-    max-width: 100%;
-    overflow-x: hidden;
-}
 
     h2{
         font-family:'Courier New', Courier, monospace;

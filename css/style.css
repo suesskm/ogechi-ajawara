@@ -425,9 +425,9 @@ p{
         }
          */
     
-         html,body{
+         /* html,body{
             overflow-x: hidden;
-        }
+        } */
 
         .mobile-container {
             max-width: 480px;

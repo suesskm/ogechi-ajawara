@@ -373,10 +373,6 @@ body .mobile-container {
         overflow-x: hidden;
     }
 
-    .container {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
     .mobile-container {
         max-width: 480px;
         margin: auto;

@@ -540,10 +540,7 @@ p
     box-sizing: border-box;
 } */
 
-.container {
-    max-width: 100%;
-    overflow-x: hidden;
-}
+
 
 html,body{
   overflow-x: hidden;
