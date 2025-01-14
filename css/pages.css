@@ -538,12 +538,12 @@ p
 
 * {
     box-sizing: border-box;
-}
+} */
 
 .container {
     max-width: 100%;
     overflow: hidden;
-} */
+}
 
 html,body{
   overflow-x: hidden;
