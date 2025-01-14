@@ -542,7 +542,7 @@ p
 
 .container {
     max-width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 html,body{

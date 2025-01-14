@@ -375,7 +375,7 @@ body .mobile-container {
 
     .container {
         max-width: 100%;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .mobile-container {
         max-width: 480px;
