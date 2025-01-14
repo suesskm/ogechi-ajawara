@@ -408,7 +408,7 @@ p{
     
     
     @media screen and (max-width: 480px) {
-        html, body {
+        /* html, body {
             margin: 0;
             padding: 0;
             overflow-x: hidden;
@@ -423,7 +423,7 @@ p{
             max-width: 100%;
             overflow: hidden;
         }
-        
+         */
     
         .mobile-container {
             max-width: 480px;
