@@ -717,6 +717,10 @@ html, body {
     margin: 0;
     padding: 0;
 }
+.container {
+    max-width: 100%;
+    overflow: hidden;
+}
 
     h2{
         font-family:'Courier New', Courier, monospace;
