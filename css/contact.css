@@ -700,7 +700,9 @@ textarea {
         padding: 10px;
     }
      */
-
+html,body{
+    overflow-x: hidden;
+}
 
     h2{
         font-family:'Courier New', Courier, monospace;

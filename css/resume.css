@@ -369,7 +369,9 @@ body .mobile-container {
         overflow: hidden;
     } */
     
-
+    html,body{
+        overflow-x: hidden;
+    }
     .mobile-container {
         max-width: 480px;
         margin: auto;
