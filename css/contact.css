@@ -663,11 +663,13 @@ textarea {
         padding: 10px;
     }
      */
-html,body{
-    overflow-x: hidden;
-}
+     html,body{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: clip;
 
-
+    }
 
     h2{
         font-family:'Courier New', Courier, monospace;
