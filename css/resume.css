@@ -40,10 +40,7 @@ canvas{
     top: 0;
   }
   
-  .topnav a:hover {
-    background-color: #da407b;
-   
-  }
+
   
   .active {
 
@@ -329,16 +326,6 @@ body .mobile-container {
         }
         
 
-        h4{
-            font-family:'Courier New', Courier, monospace;
-            font-size: 16px;
-            font-weight: 200;
-            position: absolute;
-           margin-top: 20px;
-           margin-right: 20px;
-            right: 0;
-            color: #e0e0e0;
-          }
         
 
           .scrolling-text-container {
@@ -414,7 +401,7 @@ body .mobile-container {
       }
       
       .topnav a:hover {
-        background-color: #f39cb3;
+        background-color: #888d34;
        
       }
       
@@ -442,7 +429,7 @@ body .mobile-container {
 
 h2{
     font-size: 22px;
-    font-family: 'dm sans', sans-serif;
+    font-family: 'louise', sans-serif;
     font-weight:200;
 padding-top: 20px;
 padding: 20px;
@@ -455,6 +442,25 @@ color: #e0e0e0;
       font-size: 14px;
     }
   
+
+  
+    #email-top{
+        font-size: 14px;
+        font-weight: 100;
+        position: fixed;
+        margin-top: 0px;
+        z-index: 1;
+        font-family:'Courier New', Courier, monospace;
+        color: #e0e0e0;
+    }
+        
+          #email-top:hover{
+            background-color: #888d34;
+           
+          }
+
+
+
     .flex-container-header {
       display: none;
     }
