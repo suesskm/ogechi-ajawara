@@ -817,7 +817,7 @@ display: block;
   bottom: 0px;
   margin-right: auto;
   margin-left: auto;
-  position: fixed;
+  /* position: fixed; */
  
 }
 
