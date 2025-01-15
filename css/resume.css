@@ -373,6 +373,12 @@ body .mobile-container {
         overflow-x: clip;
     } */
 
+    html,body{
+        margin: 0;
+        padding: 0;
+        
+    }
+
     .mobile-container {
         max-width: 480px;
         margin: auto;
