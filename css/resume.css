@@ -354,14 +354,13 @@ body .mobile-container {
         
       /* General Mobile Styles */
 @media screen and (max-width: 480px) {
-/* 
+
     html,body{
         margin: 0;
         padding: 0;
-        width: 100%;
-        overflow-x: clip;
+      
 
-    } */
+    }
 
     html,body{
         overflow-x: hidden;
