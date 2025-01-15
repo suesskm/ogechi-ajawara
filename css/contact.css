@@ -791,6 +791,12 @@ html,body{
            
           }
 
+          #form-container {
+            width: 80%;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
 /* Container styles */
 .scrolling-text-container {
