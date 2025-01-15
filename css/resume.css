@@ -354,25 +354,6 @@ body .mobile-container {
         
       /* General Mobile Styles */
 @media screen and (max-width: 480px) {
-    /* html, body {
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-        width: 100%;
-    }
-    
-    * {
-        box-sizing: border-box;
-    }
-    
-    .container {
-        max-width: 100%;
-        overflow: hidden;
-    } */
-/*     
-    html,body{
-        overflow-x: clip;
-    } */
 
     html,body{
         margin: 0;
@@ -386,7 +367,7 @@ body .mobile-container {
         max-width: 480px;
         margin: auto;
         padding: 10;
-        height: 500px;;
+        height: 500px;
         border-radius: 10px;
         display: block;
         padding-bottom: 20px;
@@ -438,6 +419,7 @@ body .mobile-container {
         font-size: 10px;
         font-family: 'dm sans', sans-serif;
         color: #888d34;
+        margin: 0;
       
        
     }
@@ -447,6 +429,7 @@ body .mobile-container {
         font-family: 'dm sans', sans-serif;
         color: #2a0220;
         font-weight: 100;
+        margin: 0;
     }
 
 h2{
