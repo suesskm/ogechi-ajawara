@@ -206,7 +206,20 @@ a:hover{
 }
 
 
-
+#email-top{
+    font-size: 14px;
+    font-weight: 100;
+    position: fixed;
+    margin-top: 0px;
+    z-index: 1;
+    font-family:'Courier New', Courier, monospace;
+    color: #e0e0e0;
+}
+    
+      #email-top:hover{
+        background-color: #888d34;
+       
+      }
 
 @font-face{
     font-family: "Not Courier Sans";
