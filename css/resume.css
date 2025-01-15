@@ -1,12 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
+
+
+
+body{
+    margin:0;
+}
+canvas{
+    display:block;
 }
 
-canvas{
-    display: block;
-    
-}
 .mobile-container {
     max-width: 480px;
     margin: auto;
