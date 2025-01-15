@@ -368,10 +368,10 @@ body .mobile-container {
         max-width: 100%;
         overflow: hidden;
     } */
-    
+/*     
     html,body{
         overflow-x: clip;
-    }
+    } */
 
     .mobile-container {
         max-width: 480px;
