@@ -363,6 +363,10 @@ body .mobile-container {
 
     } */
 
+    html,body{
+        overflow-x: hidden;
+      }
+
     .mobile-container {
         max-width: 480px;
         margin: auto;
