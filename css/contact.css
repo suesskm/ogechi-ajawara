@@ -221,6 +221,7 @@ body{
             z-index: 1;
             font-family:'Courier New', Courier, monospace;
             color: #e0e0e0;
+            padding: 20px;
         }
             
               #email-top:hover{
